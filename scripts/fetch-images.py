@@ -41,26 +41,26 @@ ACCESS_KEY = "pk_R6pUxXgdzwSc02b4XMJeO2naxmHFwzv9bHgROdleaCY"
 # chairs.json の nameJa をそのまま使うと検索精度が低いことがあるので
 # 専用の検索キーワードを定義
 SEARCH_KEYWORDS = {
-    "eames-shell-dsw": "イームズ シェルチェア DSW 正規",
-    "wishbone-ch24": "Yチェア CH24 ウェグナー",
+    "eames-shell-dsw": "ハーマンミラー イームズ シェルチェア DSW",
+    "wishbone-ch24": "カールハンセン CH24 Yチェア",
     "barcelona-chair": "バルセロナチェア ミース",
-    "eames-lounge": "イームズ ラウンジチェア オットマン",
-    "series7-3107": "セブンチェア フリッツハンセン",
+    "eames-lounge": "ハーマンミラー イームズ ラウンジチェア",
+    "series7-3107": "フリッツハンセン セブンチェア 3107",
     "tulip-chair": "チューリップチェア サーリネン",
-    "panton-chair": "パントンチェア ヴィトラ",
-    "the-chair-pp501": "ザ・チェア PP501 ウェグナー",
-    "swan-chair": "スワンチェア ヤコブセン",
-    "egg-chair": "エッグチェア ヤコブセン",
-    "lc2": "LC2 コルビジェ ソファ",
-    "wassily-b3": "ワシリーチェア ブロイヤー",
-    "diamond-chair": "ダイヤモンドチェア ベルトイア",
-    "ball-chair": "ボールチェア アールニオ",
-    "superleggera": "スーパーレジェーラ ポンティ",
-    "stool60": "スツール60 アアルト アルテック",
-    "ch07-shell": "CH07 シェルチェア ウェグナー",
-    "eames-daw": "イームズ DAW チェア",
-    "ant-chair-3100": "アリンコチェア 北欧 デザイナーズ",
-    "s-chair": "パントンチェア S字 チェア デザイナーズ",
+    "panton-chair": "ヴィトラ パントンチェア",
+    "the-chair-pp501": "ウェグナー ザチェア PP501",
+    "swan-chair": "フリッツハンセン スワンチェア",
+    "egg-chair": "フリッツハンセン エッグチェア",
+    "lc2": "LC2 コルビュジエ 1人掛け アームチェア",
+    "wassily-b3": "ワシリーチェア マルセル ブロイヤー",
+    "diamond-chair": "ベルトイア ダイヤモンドチェア",
+    "ball-chair": "ボールチェア エーロ アールニオ",
+    "superleggera": "スーパーレジェーラ カッシーナ チェア",
+    "stool-60": "アルテック スツール60",
+    "ch07-shell": "カールハンセン CH07 シェルチェア",
+    "eames-daw": "ハーマンミラー イームズ DAW",
+    "ant-chair-3100": "フリッツハンセン アリンコチェア",
+    "thonet-no14": "トーネット 214 曲木 チェア",
 }
 
 
@@ -83,7 +83,7 @@ def search_rakuten(keyword, hits=3):
         "keyword": keyword,
         "hits": hits,
         "imageFlag": 1,           # 画像ありの商品のみ
-        "sort": "-reviewAverage",  # レビュー評価順
+        "sort": "-itemPrice",  # 価格高い順（正規品を優先するため）
     }
 
     # URLを組み立ててリクエスト
