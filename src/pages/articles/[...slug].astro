@@ -1,0 +1,30 @@
+---
+// articles/[...slug].astro - 記事詳細ページ
+// Content Layer APIを使ってMarkdown記事をレンダリング
+
+import Article from '../../layouts/Article.astro';
+import { getCollection, render } from 'astro:content';
+
+// 静的パスの生成
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map(article => ({
+    params: { slug: article.id },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+---
+
+<Article
+  title={article.data.title}
+  description={article.data.description}
+  publishedAt={article.data.publishedAt}
+  updatedAt={article.data.updatedAt}
+  category={article.data.category}
+  tags={article.data.tags}
+>
+  <Content />
+</Article>

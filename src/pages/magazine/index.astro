@@ -1,0 +1,45 @@
+---
+// magazine/index.astro - Magazine記事一覧ページ
+
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+// 全記事を取得して公開日の降順でソート
+const articles = await getCollection('articles');
+const sortedArticles = articles.sort((a, b) =>
+  new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime()
+);
+---
+
+<Base
+  title="Magazine"
+  description="名作椅子にまつわる読み物。おすすめガイド、比較記事、歴史ストーリーなど。"
+>
+  <!-- ページヘッダー -->
+  <div class="page-header">
+    <h1 class="page-header__title">Magazine</h1>
+    <p class="page-header__description">名作椅子にまつわる読み物</p>
+  </div>
+
+  <!-- 記事一覧 -->
+  <div class="container section">
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md);">
+      {sortedArticles.map(article => (
+        <ArticleCard
+          title={article.data.title}
+          description={article.data.description}
+          category={article.data.category}
+          slug={article.id}
+          publishedAt={article.data.publishedAt}
+        />
+      ))}
+    </div>
+
+    {sortedArticles.length === 0 && (
+      <p style="text-align: center; color: var(--color-muted); padding: var(--space-xl);">
+        記事は準備中です。
+      </p>
+    )}
+  </div>
+</Base>

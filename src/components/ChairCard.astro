@@ -1,0 +1,57 @@
+---
+// ChairCard.astro - 椅子カードコンポーネント
+// ホバーすると「本めくり」のように右端がめくれて、価格がチラ見えする演出
+
+// カードに渡すプロパティ
+interface Props {
+  chair: {
+    id: string;
+    name: string;
+    nameJa: string;
+    designer: string;
+    year: number;
+    style: string;
+    priceRange: { authentic: number; replica: number };
+    image: string;
+  };
+  size: 'large' | 'small';  // 大カード or 小カード
+}
+
+const { chair, size } = Astro.props;
+
+// 価格をフォーマット（例: 48400 → ¥48,400）
+function formatPrice(price: number): string {
+  return `¥${price.toLocaleString()}`;
+}
+---
+
+<!-- カードのラッパー（3D空間のperspectiveを設定） -->
+<div
+  class="chair-card-wrapper"
+  data-chair-id={chair.id}
+  data-style={chair.style}
+  data-price={chair.priceRange.authentic}
+>
+  <!-- カード本体 -->
+  <div class={`chair-card chair-card--${size}`}>
+    <!-- 椅子画像 -->
+    <img
+      src={chair.image}
+      alt={`${chair.name} - ${chair.designer}, ${chair.year}`}
+      class="chair-card__image"
+      loading="lazy"
+      onerror="this.onerror=null; this.src='/images/chairs/placeholder.svg';"
+    />
+
+    <!-- カード下部の情報オーバーレイ -->
+    <div class="chair-card__info">
+      <p class="chair-card__name">{chair.name}</p>
+      <p class="chair-card__designer">{chair.designer}, {chair.year}</p>
+    </div>
+
+    <!-- めくれた裏側にチラ見えする価格情報 -->
+    <div class="chair-card__back">
+      <span>{formatPrice(chair.priceRange.authentic)}</span>
+    </div>
+  </div>
+</div>

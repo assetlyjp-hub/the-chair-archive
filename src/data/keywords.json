@@ -1,0 +1,68 @@
+{
+  "usecase": [
+    { "slug": "remote-work", "title": "テレワークにおすすめの名作チェア", "description": "在宅勤務を快適にする名作椅子を厳選" },
+    { "slug": "dining", "title": "ダイニングにおすすめの名作チェア", "description": "食卓を美しく彩る名作ダイニングチェア" },
+    { "slug": "living", "title": "リビングにおすすめの名作チェア", "description": "寛ぎの空間を演出するラウンジチェア" },
+    { "slug": "one-room", "title": "一人暮らしにおすすめの名作チェア", "description": "限られた空間でも映える名作椅子" },
+    { "slug": "cafe", "title": "カフェにおすすめの名作チェア", "description": "おしゃれなカフェ空間を作る椅子" },
+    { "slug": "office", "title": "オフィスにおすすめの名作チェア", "description": "ワークスペースを格上げする名作チェア" },
+    { "slug": "reading", "title": "読書用におすすめの名作チェア", "description": "長時間の読書が楽しくなる椅子" },
+    { "slug": "kids-room", "title": "子供部屋におすすめの名作チェア", "description": "子供の感性を育む本物のデザイン" },
+    { "slug": "outdoor", "title": "屋外で使える名作チェア", "description": "テラスやバルコニーで楽しむ名作" },
+    { "slug": "reception", "title": "応接室・待合室におすすめの名作チェア", "description": "上質な空間を演出する応接チェア" }
+  ],
+  "style": [
+    { "slug": "mid-century", "title": "ミッドセンチュリーの名作椅子", "description": "1940-60年代アメリカの黄金期のデザイン" },
+    { "slug": "bauhaus", "title": "バウハウスの名作椅子", "description": "機能美を追求した20世紀デザインの原点" },
+    { "slug": "nordic", "title": "北欧の名作椅子", "description": "自然素材と温もりあふれるスカンジナビアデザイン" },
+    { "slug": "modern", "title": "モダンデザインの名作椅子", "description": "革新的な素材と造形で時代を切り拓いた椅子" }
+  ],
+  "price": [
+    { "slug": "under-30000", "title": "3万円以下で買える名作椅子", "description": "手頃な価格で名作デザインを楽しむ", "max": 30000 },
+    { "slug": "under-50000", "title": "5万円以下で買える名作椅子", "description": "5万円以内で手に入るデザイナーズチェア", "max": 50000 },
+    { "slug": "under-100000", "title": "10万円以下で買える名作椅子", "description": "10万円以内の本格名作チェア", "max": 100000 },
+    { "slug": "under-200000", "title": "20万円以下で買える名作椅子", "description": "投資に値する名作チェア", "max": 200000 },
+    { "slug": "over-500000", "title": "50万円以上の最高級名作椅子", "description": "一生ものの至高のチェアコレクション", "min": 500000 }
+  ],
+  "designer": [
+    { "slug": "eames", "title": "イームズ夫妻の代表作", "designerId": "charles-ray-eames" },
+    { "slug": "wegner", "title": "ハンス・ウェグナーの代表作", "designerId": "hans-wegner" },
+    { "slug": "jacobsen", "title": "アルネ・ヤコブセンの代表作", "designerId": "arne-jacobsen" },
+    { "slug": "mies", "title": "ミース・ファン・デル・ローエの代表作", "designerId": "mies-van-der-rohe" },
+    { "slug": "le-corbusier", "title": "ル・コルビュジエの代表作", "designerId": "le-corbusier" },
+    { "slug": "panton", "title": "ヴェルナー・パントンの代表作", "designerId": "verner-panton" },
+    { "slug": "saarinen", "title": "エーロ・サーリネンの代表作", "designerId": "eero-saarinen" },
+    { "slug": "breuer", "title": "マルセル・ブロイヤーの代表作", "designerId": "marcel-breuer" },
+    { "slug": "bertoia", "title": "ハリー・ベルトイアの代表作", "designerId": "harry-bertoia" },
+    { "slug": "aalto", "title": "アルヴァ・アアルトの代表作", "designerId": "alvar-aalto" }
+  ],
+  "comparison": [
+    { "slug": "eames-vs-wishbone", "title": "イームズ vs ウィッシュボーン 徹底比較", "chairs": ["eames-shell-dsw", "wishbone-ch24"] },
+    { "slug": "series7-vs-ant", "title": "セブンチェア vs アントチェア 徹底比較", "chairs": ["series7-3107", "ant-3100"] },
+    { "slug": "barcelona-vs-lc2", "title": "バルセロナ vs LC2 徹底比較", "chairs": ["barcelona-chair", "lc2"] },
+    { "slug": "egg-vs-swan", "title": "エッグチェア vs スワンチェア 徹底比較", "chairs": ["egg-chair", "swan-chair"] },
+    { "slug": "panton-vs-tulip", "title": "パントン vs チューリップ 徹底比較", "chairs": ["panton-chair", "tulip-chair"] },
+    { "slug": "dsw-vs-daw", "title": "イームズ DSW vs DAW どっちを選ぶ？", "chairs": ["eames-shell-dsw", "eames-daw"] },
+    { "slug": "dining-5-comparison", "title": "ダイニングチェア名作5脚 比較", "chairs": ["eames-shell-dsw", "wishbone-ch24", "series7-3107", "ant-3100", "superleggera"] },
+    { "slug": "lounge-3-comparison", "title": "ラウンジチェア名作3脚 比較", "chairs": ["eames-lounge", "egg-chair", "barcelona-chair"] },
+    { "slug": "authentic-vs-replica", "title": "正規品 vs リプロダクト 違いを徹底解説", "chairs": [] },
+    { "slug": "stacking-chairs", "title": "スタッキングできる名作椅子 比較", "chairs": ["series7-3107", "ant-3100", "panton-chair", "stool-60"] },
+    { "slug": "wooden-chairs", "title": "木製名作椅子 徹底比較", "chairs": ["wishbone-ch24", "the-chair-pp501", "stool-60", "superleggera"] },
+    { "slug": "lightweight-chairs", "title": "軽い名作椅子ランキング", "chairs": ["superleggera", "stool-60", "ant-3100", "eames-shell-dsw"] },
+    { "slug": "japanese-interior", "title": "和モダンに合う名作椅子", "chairs": ["wishbone-ch24", "the-chair-pp501", "stool-60"] },
+    { "slug": "investment-chairs", "title": "資産価値のある名作椅子", "chairs": ["the-chair-pp501", "eames-lounge", "egg-chair", "barcelona-chair"] },
+    { "slug": "first-designer-chair", "title": "はじめての名作椅子 おすすめ", "chairs": ["eames-shell-dsw", "stool-60", "panton-chair", "ant-3100"] }
+  ],
+  "story": [
+    { "slug": "history-of-modern-chair", "title": "近代椅子デザインの歴史" },
+    { "slug": "bauhaus-and-furniture", "title": "バウハウスと家具デザイン" },
+    { "slug": "scandinavian-design-story", "title": "北欧デザインの物語" },
+    { "slug": "eames-office-story", "title": "イームズ・オフィスの軌跡" },
+    { "slug": "sas-royal-hotel", "title": "SASロイヤルホテルと名作椅子" },
+    { "slug": "kennedy-debate-chair", "title": "ケネディ討論会のザ・チェア" },
+    { "slug": "plastic-chair-revolution", "title": "プラスチック椅子革命" },
+    { "slug": "chair-and-architecture", "title": "名建築と名作椅子の関係" },
+    { "slug": "japanese-love-for-chairs", "title": "日本人はなぜ名作椅子が好きなのか" },
+    { "slug": "how-to-care-designer-chair", "title": "名作椅子のお手入れ方法" }
+  ]
+}
