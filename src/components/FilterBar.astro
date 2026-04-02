@@ -1,0 +1,87 @@
+---
+// FilterBar.astro - スタイル・価格帯のフィルターバー
+// JavaScriptでリアルタイムにカードの表示/非表示を切り替える
+---
+
+<div class="filter-bar" id="filter-bar">
+  <!-- スタイルフィルターボタン -->
+  <button class="filter-btn is-active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="mid-century">Mid-Century</button>
+  <button class="filter-btn" data-filter="bauhaus">Bauhaus</button>
+  <button class="filter-btn" data-filter="nordic">Nordic</button>
+  <button class="filter-btn" data-filter="modern">Modern</button>
+
+  <!-- 価格帯スライダー -->
+  <div class="filter-price">
+    <label for="price-slider">〜</label>
+    <input
+      type="range"
+      id="price-slider"
+      min="0"
+      max="1000000"
+      step="10000"
+      value="1000000"
+    />
+    <span id="price-value">¥1,000,000</span>
+  </div>
+</div>
+
+<!-- フィルタリング処理のJavaScript -->
+<script>
+  // フィルターボタンとスライダーの要素を取得
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const priceSlider = document.getElementById('price-slider') as HTMLInputElement;
+  const priceValue = document.getElementById('price-value');
+  const chairGrid = document.getElementById('chair-grid');
+
+  // 現在のフィルター状態
+  let currentStyle = 'all';
+  let currentMaxPrice = 1000000;
+
+  // カードをフィルタリングする関数
+  function filterCards() {
+    // すべてのカードを取得
+    const cards = document.querySelectorAll('.chair-card-wrapper[data-chair-id]');
+
+    cards.forEach(card => {
+      const style = card.getAttribute('data-style');
+      const price = parseInt(card.getAttribute('data-price') || '0');
+
+      // スタイルと価格の両方の条件を満たすかチェック
+      const matchesStyle = currentStyle === 'all' || style === currentStyle;
+      const matchesPrice = price <= currentMaxPrice;
+
+      // 表示/非表示を切り替え
+      if (matchesStyle && matchesPrice) {
+        (card as HTMLElement).style.display = '';
+      } else {
+        (card as HTMLElement).style.display = 'none';
+      }
+    });
+  }
+
+  // スタイルフィルターボタンのクリック処理
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // アクティブ状態の切り替え
+      filterBtns.forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+
+      // フィルター適用
+      currentStyle = btn.getAttribute('data-filter') || 'all';
+      filterCards();
+    });
+  });
+
+  // 価格スライダーの操作処理
+  priceSlider?.addEventListener('input', () => {
+    currentMaxPrice = parseInt(priceSlider.value);
+
+    // 表示する価格テキストを更新
+    if (priceValue) {
+      priceValue.textContent = `¥${currentMaxPrice.toLocaleString()}`;
+    }
+
+    filterCards();
+  });
+</script>

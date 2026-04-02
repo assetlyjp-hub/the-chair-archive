@@ -1,0 +1,32 @@
+---
+// ArticleCard.astro - Magazine記事カード
+// 記事一覧で使用するカードコンポーネント
+
+interface Props {
+  title: string;
+  description: string;
+  category: string;
+  slug: string;
+  publishedAt: string;
+}
+
+const { title, description, category, slug, publishedAt } = Astro.props;
+
+// カテゴリの日本語ラベル
+const categoryLabels: Record<string, string> = {
+  usecase: 'おすすめ',
+  style: 'スタイル',
+  price: '価格帯',
+  designer: 'デザイナー',
+  comparison: '比較',
+  story: 'ストーリー',
+};
+---
+
+<a href={`/articles/${slug}/`} class="article-card">
+  <div class="article-card__body">
+    <p class="article-card__category">{categoryLabels[category] || category}</p>
+    <h3 class="article-card__title">{title}</h3>
+    <p class="article-card__excerpt">{description}</p>
+  </div>
+</a>

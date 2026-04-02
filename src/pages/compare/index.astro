@@ -1,0 +1,164 @@
+---
+// compare/index.astro - 椅子比較ページ
+// 2脚を選んでスペックを並べて比較できる
+
+import Base from '../../layouts/Base.astro';
+import chairsData from '../../data/chairs.json';
+
+// 価格フォーマット
+function formatPrice(price: number): string {
+  return `¥${price.toLocaleString()}`;
+}
+---
+
+<Base
+  title="Compare"
+  description="名作椅子を2脚選んでスペックを徹底比較。サイズ、価格、素材を並べてチェック。"
+>
+  <!-- ページヘッダー -->
+  <div class="page-header">
+    <h1 class="page-header__title">Compare</h1>
+    <p class="page-header__description">2脚を選んで、比較する</p>
+  </div>
+
+  <div class="container section">
+    <!-- 椅子選択エリア -->
+    <div class="compare-selector">
+      <!-- 左の椅子を選択 -->
+      <div>
+        <label for="chair-left" style="font-family: var(--font-display); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-muted); display: block; margin-bottom: var(--space-xs);">Chair 1</label>
+        <select id="chair-left" style="width: 100%; padding: 0.6rem; border: 1px solid var(--color-border); font-family: var(--font-body); font-size: 0.85rem; background: var(--color-bg);">
+          <option value="">椅子を選択してください</option>
+          {chairsData.map(chair => (
+            <option value={chair.id}>{chair.name}</option>
+          ))}
+        </select>
+      </div>
+
+      <!-- VS -->
+      <span class="compare-vs">vs</span>
+
+      <!-- 右の椅子を選択 -->
+      <div>
+        <label for="chair-right" style="font-family: var(--font-display); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-muted); display: block; margin-bottom: var(--space-xs);">Chair 2</label>
+        <select id="chair-right" style="width: 100%; padding: 0.6rem; border: 1px solid var(--color-border); font-family: var(--font-body); font-size: 0.85rem; background: var(--color-bg);">
+          <option value="">椅子を選択してください</option>
+          {chairsData.map(chair => (
+            <option value={chair.id}>{chair.name}</option>
+          ))}
+        </select>
+      </div>
+    </div>
+
+    <!-- 比較テーブル（JavaScriptで動的に表示） -->
+    <div id="compare-result" style="margin-top: var(--space-lg);"></div>
+  </div>
+
+  <!-- 比較処理のJavaScript -->
+  <script define:vars={{ chairsData }}>
+    const allChairs = chairsData;
+    const leftSelect = document.getElementById('chair-left');
+    const rightSelect = document.getElementById('chair-right');
+    const resultDiv = document.getElementById('compare-result');
+
+    function formatPrice(price) {
+      return `¥${price.toLocaleString()}`;
+    }
+
+    // 比較テーブルを生成する関数
+    function updateComparison() {
+      const leftId = leftSelect.value;
+      const rightId = rightSelect.value;
+
+      if (!leftId || !rightId) {
+        resultDiv.innerHTML = '<p style="text-align: center; color: var(--color-muted); padding: var(--space-lg);">2脚の椅子を選択してください</p>';
+        return;
+      }
+
+      const left = allChairs.find(c => c.id === leftId);
+      const right = allChairs.find(c => c.id === rightId);
+
+      if (!left || !right) return;
+
+      resultDiv.innerHTML = `
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th style="font-size: 1rem; font-weight: 500;">${left.name}</th>
+              <th style="font-size: 1rem; font-weight: 500;">${right.name}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>デザイナー</th>
+              <td>${left.designer}</td>
+              <td>${right.designer}</td>
+            </tr>
+            <tr>
+              <th>発表年</th>
+              <td>${left.year}</td>
+              <td>${right.year}</td>
+            </tr>
+            <tr>
+              <th>スタイル</th>
+              <td>${left.style}</td>
+              <td>${right.style}</td>
+            </tr>
+            <tr>
+              <th>幅</th>
+              <td>${left.dimensions.width} cm</td>
+              <td>${right.dimensions.width} cm</td>
+            </tr>
+            <tr>
+              <th>奥行き</th>
+              <td>${left.dimensions.depth} cm</td>
+              <td>${right.dimensions.depth} cm</td>
+            </tr>
+            <tr>
+              <th>高さ</th>
+              <td>${left.dimensions.height} cm</td>
+              <td>${right.dimensions.height} cm</td>
+            </tr>
+            <tr>
+              <th>座面高</th>
+              <td>${left.dimensions.seatHeight} cm</td>
+              <td>${right.dimensions.seatHeight} cm</td>
+            </tr>
+            <tr>
+              <th>重量</th>
+              <td>${left.weight} kg</td>
+              <td>${right.weight} kg</td>
+            </tr>
+            <tr>
+              <th>素材</th>
+              <td>${left.materials.join(', ')}</td>
+              <td>${right.materials.join(', ')}</td>
+            </tr>
+            <tr>
+              <th>正規品価格</th>
+              <td>${formatPrice(left.priceRange.authentic)}</td>
+              <td>${formatPrice(right.priceRange.authentic)}</td>
+            </tr>
+            <tr>
+              <th>リプロダクト</th>
+              <td>${formatPrice(left.priceRange.replica)}</td>
+              <td>${formatPrice(right.priceRange.replica)}</td>
+            </tr>
+            <tr>
+              <th>評価</th>
+              <td>${'★'.repeat(Math.floor(left.rating))} ${left.rating}</td>
+              <td>${'★'.repeat(Math.floor(right.rating))} ${right.rating}</td>
+            </tr>
+          </tbody>
+        </table>
+      `;
+    }
+
+    leftSelect.addEventListener('change', updateComparison);
+    rightSelect.addEventListener('change', updateComparison);
+
+    // 初期表示
+    updateComparison();
+  </script>
+</Base>

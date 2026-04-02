@@ -1,0 +1,32 @@
+---
+// index.astro - トップページ
+// ヒーローセクション + フィルター + 大小混合グリッドで椅子を一覧表示
+
+import Base from '../layouts/Base.astro';
+import FilterBar from '../components/FilterBar.astro';
+import ChairGrid from '../components/ChairGrid.astro';
+import ChairModal from '../components/ChairModal.astro';
+
+// 椅子データの読み込み
+import chairsData from '../data/chairs.json';
+---
+
+<Base title="The Chair Archive">
+  <!-- ヒーローセクション: 大きなタイポグラフィ -->
+  <section class="hero">
+    <h1 class="hero__title">The Chair Archive</h1>
+    <p class="hero__subtitle">名作椅子のすべてを、ここに。</p>
+  </section>
+
+  <!-- メインコンテンツ -->
+  <div class="container">
+    <!-- フィルターバー -->
+    <FilterBar />
+
+    <!-- 大小混合グリッド -->
+    <ChairGrid chairs={chairsData} />
+  </div>
+
+  <!-- 椅子詳細モーダル -->
+  <ChairModal />
+</Base>

@@ -1,0 +1,144 @@
+---
+// Base.astro - 全ページ共通のレイアウト
+// Google Fonts、ヘッダー、フッター、SEO メタを管理
+
+// ページごとに渡されるプロパティ
+interface Props {
+  title: string;          // ページタイトル
+  description?: string;   // メタディスクリプション
+  ogImage?: string;       // OGP画像のURL
+  type?: string;          // ページタイプ（website / article）
+}
+
+const {
+  title,
+  description = '名作椅子のすべてを、ここに。デザインの歴史を彩る名作チェアのデータベース。',
+  ogImage = '/images/og-default.jpg',
+  type = 'website',
+} = Astro.props;
+
+// ページのフルタイトル
+const fullTitle = title === 'The Chair Archive'
+  ? title
+  : `${title} | The Chair Archive`;
+
+// 現在のURL
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+// グローバルCSS
+import '../styles/global.css';
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="generator" content={Astro.generator} />
+
+  <!-- SEO メタタグ -->
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+
+  <!-- OGP（SNSシェア用） -->
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content={type} />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:site_name" content="The Chair Archive" />
+  <meta property="og:locale" content="ja_JP" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={fullTitle} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
+
+  <!-- Google Fonts: Cormorant Garamond（英語用エレガントセリフ）+ Shippori Mincho（日本語明朝体） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Shippori+Mincho:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- ファビコン -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- JSON-LD 構造化データ -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "The Chair Archive",
+    "url": "https://thechairarchive.com",
+    "description": description,
+    "publisher": {
+      "@type": "Organization",
+      "name": "合同会社一凛",
+      "email": "info@thechairarchive.com"
+    }
+  })} />
+</head>
+
+<body>
+  <!-- ヘッダー: サイト名を左、ナビゲーションを右 -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="site-header__logo">The Chair Archive</a>
+
+      <nav class="site-header__nav" id="main-nav">
+        <a href="/">Archive</a>
+        <a href="/designers/">Designers</a>
+        <a href="/magazine/">Magazine</a>
+        <a href="/compare/">Compare</a>
+        <a href="/about/">About</a>
+      </nav>
+
+      <!-- モバイルメニューボタン -->
+      <button class="site-header__menu-toggle" id="menu-toggle" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- メインコンテンツ（各ページが差し込まれる） -->
+  <main>
+    <slot />
+  </main>
+
+  <!-- フッター: ミニマルデザイン -->
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p class="site-footer__logo">The Chair Archive</p>
+      <div class="site-footer__links">
+        <a href="/about/">About</a>
+        <a href="/privacy/">Privacy</a>
+      </div>
+      <p class="site-footer__text">&copy; {new Date().getFullYear()} 合同会社一凛. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- モバイルメニューの開閉スクリプト -->
+  <script>
+    // メニューボタンとナビゲーションの要素を取得
+    const menuToggle = document.getElementById('menu-toggle');
+    const mainNav = document.getElementById('main-nav');
+
+    // メニューボタンをクリックしたときの処理
+    menuToggle?.addEventListener('click', () => {
+      mainNav?.classList.toggle('is-open');
+    });
+
+    // ナビリンクをクリックしたらメニューを閉じる
+    mainNav?.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mainNav?.classList.remove('is-open');
+      });
+    });
+  </script>
+</body>
+</html>

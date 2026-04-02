@@ -1,0 +1,61 @@
+---
+// Article.astro - Magazine記事用レイアウト
+// Base.astroを拡張して、記事固有のレイアウトを提供
+
+import Base from './Base.astro';
+
+// 記事のプロパティ
+interface Props {
+  title: string;
+  description: string;
+  publishedAt: string;
+  updatedAt?: string;
+  category: string;
+  tags?: string[];
+}
+
+const { title, description, publishedAt, updatedAt, category, tags } = Astro.props;
+
+// 日付のフォーマット（YYYY-MM-DD → YYYY年MM月DD日）
+function formatDate(dateStr: string): string {
+  const d = new Date(dateStr);
+  return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`;
+}
+---
+
+<Base title={title} description={description} type="article">
+  <article class="article-layout">
+    <!-- 記事ヘッダー -->
+    <header style="padding-top: calc(var(--space-2xl) + 60px); margin-bottom: var(--space-lg);">
+      <!-- カテゴリラベル -->
+      <p style="font-family: var(--font-display); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); margin-bottom: var(--space-sm);">
+        {category}
+      </p>
+
+      <!-- 記事タイトル -->
+      <h1>{title}</h1>
+
+      <!-- 公開日・更新日 -->
+      <div style="font-size: 0.8rem; color: var(--color-muted); display: flex; gap: var(--space-md);">
+        <time datetime={publishedAt}>公開: {formatDate(publishedAt)}</time>
+        {updatedAt && <time datetime={updatedAt}>更新: {formatDate(updatedAt)}</time>}
+      </div>
+
+      <!-- タグ -->
+      {tags && tags.length > 0 && (
+        <div style="display: flex; gap: var(--space-xs); margin-top: var(--space-sm); flex-wrap: wrap;">
+          {tags.map(tag => (
+            <span style="font-size: 0.7rem; padding: 0.2rem 0.6rem; border: 1px solid var(--color-border); color: var(--color-muted);">
+              {tag}
+            </span>
+          ))}
+        </div>
+      )}
+    </header>
+
+    <!-- 記事本文（Markdownがここに挿入される） -->
+    <div class="article-content">
+      <slot />
+    </div>
+  </article>
+</Base>

@@ -1,0 +1,58 @@
+---
+// about.astro - 運営者情報ページ
+
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="About"
+  description="The Chair Archiveについて。名作椅子のデータベースサイト運営情報。"
+>
+  <div class="page-header">
+    <h1 class="page-header__title">About</h1>
+    <p class="page-header__description">The Chair Archive について</p>
+  </div>
+
+  <div class="container section" style="max-width: var(--container-narrow); margin: 0 auto;">
+    <div style="padding: 0 var(--space-md);">
+      <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: var(--space-md);">このサイトについて</h2>
+      <p style="margin-bottom: var(--space-lg);">
+        The Chair Archive は、20世紀から現代に至るまでのデザイン史に残る名作椅子を集めたデータベースサイトです。
+        イームズ、ウェグナー、ヤコブセンをはじめとする巨匠デザイナーたちの作品を、
+        美しいビジュアルと詳細なスペック情報とともにお届けします。
+      </p>
+
+      <p style="margin-bottom: var(--space-lg);">
+        名作椅子との出会いが、あなたの暮らしをより豊かにすることを願っています。
+      </p>
+
+      <div style="border-top: 1px solid var(--color-border); padding-top: var(--space-lg); margin-top: var(--space-lg);">
+        <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: var(--space-md);">運営情報</h2>
+
+        <div style="display: grid; gap: var(--space-sm);">
+          <div>
+            <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.2rem;">運営</p>
+            <p style="font-size: 0.9rem;">合同会社一凛</p>
+          </div>
+          <div>
+            <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.2rem;">Contact</p>
+            <p style="font-size: 0.9rem;">info@thechairarchive.com</p>
+          </div>
+          <div>
+            <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.2rem;">URL</p>
+            <p style="font-size: 0.9rem;">https://thechairarchive.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="border-top: 1px solid var(--color-border); padding-top: var(--space-lg); margin-top: var(--space-lg);">
+        <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: var(--space-md);">免責事項</h2>
+        <p style="font-size: 0.85rem; color: var(--color-accent);">
+          本サイトに掲載されている価格は参考価格であり、実際の販売価格と異なる場合があります。
+          購入の際は各販売店の最新価格をご確認ください。
+          本サイトにはアフィリエイトリンクが含まれている場合があります。
+        </p>
+      </div>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "charles-ray-eames",
+    "name": "Charles & Ray Eames",
+    "nameJa": "チャールズ＆レイ・イームズ",
+    "born": "1907 / 1912",
+    "died": "1978 / 1988",
+    "country": "USA",
+    "bio": "20世紀のデザインに最も影響を与えた夫婦デュオ。建築、家具、映像、展示デザインなど幅広い分野で革新的な作品を残しました。「最良のものを、最多の人々に、最少の費用で」という理念のもと、成形合板やFRPなどの新素材・新技術を積極的に取り入れ、大量生産可能でありながら美しいデザインを追求しました。",
+    "style": "mid-century",
+    "notableWorks": ["eames-shell-dsw", "eames-lounge", "eames-daw"]
+  },
+  {
+    "id": "hans-wegner",
+    "name": "Hans J. Wegner",
+    "nameJa": "ハンス・J・ウェグナー",
+    "born": "1914",
+    "died": "2007",
+    "country": "Denmark",
+    "bio": "生涯で500脚以上の椅子をデザインした「椅子の巨匠」。14歳で家具職人の修行を始め、木材への深い理解と卓越した技術を持っていました。伝統的な北欧の木工技術を基礎としながらも、常にシンプルで機能的な美しさを追求。和の美意識にも通じるそのデザインは、日本でも高い人気を誇ります。",
+    "style": "nordic",
+    "notableWorks": ["wishbone-ch24", "the-chair-pp501", "ch07-shell"]
+  },
+  {
+    "id": "arne-jacobsen",
+    "name": "Arne Jacobsen",
+    "nameJa": "アルネ・ヤコブセン",
+    "born": "1902",
+    "died": "1971",
+    "country": "Denmark",
+    "bio": "建築家としてもデザイナーとしても一流だったデンマークの巨匠。SASロイヤルホテルでは建築からインテリア、カトラリーに至るまで全てをデザイン。セブンチェア、エッグチェア、スワンチェアなど、有機的なフォルムの名作を数多く生み出しました。",
+    "style": "nordic",
+    "notableWorks": ["series7-3107", "egg-chair", "swan-chair", "ant-3100"]
+  },
+  {
+    "id": "mies-van-der-rohe",
+    "name": "Ludwig Mies van der Rohe",
+    "nameJa": "ルートヴィヒ・ミース・ファン・デル・ローエ",
+    "born": "1886",
+    "died": "1969",
+    "country": "Germany",
+    "bio": "「Less is More（少ないことは豊かなこと）」「God is in the details（神は細部に宿る）」という名言で知られる近代建築の巨匠。バウハウスの最後の校長を務め、後にアメリカに渡って数々の名建築を設計。バルセロナチェアは建築と家具の境界を超えた傑作です。",
+    "style": "bauhaus",
+    "notableWorks": ["barcelona-chair"]
+  },
+  {
+    "id": "le-corbusier",
+    "name": "Le Corbusier",
+    "nameJa": "ル・コルビュジエ",
+    "born": "1887",
+    "died": "1965",
+    "country": "France",
+    "bio": "近代建築の三大巨匠の一人。「住宅は住むための機械である」と唱え、建築のみならず都市計画、家具デザインにまで革命をもたらしました。LC2をはじめとするLCシリーズは、シャルロット・ペリアン、ピエール・ジャンヌレとの共作です。",
+    "style": "bauhaus",
+    "notableWorks": ["lc2"]
+  },
+  {
+    "id": "verner-panton",
+    "name": "Verner Panton",
+    "nameJa": "ヴェルナー・パントン",
+    "born": "1926",
+    "died": "1998",
+    "country": "Denmark",
+    "bio": "デンマーク出身ながら北欧デザインの枠を大きく超えた、ポップデザインの旗手。プラスチックやフォームなどの新素材に果敢に挑戦し、鮮やかな色彩と未来的なフォルムで空間全体を演出しました。パントンチェアは世界初のプラスチック一体成形チェアとして歴史に名を刻んでいます。",
+    "style": "modern",
+    "notableWorks": ["panton-chair", "s-chair"]
+  },
+  {
+    "id": "eero-saarinen",
+    "name": "Eero Saarinen",
+    "nameJa": "エーロ・サーリネン",
+    "born": "1910",
+    "died": "1961",
+    "country": "USA",
+    "bio": "フィンランド生まれ、アメリカで活躍した建築家・デザイナー。JFK国際空港のTWAターミナルやゲートウェイアーチなど、彫刻的な建築で知られます。「椅子の脚という醜いもの」をなくしたいという思いから生まれたチューリップチェアは、ペデスタル家具の先駆けとなりました。",
+    "style": "mid-century",
+    "notableWorks": ["tulip-chair"]
+  },
+  {
+    "id": "marcel-breuer",
+    "name": "Marcel Breuer",
+    "nameJa": "マルセル・ブロイヤー",
+    "born": "1902",
+    "died": "1981",
+    "country": "Germany",
+    "bio": "バウハウスの学生から教授となり、スチールパイプ家具という新しいジャンルを開拓した先駆者。自転車のハンドルバーにヒントを得て、クロームメッキのスチールパイプで家具を作るというアイデアは、その後の家具デザインに決定的な影響を与えました。",
+    "style": "bauhaus",
+    "notableWorks": ["wassily-b3"]
+  },
+  {
+    "id": "harry-bertoia",
+    "name": "Harry Bertoia",
+    "nameJa": "ハリー・ベルトイア",
+    "born": "1915",
+    "died": "1978",
+    "country": "USA",
+    "bio": "イタリア生まれの彫刻家・デザイナー。クランブルック・アカデミーでイームズ夫妻とも親交がありました。金属ワイヤーを使った彫刻的な家具は、「椅子は空気でできている」と語った彼の哲学を反映。晩年はサウンド・スカルプチャーの制作に注力しました。",
+    "style": "mid-century",
+    "notableWorks": ["diamond-chair"]
+  },
+  {
+    "id": "alvar-aalto",
+    "name": "Alvar Aalto",
+    "nameJa": "アルヴァ・アアルト",
+    "born": "1898",
+    "died": "1976",
+    "country": "Finland",
+    "bio": "フィンランドが生んだ20世紀最大の建築家の一人。自然素材、特にフィンランドの白樺を活かしたデザインが特徴。L-レッグの技術を開発し、スツール60をはじめとする数々の名作家具を生み出しました。自然との調和を大切にする北欧モダニズムの礎を築いた人物です。",
+    "style": "nordic",
+    "notableWorks": ["stool-60"]
+  }
+]

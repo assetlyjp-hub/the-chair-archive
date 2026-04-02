@@ -1,0 +1,29 @@
+---
+// designers/index.astro - デザイナー一覧ページ
+
+import Base from '../../layouts/Base.astro';
+import DesignerCard from '../../components/DesignerCard.astro';
+
+// デザイナーデータ読み込み
+import designersData from '../../data/designers.json';
+---
+
+<Base
+  title="Designers"
+  description="名作椅子を生み出した巨匠デザイナーたち。イームズ、ウェグナー、ヤコブセンなど。"
+>
+  <!-- ページヘッダー -->
+  <div class="page-header">
+    <h1 class="page-header__title">Designers</h1>
+    <p class="page-header__description">名作椅子を生み出した巨匠たち</p>
+  </div>
+
+  <!-- デザイナー一覧グリッド -->
+  <div class="container section">
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md);">
+      {designersData.map(designer => (
+        <DesignerCard designer={designer} />
+      ))}
+    </div>
+  </div>
+</Base>
