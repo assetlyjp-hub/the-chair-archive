@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <!-- 背景 -->
+  <rect width="400" height="500" fill="#F5F5F5"/>
+
+  <!-- ピーコックチェア PP550 - 孔雀の羽根のような高い背もたれが特徴 -->
+  <g transform="translate(100, 60)" stroke="#B0B0B0" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 高い扇形の背もたれ（孔雀の羽根） -->
+    <path d="M 100 0 Q 40 20 20 80" />
+    <path d="M 100 0 Q 160 20 180 80" />
+    <!-- 背もたれのスピンドル（放射状の棒） -->
+    <line x1="100" y1="0" x2="50" y2="200" />
+    <line x1="100" y1="0" x2="70" y2="200" />
+    <line x1="100" y1="0" x2="90" y2="200" />
+    <line x1="100" y1="0" x2="110" y2="200" />
+    <line x1="100" y1="0" x2="130" y2="200" />
+    <line x1="100" y1="0" x2="150" y2="200" />
+    <!-- 背もたれのアーチ -->
+    <path d="M 20 80 Q 15 140 40 200" />
+    <path d="M 180 80 Q 185 140 160 200" />
+    <!-- 座面 -->
+    <path d="M 40 200 Q 100 185 160 200" />
+    <path d="M 40 210 Q 100 225 160 210" />
+    <!-- アームレスト -->
+    <path d="M 40 200 Q 20 190 10 170" />
+    <path d="M 160 200 Q 180 190 190 170" />
+    <!-- 脚 -->
+    <line x1="50" y1="210" x2="35" y2="320" />
+    <line x1="150" y1="210" x2="165" y2="320" />
+    <line x1="70" y1="215" x2="55" y2="320" />
+    <line x1="130" y1="215" x2="145" y2="320" />
+    <!-- 貫（横棒） -->
+    <line x1="40" y1="280" x2="160" y2="280" />
+  </g>
+
+  <!-- テキスト -->
+  <text x="200" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#BBBBBB" letter-spacing="2">PEACOCK CHAIR PP550</text>
+  <text x="200" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#CCCCCC" letter-spacing="2">THE CHAIR ARCHIVE</text>
+</svg>
