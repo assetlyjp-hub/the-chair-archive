@@ -1,60 +1,86 @@
-# generate-articles.yml - 平日に2記事を自動生成
-name: Generate Articles
+# 記事自動生成パイプライン
+# 平日の朝9時(JST)に実行し、新しい記事を生成 → コミット → デプロイをトリガー
+name: Auto Generate Articles
 
 on:
-  # 平日の朝9時（JST）= UTC 0:00 に実行
   schedule:
-    - cron: '0 0 * * 1-5'
-
-  # 手動実行も可能
+    - cron: '0 22 * * 1-5'  # UTC 22:00 = JST 07:00, 平日のみ
   workflow_dispatch:
     inputs:
-      type:
-        description: '記事タイプ (usecase/style/price/designer/comparison/story/all)'
-        required: false
-        default: 'all'
+      article_type:
+        description: '生成する記事タイプ'
+        required: true
+        default: 'usecase'
+        type: choice
+        options:
+          - usecase
+          - style
+          - price
+          - designer
+          - comparison
+          - story
+          - all
       limit:
         description: '生成する記事数'
-        required: false
+        required: true
         default: '2'
+        type: string
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      # リポジトリのチェックアウト
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Python のセットアップ
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      # anthropic パッケージのインストール
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install anthropic
 
-      # 記事の自動生成
-      - name: Generate articles
+      # スケジュール実行時は曜日ローテーションで記事タイプを切り替え
+      - name: Generate articles (scheduled)
+        if: github.event_name == 'schedule'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DOW=$(date +%u)  # 1=月, 2=火, ..., 5=金
+          case $DOW in
+            1) TYPE="usecase" ;;
+            2) TYPE="style" ;;
+            3) TYPE="designer" ;;
+            4) TYPE="comparison" ;;
+            5) TYPE="story" ;;
+          esac
+          echo "Today is day $DOW, generating: $TYPE"
+          python scripts/generate-articles.py --type $TYPE --limit 2
+
+      # 手動実行時は指定されたタイプで生成
+      - name: Generate articles (manual)
+        if: github.event_name == 'workflow_dispatch'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/generate-articles.py \
-            --type ${{ github.event.inputs.type || 'all' }} \
-            --limit ${{ github.event.inputs.limit || '2' }}
+            --type ${{ inputs.article_type }} \
+            --limit ${{ inputs.limit }}
 
       # 生成された記事をコミット & プッシュ
       - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "chair-archive-bot"
+          git config user.email "bot@thechairarchive.com"
           git add src/content/articles/
-          if git diff --staged --quiet; then
-            echo "新しい記事はありません"
+          if git diff --cached --quiet; then
+            echo "No new articles generated"
           else
-            git commit -m "auto: 記事を自動生成"
+            ARTICLE_COUNT=$(git diff --cached --name-only | wc -l)
+            git commit -m "auto: generate ${ARTICLE_COUNT} new article(s)"
             git push
           fi
