@@ -61,6 +61,7 @@ SEARCH_KEYWORDS = {
     "eames-daw": "ハーマンミラー イームズ DAW",
     "ant-chair-3100": "フリッツハンセン アリンコチェア",
     "thonet-no14": "トーネット 214 曲木 チェア",
+    "colonial-ow149": "カールハンセン コロニアルチェア OW149",
 }
 
 
