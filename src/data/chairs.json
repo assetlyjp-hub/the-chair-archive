@@ -60,7 +60,7 @@
     "year": 1949,
     "style": "nordic",
     "country": "Denmark",
-    "description": "Yチェアの愛称で親しまれる北欧家具の金字塔。背もたれのY字型フレームとペーパーコードの座面が特徴。70年以上にわたり、カール・ハンセン＆サン社で職人の手により作り続けられています。",
+    "description": "Yチェアの愛称で親しまれる北欧家具の金字塔。背もたれのY字型フレームとペーパーコードの座面が特徴。70年以上にわたり、カール・ハンセン＆サン社で職人の手により作り続けられています。建築家・安藤忠雄が事務所設立時に最初に購入した家具としても知られ、建築とデザインの深い結びつきを象徴している。",
     "dimensions": {
       "width": 55,
       "depth": 51,
@@ -111,7 +111,7 @@
     "year": 1929,
     "style": "bauhaus",
     "country": "Germany",
-    "description": "1929年バルセロナ万博のドイツ館のためにデザインされた、20世紀を代表するラウンジチェア。X字型のスチールフレームとレザークッションの組み合わせは「Less is More」の思想を体現。",
+    "description": "1929年バルセロナ万博のドイツ館のためにデザインされた、20世紀を代表するラウンジチェア。X字型のスチールフレームとレザークッションの組み合わせは「Less is More」の思想を体現。1929年のバルセロナ万博でスペイン国王アルフォンソ13世を迎えるためにデザインされた、まさに王のための椅子。",
     "dimensions": {
       "width": 75,
       "depth": 77,
@@ -161,7 +161,7 @@
     "year": 1956,
     "style": "mid-century",
     "country": "USA",
-    "description": "「使い込んだ野球グローブのような温かみ」をコンセプトに生まれた究極のラウンジチェア。成形合板のシェルとレザークッション、アルミダイキャストのベースが織りなす完璧なバランス。",
+    "description": "「使い込んだ野球グローブのような温かみ」をコンセプトに生まれた究極のラウンジチェア。成形合板のシェルとレザークッション、アルミダイキャストのベースが織りなす完璧なバランス。スティーブ・ジョブズとビル・ゲイツが並んでイームズ・ラウンジチェアに座った写真は、テック業界の象徴的な一枚として広く知られている。",
     "dimensions": {
       "width": 83,
       "depth": 83,
@@ -211,7 +211,7 @@
     "year": 1955,
     "style": "nordic",
     "country": "Denmark",
-    "description": "世界で最も売れた椅子と称されるセブンチェア。一枚の成形合板から生まれる美しい曲線は、ヤコブセンの天才的な造形感覚の賜物。スタッキング可能で実用性も抜群。",
+    "description": "世界で最も売れた椅子と称されるセブンチェア。一枚の成形合板から生まれる美しい曲線は、ヤコブセンの天才的な造形感覚の賜物。スタッキング可能で実用性も抜群。1963年、モデルのクリスティン・キーラーがセブンチェアに跨った写真は、20世紀で最も有名な椅子の写真のひとつとなった。",
     "dimensions": {
       "width": 50,
       "depth": 52,
@@ -311,7 +311,7 @@
     "year": 1967,
     "style": "modern",
     "country": "Denmark",
-    "description": "世界初のプラスチック一体成形チェア。S字カーブのキャンチレバー構造は、素材の限界に挑戦した革新的デザイン。ポップアートの時代を象徴する鮮やかなカラーリングも魅力。",
+    "description": "世界初のプラスチック一体成形チェア。S字カーブのキャンチレバー構造は、素材の限界に挑戦した革新的デザイン。ポップアートの時代を象徴する鮮やかなカラーリングも魅力。1995年、スーパーモデルのケイト・モスがパントンチェアに座った英国版Vogue表紙は、ファッションとデザインの融合を象徴する一枚として語り継がれている。",
     "dimensions": {
       "width": 50,
       "depth": 61,
@@ -362,7 +362,7 @@
     "year": 1949,
     "style": "nordic",
     "country": "Denmark",
-    "description": "「椅子の中の椅子」と呼ばれる、ウェグナーの最高傑作。1960年のケネディ大統領テレビ討論会で使用されたことで世界的に有名に。完璧なプロポーションと卓越した木工技術の結晶。",
+    "description": "「椅子の中の椅子」と呼ばれる、ウェグナーの最高傑作。完璧なプロポーションと卓越した木工技術の結晶。1960年、アメリカ大統領選のテレビ討論会でJ.F.ケネディとニクソンがこの椅子に座り、世界中にデニッシュモダンブームを巻き起こした。",
     "dimensions": {
       "width": 63,
       "depth": 52,
@@ -464,7 +464,7 @@
     "year": 1958,
     "style": "nordic",
     "country": "Denmark",
-    "description": "スワンチェアと同じくSASロイヤルホテルのために生まれた名作。卵型のハイバックシェルがプライベートな空間を作り出す。ラウンジやホテルロビーのアイコン的存在。",
+    "description": "スワンチェアと同じくSASロイヤルホテルのために生まれた名作。卵型のハイバックシェルがプライベートな空間を作り出す。ラウンジやホテルロビーのアイコン的存在。映画やテレビドラマでも頻繁に登場し、権力や知性を象徴する椅子としてポップカルチャーに根付いている。",
     "dimensions": {
       "width": 86,
       "depth": 79,
@@ -1050,5 +1050,265 @@
       "the-chair-pp501"
     ],
     "image": "/images/chairs/colonial-ow149.jpg"
+  },
+  {
+    "id": "aeron-chair",
+    "name": "Aeron Chair",
+    "nameJa": "アーロンチェア",
+    "designer": "Don Chadwick & Bill Stumpf",
+    "designerJa": "ドン・チャドウィック＆ビル・スタンプ",
+    "designerId": "don-chadwick",
+    "year": 1994,
+    "style": "modern",
+    "country": "USA",
+    "description": "坂本龍一が仕事用として長年愛用。シリコンバレーのドットコムバブル時代にはIT企業のステータスシンボルとなり、「成功の椅子」と呼ばれた。人間工学に基づくメッシュ素材のシートは、長時間のデスクワークに革命をもたらした。MoMA永久収蔵品。",
+    "dimensions": {
+      "width": 65.5,
+      "depth": 40,
+      "height": [
+        104,
+        117
+      ],
+      "seatHeight": [
+        38,
+        53
+      ]
+    },
+    "weight": 18,
+    "materials": [
+      "8Zペリクル（メッシュ）",
+      "アルミダイキャスト",
+      "ガラス強化ナイロン"
+    ],
+    "colors": [
+      "グラファイト",
+      "カーボン",
+      "ミネラル",
+      "オニキス"
+    ],
+    "priceRange": {
+      "authentic": 228690,
+      "replica": 0
+    },
+    "rating": 4.8,
+    "features": [
+      "坂本龍一が仕事用として愛用",
+      "MoMA永久収蔵品",
+      "シリコンバレーのステータスシンボル",
+      "12年保証",
+      "人間工学デザインの金字塔"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00q9j3m.vntj29c5.g00q9j3m.vntj3900/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnihonkiki%2F68503%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnihonkiki%2Fi%2F10010272%2F&rafcid=wsc_i_is_33f9e64b-57b8-4ebb-9c2c-00fb0126a84b"
+    },
+    "relatedChairs": [
+      "eames-lounge",
+      "colonial-ow149"
+    ],
+    "image": "/images/chairs/aeron-chair.jpg"
+  },
+  {
+    "id": "butterfly-stool",
+    "name": "Butterfly Stool",
+    "nameJa": "バタフライスツール",
+    "designer": "Sori Yanagi",
+    "designerJa": "柳宗理",
+    "designerId": "sori-yanagi",
+    "year": 1954,
+    "style": "modern",
+    "country": "Japan",
+    "description": "日本人デザイナーによる世界的名作。2枚の成形合板を蝶の翼のように組み合わせた美しいフォルムは、和の美意識と西洋のモダンデザインの見事な融合。MoMA（ニューヨーク近代美術館）とルーヴル美術館に永久収蔵。1957年ミラノ・トリエンナーレ金賞受賞。天童木工が製造を手がける。",
+    "dimensions": {
+      "width": 42,
+      "depth": 31,
+      "height": 38.7,
+      "seatHeight": 38.7
+    },
+    "weight": 2.5,
+    "materials": [
+      "ローズウッド成形合板",
+      "真鍮金具"
+    ],
+    "colors": [
+      "ローズウッド",
+      "メープル",
+      "ブラック"
+    ],
+    "priceRange": {
+      "authentic": 60500,
+      "replica": 8000
+    },
+    "rating": 4.9,
+    "features": [
+      "MoMA＆ルーヴル美術館に永久収蔵",
+      "1957年ミラノ金賞受賞",
+      "日本人デザイナー唯一の世界的名作椅子",
+      "天童木工製",
+      "蝶の翼のような美しいフォルム"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": "https://hb.afl.rakuten.co.jp/hgc/g00trram.vntj2b39.g00trram.vntj3d2c/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ff062103-tendo%2F02t8102b%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Ff062103-tendo%2Fi%2F10000036%2F&rafcid=wsc_i_is_33f9e64b-57b8-4ebb-9c2c-00fb0126a84b"
+    },
+    "relatedChairs": [
+      "stool-60",
+      "panton-chair"
+    ],
+    "image": "/images/chairs/butterfly-stool.jpg"
+  },
+  {
+    "id": "peacock-pp550",
+    "name": "Peacock Chair (PP550)",
+    "nameJa": "ピーコックチェア PP550",
+    "designer": "Hans J. Wegner",
+    "designerJa": "ハンス・J・ウェグナー",
+    "designerId": "hans-wegner",
+    "year": 1947,
+    "style": "nordic",
+    "country": "Denmark",
+    "description": "孔雀が羽を広げたような美しい背もたれが特徴の、ウェグナー初期の傑作。オードリー・ヘプバーンがこの椅子に座った象徴的な写真は世界中で知られ、椅子そのものの美しさを広く印象づけた。ウィンザーチェアの伝統を北欧モダンに昇華した名作。PP Mobler社製。",
+    "dimensions": {
+      "width": 76,
+      "depth": 67,
+      "height": 103,
+      "seatHeight": 37
+    },
+    "weight": 8.5,
+    "materials": [
+      "アッシュ材",
+      "チーク材",
+      "ペーパーコード"
+    ],
+    "colors": [
+      "ナチュラル",
+      "ソープ仕上げ",
+      "オイル仕上げ"
+    ],
+    "priceRange": {
+      "authentic": 935000,
+      "replica": 45000
+    },
+    "rating": 4.8,
+    "features": [
+      "オードリー・ヘプバーンの象徴的な写真",
+      "孔雀の羽のような背もたれ",
+      "ウィンザーチェアの北欧モダン版",
+      "PP Mobler社製",
+      "ウェグナー初期の傑作"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": ""
+    },
+    "relatedChairs": [
+      "wishbone-ch24",
+      "the-chair-pp501"
+    ],
+    "image": "/images/chairs/peacock-pp550.jpg"
+  },
+  {
+    "id": "kennedy-rocker",
+    "name": "Kennedy Rocker",
+    "nameJa": "ケネディロッカー",
+    "designer": "Larry Arata / P&P Chair Company",
+    "designerJa": "ラリー・アラタ",
+    "designerId": "larry-arata",
+    "year": 1955,
+    "style": "modern",
+    "country": "USA",
+    "description": "J.F.ケネディ大統領が腰痛治療のため医師に勧められて使い始め、その座り心地に惚れ込んで14脚も購入した伝説のロッキングチェア。ホワイトハウスの執務室にも持ち込み、キューバ危機の最中もこの椅子で思索にふけった。アメリカの歴史を見守った一脚。",
+    "dimensions": {
+      "width": 62,
+      "depth": 82,
+      "height": 109,
+      "seatHeight": 43
+    },
+    "weight": 9,
+    "materials": [
+      "ノースカロライナ産アッシュ材",
+      "ファブリック"
+    ],
+    "colors": [
+      "ナチュラル",
+      "ブラック"
+    ],
+    "priceRange": {
+      "authentic": 165000,
+      "replica": 0
+    },
+    "rating": 4.7,
+    "features": [
+      "JFKが14脚購入するほど愛用",
+      "ホワイトハウス執務室で使用",
+      "キューバ危機を見守った椅子",
+      "腰痛持ちに最適な設計",
+      "アメリカの歴史的アイコン"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": ""
+    },
+    "relatedChairs": [
+      "colonial-ow149",
+      "the-chair-pp501"
+    ],
+    "image": "/images/chairs/kennedy-rocker.jpg"
+  },
+  {
+    "id": "djinn-chair",
+    "name": "Djinn Chair",
+    "nameJa": "ジン・チェア",
+    "designer": "Olivier Mourgue",
+    "designerJa": "オリヴィエ・ムルグ",
+    "designerId": "olivier-mourgue",
+    "year": 1965,
+    "style": "modern",
+    "country": "France",
+    "description": "スタンリー・キューブリック監督の映画『2001年宇宙の旅』（1968年）の宇宙ステーションのロビーに登場し、一躍世界的に有名になった未来的チェア。有機的なうねりのあるフォルムとビビッドな赤い布地が、2001年の宇宙空間を見事に演出した。映画史上最も有名な椅子のひとつ。",
+    "dimensions": {
+      "width": 61,
+      "depth": 75,
+      "height": 63,
+      "seatHeight": 30
+    },
+    "weight": 12,
+    "materials": [
+      "スチールフレーム",
+      "ウレタンフォーム",
+      "ジャージー生地"
+    ],
+    "colors": [
+      "レッド",
+      "ブルー",
+      "グリーン",
+      "オレンジ"
+    ],
+    "priceRange": {
+      "authentic": 350000,
+      "replica": 45000
+    },
+    "rating": 4.5,
+    "features": [
+      "映画『2001年宇宙の旅』に登場",
+      "キューブリックが選んだ未来の椅子",
+      "映画史上最も有名な椅子のひとつ",
+      "有機的な曲線美",
+      "MoMA収蔵品"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": ""
+    },
+    "relatedChairs": [
+      "ball-chair",
+      "panton-chair"
+    ],
+    "image": "/images/chairs/djinn-chair.jpg"
   }
 ]
