@@ -19,7 +19,7 @@
     "country": "Denmark",
     "bio": "生涯で500脚以上の椅子をデザインした「椅子の巨匠」。14歳で家具職人の修行を始め、木材への深い理解と卓越した技術を持っていました。伝統的な北欧の木工技術を基礎としながらも、常にシンプルで機能的な美しさを追求。和の美意識にも通じるそのデザインは、日本でも高い人気を誇ります。",
     "style": "nordic",
-    "notableWorks": ["wishbone-ch24", "the-chair-pp501", "ch07-shell"]
+    "notableWorks": ["wishbone-ch24", "the-chair-pp501", "ch07-shell", "peacock-pp550"]
   },
   {
     "id": "arne-jacobsen",
@@ -108,5 +108,49 @@
     "bio": "フィンランドが生んだ20世紀最大の建築家の一人。自然素材、特にフィンランドの白樺を活かしたデザインが特徴。L-レッグの技術を開発し、スツール60をはじめとする数々の名作家具を生み出しました。自然との調和を大切にする北欧モダニズムの礎を築いた人物です。",
     "style": "nordic",
     "notableWorks": ["stool-60"]
+  },
+  {
+    "id": "don-chadwick",
+    "name": "Don Chadwick & Bill Stumpf",
+    "nameJa": "ドン・チャドウィック＆ビル・スタンプ",
+    "born": "1936 / 1936",
+    "died": "- / 2006",
+    "country": "USA",
+    "bio": "ハーマンミラー社と長年パートナーシップを結んだ人間工学デザインの第一人者。ビル・スタンプは「座る」という行為を科学的に研究し、ドン・チャドウィックとの協働でアーロンチェアを開発。メッシュ素材のシートという革新的なアプローチで、オフィスチェアの概念を根本から変えました。",
+    "style": "modern",
+    "notableWorks": ["aeron-chair"]
+  },
+  {
+    "id": "sori-yanagi",
+    "name": "Sori Yanagi",
+    "nameJa": "柳宗理",
+    "born": "1915",
+    "died": "2011",
+    "country": "Japan",
+    "bio": "日本のインダストリアルデザインの父と呼ばれる巨匠。民藝運動の創始者・柳宗悦の長男として生まれ、シャルロット・ペリアンのアシスタントを務めた経験も持つ。バタフライスツールをはじめ、キッチン用品から橋梁まで幅広い分野でデザインを手がけ、和と洋を融合させた独自の美学を確立しました。",
+    "style": "modern",
+    "notableWorks": ["butterfly-stool"]
+  },
+  {
+    "id": "larry-arata",
+    "name": "Larry Arata / P&P Chair Company",
+    "nameJa": "ラリー・アラタ",
+    "born": "-",
+    "died": "-",
+    "country": "USA",
+    "bio": "ノースカロライナ州のP&P Chair Companyで製造されたロッキングチェアのデザイナー。J.F.ケネディ大統領がこのロッキングチェアを愛用したことで世界的に知られるようになりました。アメリカの伝統的なロッキングチェアの技術を受け継ぎ、座り心地と腰のサポートに優れた設計が特徴です。",
+    "style": "modern",
+    "notableWorks": ["kennedy-rocker"]
+  },
+  {
+    "id": "olivier-mourgue",
+    "name": "Olivier Mourgue",
+    "nameJa": "オリヴィエ・ムルグ",
+    "born": "1939",
+    "died": "-",
+    "country": "France",
+    "bio": "フランスのインテリアデザイナー・彫刻家。エコール・デ・ザール・デコラティフで学び、有機的なフォルムの家具で注目を集めました。ジン・チェアがスタンリー・キューブリック監督の映画『2001年宇宙の旅』に採用されたことで国際的な名声を獲得。未来を感じさせるデザインが持ち味です。",
+    "style": "modern",
+    "notableWorks": ["djinn-chair"]
   }
 ]

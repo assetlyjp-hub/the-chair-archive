@@ -62,6 +62,11 @@ SEARCH_KEYWORDS = {
     "ant-chair-3100": "フリッツハンセン アリンコチェア",
     "thonet-no14": "トーネット 214 曲木 チェア",
     "colonial-ow149": "カールハンセン コロニアルチェア OW149",
+    "aeron-chair": "ハーマンミラー アーロンチェア リマスタード",
+    "butterfly-stool": "天童木工 バタフライスツール 柳宗理",
+    "peacock-pp550": "ピーコックチェア ウェグナー PP550",
+    "kennedy-rocker": "ケネディ ロッキングチェア",
+    "djinn-chair": "ジンチェア ムルグ 2001年宇宙の旅",
 }
 
 
