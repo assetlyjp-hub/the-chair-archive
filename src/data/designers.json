@@ -8,7 +8,12 @@
     "country": "USA",
     "bio": "20世紀のデザインに最も影響を与えた夫婦デュオ。建築、家具、映像、展示デザインなど幅広い分野で革新的な作品を残しました。「最良のものを、最多の人々に、最少の費用で」という理念のもと、成形合板やFRPなどの新素材・新技術を積極的に取り入れ、大量生産可能でありながら美しいデザインを追求しました。",
     "style": "mid-century",
-    "notableWorks": ["eames-shell-dsw", "eames-lounge", "eames-daw"]
+    "notableWorks": [
+      "eames-shell-dsw",
+      "eames-lounge",
+      "eames-daw"
+    ],
+    "bioEn": "The most influential design duo of the 20th century. Charles and Ray Eames left an indelible mark across architecture, furniture, film, and exhibition design. Guided by the philosophy of ‘the best for the most for the least,’ they embraced new materials like molded plywood and fiberglass to create mass-producible yet beautiful designs that transformed modern living."
   },
   {
     "id": "hans-wegner",
@@ -19,7 +24,13 @@
     "country": "Denmark",
     "bio": "生涯で500脚以上の椅子をデザインした「椅子の巨匠」。14歳で家具職人の修行を始め、木材への深い理解と卓越した技術を持っていました。伝統的な北欧の木工技術を基礎としながらも、常にシンプルで機能的な美しさを追求。和の美意識にも通じるそのデザインは、日本でも高い人気を誇ります。",
     "style": "nordic",
-    "notableWorks": ["wishbone-ch24", "the-chair-pp501", "ch07-shell", "peacock-pp550"]
+    "notableWorks": [
+      "wishbone-ch24",
+      "the-chair-pp501",
+      "ch07-shell",
+      "peacock-pp550"
+    ],
+    "bioEn": "The ‘Master of the Chair’ who designed over 500 chairs in his lifetime. Wegner began his apprenticeship as a cabinetmaker at age 14 and developed an unparalleled understanding of wood. Rooted in traditional Nordic craftsmanship, his work pursued simple, functional beauty—a sensibility that resonates deeply with Japanese aesthetics."
   },
   {
     "id": "arne-jacobsen",
@@ -30,7 +41,13 @@
     "country": "Denmark",
     "bio": "建築家としてもデザイナーとしても一流だったデンマークの巨匠。SASロイヤルホテルでは建築からインテリア、カトラリーに至るまで全てをデザイン。セブンチェア、エッグチェア、スワンチェアなど、有機的なフォルムの名作を数多く生み出しました。",
     "style": "nordic",
-    "notableWorks": ["series7-3107", "egg-chair", "swan-chair", "ant-3100"]
+    "notableWorks": [
+      "series7-3107",
+      "egg-chair",
+      "swan-chair",
+      "ant-3100"
+    ],
+    "bioEn": "A Danish master equally acclaimed as an architect and designer. Jacobsen designed everything from the building to the cutlery for the SAS Royal Hotel in Copenhagen. His organically formed masterpieces—the Series 7, Egg Chair, and Swan Chair—remain icons of Scandinavian design."
   },
   {
     "id": "mies-van-der-rohe",
@@ -41,7 +58,10 @@
     "country": "Germany",
     "bio": "「Less is More（少ないことは豊かなこと）」「God is in the details（神は細部に宿る）」という名言で知られる近代建築の巨匠。バウハウスの最後の校長を務め、後にアメリカに渡って数々の名建築を設計。バルセロナチェアは建築と家具の境界を超えた傑作です。",
     "style": "bauhaus",
-    "notableWorks": ["barcelona-chair"]
+    "notableWorks": [
+      "barcelona-chair"
+    ],
+    "bioEn": "The modern architecture giant known for ‘Less is More’ and ‘God is in the details.’ As the last director of the Bauhaus, and later a towering figure in American architecture, Mies created the Barcelona Chair—a masterpiece that transcends the boundary between architecture and furniture."
   },
   {
     "id": "le-corbusier",
@@ -52,7 +72,10 @@
     "country": "France",
     "bio": "近代建築の三大巨匠の一人。「住宅は住むための機械である」と唱え、建築のみならず都市計画、家具デザインにまで革命をもたらしました。LC2をはじめとするLCシリーズは、シャルロット・ペリアン、ピエール・ジャンヌレとの共作です。",
     "style": "bauhaus",
-    "notableWorks": ["lc2"]
+    "notableWorks": [
+      "lc2"
+    ],
+    "bioEn": "One of the three great masters of modern architecture. Le Corbusier declared ‘a house is a machine for living in’ and revolutionized not only architecture but urban planning and furniture design. The LC series, including the iconic LC2, was co-created with Charlotte Perriand and Pierre Jeanneret."
   },
   {
     "id": "verner-panton",
@@ -63,7 +86,11 @@
     "country": "Denmark",
     "bio": "デンマーク出身ながら北欧デザインの枠を大きく超えた、ポップデザインの旗手。プラスチックやフォームなどの新素材に果敢に挑戦し、鮮やかな色彩と未来的なフォルムで空間全体を演出しました。パントンチェアは世界初のプラスチック一体成形チェアとして歴史に名を刻んでいます。",
     "style": "modern",
-    "notableWorks": ["panton-chair", "s-chair"]
+    "notableWorks": [
+      "panton-chair",
+      "s-chair"
+    ],
+    "bioEn": "A Danish-born designer who far transcended the boundaries of Nordic design to become a champion of pop aesthetics. Panton fearlessly experimented with plastics and foam, using bold colors and futuristic forms to transform entire environments. His Panton Chair made history as the world’s first single-piece molded plastic chair."
   },
   {
     "id": "eero-saarinen",
@@ -74,7 +101,10 @@
     "country": "USA",
     "bio": "フィンランド生まれ、アメリカで活躍した建築家・デザイナー。JFK国際空港のTWAターミナルやゲートウェイアーチなど、彫刻的な建築で知られます。「椅子の脚という醜いもの」をなくしたいという思いから生まれたチューリップチェアは、ペデスタル家具の先駆けとなりました。",
     "style": "mid-century",
-    "notableWorks": ["tulip-chair"]
+    "notableWorks": [
+      "tulip-chair"
+    ],
+    "bioEn": "A Finnish-born architect and designer who made his mark in America. Known for sculptural buildings like the TWA Terminal at JFK Airport and the Gateway Arch, Saarinen’s desire to eliminate ‘the ugly legs of chairs’ led to the Tulip Chair—a pioneering work of pedestal furniture."
   },
   {
     "id": "marcel-breuer",
@@ -85,7 +115,10 @@
     "country": "Germany",
     "bio": "バウハウスの学生から教授となり、スチールパイプ家具という新しいジャンルを開拓した先駆者。自転車のハンドルバーにヒントを得て、クロームメッキのスチールパイプで家具を作るというアイデアは、その後の家具デザインに決定的な影響を与えました。",
     "style": "bauhaus",
-    "notableWorks": ["wassily-b3"]
+    "notableWorks": [
+      "wassily-b3"
+    ],
+    "bioEn": "A Bauhaus student who became a professor and pioneered tubular steel furniture as an entirely new genre. Inspired by a bicycle handlebar, Breuer’s idea of crafting furniture from chrome-plated steel tubes had a decisive and lasting impact on furniture design."
   },
   {
     "id": "harry-bertoia",
@@ -96,7 +129,10 @@
     "country": "USA",
     "bio": "イタリア生まれの彫刻家・デザイナー。クランブルック・アカデミーでイームズ夫妻とも親交がありました。金属ワイヤーを使った彫刻的な家具は、「椅子は空気でできている」と語った彼の哲学を反映。晩年はサウンド・スカルプチャーの制作に注力しました。",
     "style": "mid-century",
-    "notableWorks": ["diamond-chair"]
+    "notableWorks": [
+      "diamond-chair"
+    ],
+    "bioEn": "An Italian-born sculptor and designer who studied at Cranbrook Academy alongside Charles and Ray Eames. His sculptural wire furniture reflects his philosophy that ‘chairs are mainly made of air.’ In his later years, Bertoia devoted himself to creating sound sculptures."
   },
   {
     "id": "alvar-aalto",
@@ -107,7 +143,10 @@
     "country": "Finland",
     "bio": "フィンランドが生んだ20世紀最大の建築家の一人。自然素材、特にフィンランドの白樺を活かしたデザインが特徴。L-レッグの技術を開発し、スツール60をはじめとする数々の名作家具を生み出しました。自然との調和を大切にする北欧モダニズムの礎を築いた人物です。",
     "style": "nordic",
-    "notableWorks": ["stool-60"]
+    "notableWorks": [
+      "stool-60"
+    ],
+    "bioEn": "One of the greatest architects of the 20th century, born in Finland. Known for designs that celebrate natural materials—especially Finnish birch—Aalto developed the L-leg technique and created masterpieces like Stool 60. He laid the foundation for Nordic modernism through his deep harmony with nature."
   },
   {
     "id": "don-chadwick",
@@ -118,7 +157,10 @@
     "country": "USA",
     "bio": "ハーマンミラー社と長年パートナーシップを結んだ人間工学デザインの第一人者。ビル・スタンプは「座る」という行為を科学的に研究し、ドン・チャドウィックとの協働でアーロンチェアを開発。メッシュ素材のシートという革新的なアプローチで、オフィスチェアの概念を根本から変えました。",
     "style": "modern",
-    "notableWorks": ["aeron-chair"]
+    "notableWorks": [
+      "aeron-chair"
+    ],
+    "bioEn": "Pioneers of ergonomic design with a long partnership with Herman Miller. Bill Stumpf scientifically studied the act of sitting, and together with Don Chadwick, developed the Aeron Chair. Their revolutionary mesh-seat approach fundamentally transformed the concept of the office chair."
   },
   {
     "id": "sori-yanagi",
@@ -129,7 +171,10 @@
     "country": "Japan",
     "bio": "日本のインダストリアルデザインの父と呼ばれる巨匠。民藝運動の創始者・柳宗悦の長男として生まれ、シャルロット・ペリアンのアシスタントを務めた経験も持つ。バタフライスツールをはじめ、キッチン用品から橋梁まで幅広い分野でデザインを手がけ、和と洋を融合させた独自の美学を確立しました。",
     "style": "modern",
-    "notableWorks": ["butterfly-stool"]
+    "notableWorks": [
+      "butterfly-stool"
+    ],
+    "bioEn": "Widely regarded as the father of Japanese industrial design. Born as the eldest son of Soetsu Yanagi—founder of the Mingei (folk craft) movement—and a former assistant to Charlotte Perriand, Yanagi created the Butterfly Stool and designed everything from kitchenware to bridges, establishing a unique aesthetic that fused Eastern and Western sensibilities."
   },
   {
     "id": "larry-arata",
@@ -140,7 +185,10 @@
     "country": "USA",
     "bio": "ノースカロライナ州のP&P Chair Companyで製造されたロッキングチェアのデザイナー。J.F.ケネディ大統領がこのロッキングチェアを愛用したことで世界的に知られるようになりました。アメリカの伝統的なロッキングチェアの技術を受け継ぎ、座り心地と腰のサポートに優れた設計が特徴です。",
     "style": "modern",
-    "notableWorks": ["kennedy-rocker"]
+    "notableWorks": [
+      "kennedy-rocker"
+    ],
+    "bioEn": "Designer at the P&P Chair Company of North Carolina, maker of the rocking chair that became world-famous when President John F. Kennedy adopted it as his personal favorite. Rooted in the American tradition of rocking chair craftsmanship, the design excels in seating comfort and lumbar support."
   },
   {
     "id": "olivier-mourgue",
@@ -151,6 +199,9 @@
     "country": "France",
     "bio": "フランスのインテリアデザイナー・彫刻家。エコール・デ・ザール・デコラティフで学び、有機的なフォルムの家具で注目を集めました。ジン・チェアがスタンリー・キューブリック監督の映画『2001年宇宙の旅』に採用されたことで国際的な名声を獲得。未来を感じさせるデザインが持ち味です。",
     "style": "modern",
-    "notableWorks": ["djinn-chair"]
+    "notableWorks": [
+      "djinn-chair"
+    ],
+    "bioEn": "A French interior designer and sculptor who trained at the École des Arts Décoratifs. Mourgue gained international fame when Stanley Kubrick selected his Djinn Chair for the space station scenes in ‘2001: A Space Odyssey.’ His work is defined by organic forms and a futuristic sensibility."
   }
 ]

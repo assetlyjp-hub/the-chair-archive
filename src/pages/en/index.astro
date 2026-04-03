@@ -1,0 +1,32 @@
+---
+// en/index.astro - 英語版トップページ
+// 日本語版(src/pages/index.astro)と同じレイアウト・デザインで、テキストだけ英語に
+
+import BaseEn from '../../layouts/BaseEn.astro';
+import FilterBar from '../../components/FilterBar.astro';
+import ChairGrid from '../../components/ChairGrid.astro';
+import ChairModalEn from '../../components/ChairModalEn.astro';
+
+// 椅子データの読み込み
+import chairsData from '../../data/chairs.json';
+---
+
+<BaseEn title="The Chair Archive" jaPath="/">
+  <!-- ヒーローセクション: 英語テキスト -->
+  <section class="hero">
+    <h1 class="hero__title">The Chair Archive</h1>
+    <p class="hero__subtitle">Every iconic chair, all in one place.</p>
+  </section>
+
+  <!-- メインコンテンツ -->
+  <div class="container">
+    <!-- フィルターバー（英語も日本語もボタンラベルは同じ英語なのでそのまま使用） -->
+    <FilterBar />
+
+    <!-- 大小混合グリッド（日本語版と同じコンポーネントを使用） -->
+    <ChairGrid chairs={chairsData} />
+  </div>
+
+  <!-- 椅子詳細モーダル（英語版） -->
+  <ChairModalEn />
+</BaseEn>

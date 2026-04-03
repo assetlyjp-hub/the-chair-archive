@@ -1,22 +1,23 @@
 ---
-// Base.astro - 全ページ共通のレイアウト
-// Google Fonts、ヘッダー、フッター、SEO メタを管理
+// BaseEn.astro - 英語版ページの共通レイアウト
+// 日本語版(Base.astro)と同じデザインで、テキストだけ英語に
+// ヘッダーに言語切り替えリンクを追加
 
-// ページごとに渡されるプロパティ
+// ページごとに渡されるプロパティ（各英語ページから受け取る）
 interface Props {
   title: string;          // ページタイトル
   description?: string;   // メタディスクリプション
   ogImage?: string;       // OGP画像のURL
   type?: string;          // ページタイプ（website / article）
-  enPath?: string;        // 英語版ページのパス（hreflang用、なければ /en/）
+  jaPath?: string;        // 日本語版ページのパス（hreflang用）
 }
 
 const {
   title,
-  description = '名作椅子のすべてを、ここに。デザインの歴史を彩る名作チェアのデータベース。',
+  description = 'Everything about iconic chairs. A database of masterpiece chairs that shaped design history.',
   ogImage = '/images/og-default.jpg',
   type = 'website',
-  enPath = '/en/',  // 英語版ページのパス（デフォルトは英語版トップ）
+  jaPath = '/',           // デフォルトはトップページ
 } = Astro.props;
 
 // ページのフルタイトル
@@ -27,15 +28,18 @@ const fullTitle = title === 'The Chair Archive'
 // 現在のURL
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-// 英語版ページのURL（hreflang用）
-const enURL = new URL(enPath, Astro.site);
+// 日本語版ページのURL（hreflang用）
+const jaURL = new URL(jaPath, Astro.site);
 
-// グローバルCSS
+// 英語版ページのURL（hreflang用）
+const enURL = canonicalURL;
+
+// グローバルCSS（日本語版と同じスタイルを使用）
 import '../styles/global.css';
 ---
 
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -47,9 +51,9 @@ import '../styles/global.css';
   <link rel="canonical" href={canonicalURL} />
 
   <!-- hreflang タグ: Googleに日英ページの関係を伝える -->
-  <link rel="alternate" hreflang="ja" href={canonicalURL} />
+  <link rel="alternate" hreflang="ja" href={jaURL} />
   <link rel="alternate" hreflang="en" href={enURL} />
-  <link rel="alternate" hreflang="x-default" href={canonicalURL} />
+  <link rel="alternate" hreflang="x-default" href={jaURL} />
 
   <!-- OGP（SNSシェア用） -->
   <meta property="og:title" content={fullTitle} />
@@ -58,7 +62,7 @@ import '../styles/global.css';
   <meta property="og:url" content={canonicalURL} />
   <meta property="og:image" content={ogImage} />
   <meta property="og:site_name" content="The Chair Archive" />
-  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:locale" content="en_US" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -66,7 +70,7 @@ import '../styles/global.css';
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={ogImage} />
 
-  <!-- Google Fonts: Cormorant Garamond（英語用エレガントセリフ）+ Shippori Mincho（日本語明朝体） -->
+  <!-- Google Fonts: 日本語版と同じフォントを使用 -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -82,34 +86,35 @@ import '../styles/global.css';
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "The Chair Archive",
-    "url": "https://thechairarchive.com",
+    "url": "https://thechairarchive.com/en/",
     "description": description,
+    "inLanguage": "en",
     "publisher": {
       "@type": "Organization",
-      "name": "合同会社一凛",
+      "name": "Ichirin LLC",
       "email": "info@thechairarchive.com"
     }
   })} />
 </head>
 
 <body>
-  <!-- ヘッダー: サイト名を左、ナビゲーションを右 -->
+  <!-- ヘッダー: 日本語版と同じデザイン + 言語切り替えリンク -->
   <header class="site-header">
     <div class="site-header__inner">
-      <a href="/" class="site-header__logo">The Chair Archive</a>
+      <a href="/en/" class="site-header__logo">The Chair Archive</a>
 
       <nav class="site-header__nav" id="main-nav">
-        <a href="/">Archive</a>
-        <a href="/designers/">Designers</a>
+        <a href="/en/">Archive</a>
+        <a href="/en/designers/">Designers</a>
         <a href="/magazine/">Magazine</a>
         <a href="/compare/">Compare</a>
         <a href="/about/">About</a>
-        <!-- 言語切り替えリンク（英語版へ） -->
-        <a href={enPath} class="lang-switch" title="English">&#x1f1ec;&#x1f1e7;</a>
+        <!-- 言語切り替えリンク -->
+        <a href={jaPath} class="lang-switch" title="Japanese">&#x1f1ef;&#x1f1f5;</a>
       </nav>
 
       <!-- モバイルメニューボタン -->
-      <button class="site-header__menu-toggle" id="menu-toggle" aria-label="メニューを開く">
+      <button class="site-header__menu-toggle" id="menu-toggle" aria-label="Open menu">
         <span></span>
         <span></span>
         <span></span>
@@ -122,7 +127,7 @@ import '../styles/global.css';
     <slot />
   </main>
 
-  <!-- フッター: ミニマルデザイン -->
+  <!-- フッター -->
   <footer class="site-footer">
     <div class="site-footer__inner">
       <p class="site-footer__logo">The Chair Archive</p>
@@ -130,7 +135,7 @@ import '../styles/global.css';
         <a href="/about/">About</a>
         <a href="/privacy/">Privacy</a>
       </div>
-      <p class="site-footer__text">&copy; {new Date().getFullYear()} 合同会社一凛. All rights reserved.</p>
+      <p class="site-footer__text">&copy; {new Date().getFullYear()} Ichirin LLC. All rights reserved.</p>
     </div>
   </footer>
 

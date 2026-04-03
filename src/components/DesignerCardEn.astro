@@ -1,0 +1,28 @@
+---
+// DesignerCardEn.astro - 英語版デザイナーカード
+// 英語版デザイナー一覧ページで使用
+// 日本語版(DesignerCard.astro)と同じデザインで、リンク先が /en/designers/ に
+
+interface Props {
+  designer: {
+    id: string;
+    name: string;
+    nameJa: string;
+    born: string;
+    died: string;
+    country: string;
+    style: string;
+  };
+}
+
+const { designer } = Astro.props;
+---
+
+<!-- リンク先を英語版デザイナーページに -->
+<a href={`/en/designers/${designer.id}/`} class="designer-card">
+  <h3 class="designer-card__name">{designer.name}</h3>
+  <p class="designer-card__name-ja">{designer.nameJa}</p>
+  <p class="designer-card__meta">
+    {designer.born} – {designer.died} / {designer.country}
+  </p>
+</a>
