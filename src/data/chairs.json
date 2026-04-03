@@ -48,7 +48,14 @@
       "eames-lounge",
       "eames-daw"
     ],
-    "image": "/images/chairs/eames-shell-dsw.jpg"
+    "image": "/images/chairs/eames-shell-dsw.jpg",
+    "descriptionEn": "The quintessential Mid-Century Modern chair. Its organically curved molded plastic shell, paired with warm wooden dowel legs, creates a silhouette that feels as fresh today as it did in 1950. Charles and Ray Eames originally envisioned affordable, mass-produced furniture for everyday life — and the DSW delivered on that promise, becoming one of the most recognizable chairs in design history.",
+    "featuresEn": [
+      "Lightweight and easy to move",
+      "Wide range of color options",
+      "Versatile for dining or desk use",
+      "Timeless Mid-Century Modern icon"
+    ]
   },
   {
     "id": "wishbone-ch24",
@@ -99,7 +106,14 @@
       "the-chair-pp501",
       "ch07-shell"
     ],
-    "image": "/images/chairs/wishbone-ch24.jpg"
+    "image": "/images/chairs/wishbone-ch24.jpg",
+    "descriptionEn": "Known affectionately as the Y Chair, this is the crowning achievement of Nordic furniture design. The distinctive Y-shaped backrest and hand-woven paper cord seat have been continuously produced by Carl Hansen & Son for over 70 years. Renowned Japanese architect Tadao Ando famously chose this as the first piece of furniture he purchased when establishing his studio — a testament to its universal appeal across cultures.",
+    "featuresEn": [
+      "Hand-woven paper cord seat",
+      "Wegner’s most iconic design out of 500+ chairs",
+      "Equally at home in Eastern and Western interiors",
+      "Beautiful aging and patina over time"
+    ]
   },
   {
     "id": "barcelona-chair",
@@ -149,7 +163,14 @@
       "lc2",
       "wassily-b3"
     ],
-    "image": "/images/chairs/barcelona-chair.jpg"
+    "image": "/images/chairs/barcelona-chair.jpg",
+    "descriptionEn": "Originally created for the German Pavilion at the 1929 Barcelona International Exposition — designed to seat King Alfonso XIII of Spain — this chair is quite literally a throne for the modern age. The elegant X-shaped chrome frame supporting tufted leather cushions embodies Mies van der Rohe’s famous dictum ‘Less is More.’ Nearly a century later, it remains the definitive statement piece for luxury lobbies and executive offices worldwide.",
+    "featuresEn": [
+      "Bauhaus masterpiece of the 20th century",
+      "Staple of luxury hotels and executive offices",
+      "Elegant X-frame with flowing curves",
+      "Commanding presence in any room"
+    ]
   },
   {
     "id": "eames-lounge",
@@ -199,7 +220,14 @@
       "eames-shell-dsw",
       "eames-daw"
     ],
-    "image": "/images/chairs/eames-lounge.jpg"
+    "image": "/images/chairs/eames-lounge.jpg",
+    "descriptionEn": "Conceived as a modern take on the classic English club chair — with ‘the warm, receptive look of a well-used first baseman’s mitt’ — the Eames Lounge Chair is the ultimate in mid-century luxury. Its molded plywood shells, supple leather cushions, and polished aluminum base achieve a perfection of form that has never been surpassed. The iconic photograph of Steve Jobs and Bill Gates seated side by side in Eames Lounges became a defining image of the tech industry. A permanent fixture in MoMA’s collection.",
+    "featuresEn": [
+      "The ultimate relaxation experience",
+      "Includes matching ottoman",
+      "MoMA permanent collection",
+      "Pop culture icon featured in countless films and TV shows"
+    ]
   },
   {
     "id": "series7-3107",
@@ -249,7 +277,14 @@
       "ant-3100",
       "swan-chair"
     ],
-    "image": "/images/chairs/series7-3107.jpg"
+    "image": "/images/chairs/series7-3107.jpg",
+    "descriptionEn": "Often cited as the best-selling chair in history, the Series 7 is Arne Jacobsen’s genius distilled into a single sheet of pressure-molded veneer. Its sinuous curves, impossibly thin profile, and stackable practicality have made it a fixture in cafes, universities, and dining rooms across the globe. In 1963, model Christine Keeler posed straddling a Series 7 in one of the 20th century’s most famous photographs — forever linking this chair to the world of art and pop culture.",
+    "featuresEn": [
+      "The world’s best-selling chair",
+      "Stackable for easy storage",
+      "Vast range of colors and finishes",
+      "A staple of cafes and dining rooms worldwide"
+    ]
   },
   {
     "id": "tulip-chair",
@@ -299,7 +334,14 @@
       "eames-shell-dsw",
       "panton-chair"
     ],
-    "image": "/images/chairs/tulip-chair.jpg"
+    "image": "/images/chairs/tulip-chair.jpg",
+    "descriptionEn": "Born from Eero Saarinen’s desire to eliminate ‘the ugly, confusing, unrestful world under the chair’ caused by multiple legs, the Tulip Chair was a radical reimagining of seating. Its single pedestal base and molded shell create a clean, sculptural form that helped define the Space Age aesthetic. Paired with the matching Tulip Table, it offers a vision of purity and simplicity that still feels futuristic today.",
+    "featuresEn": [
+      "Revolutionary single-pedestal design",
+      "Perfect pairing with the Tulip Table",
+      "Easy floor cleaning underneath",
+      "Space Age design icon"
+    ]
   },
   {
     "id": "panton-chair",
@@ -350,7 +392,14 @@
       "s-chair",
       "tulip-chair"
     ],
-    "image": "/images/chairs/panton-chair.jpg"
+    "image": "/images/chairs/panton-chair.jpg",
+    "descriptionEn": "The world’s first single-piece injection-molded plastic chair — a feat of engineering and pop art bravado. Verner Panton’s cantilevered S-curve, produced after years of collaboration with Vitra, shattered every convention about what a chair could be. In 1995, supermodel Kate Moss posed on a Panton Chair for the cover of British Vogue, cementing its status at the intersection of design and fashion.",
+    "featuresEn": [
+      "World’s first single-piece molded plastic chair",
+      "Stackable for compact storage",
+      "Suitable for outdoor use",
+      "Bold, pop-art color palette"
+    ]
   },
   {
     "id": "the-chair-pp501",
@@ -401,7 +450,14 @@
       "wishbone-ch24",
       "ch07-shell"
     ],
-    "image": "/images/chairs/the-chair-pp501.jpg"
+    "image": "/images/chairs/the-chair-pp501.jpg",
+    "descriptionEn": "Simply called ‘The Chair’ — because no other name is needed. Hans Wegner’s supreme masterwork achieves a perfection of proportion and joinery that has never been equaled. Its moment of global fame came during the first-ever televised U.S. presidential debate in 1960, when John F. Kennedy and Richard Nixon sat in PP501s, sparking a worldwide Danish Modern craze overnight.",
+    "featuresEn": [
+      "‘The Chair of Chairs’ — Wegner’s masterpiece",
+      "Used in the historic 1960 Kennedy-Nixon debate",
+      "Flawless proportions and joinery",
+      "A lifetime investment in craft"
+    ]
   },
   {
     "id": "swan-chair",
@@ -452,7 +508,14 @@
       "egg-chair",
       "series7-3107"
     ],
-    "image": "/images/chairs/swan-chair.jpg"
+    "image": "/images/chairs/swan-chair.jpg",
+    "descriptionEn": "Designed exclusively for the SAS Royal Hotel in Copenhagen, the Swan Chair is Arne Jacobsen’s exercise in pure organic form — not a single straight line exists in its flowing silhouette. Its gently enveloping wings evoke the grace of a swan spreading its feathers, creating an intimate seat that feels like a sculptural embrace.",
+    "featuresEn": [
+      "Entirely free of straight lines",
+      "Created for the SAS Royal Hotel",
+      "360-degree swivel base",
+      "Enveloping, cocoon-like comfort"
+    ]
   },
   {
     "id": "egg-chair",
@@ -503,7 +566,14 @@
       "swan-chair",
       "ball-chair"
     ],
-    "image": "/images/chairs/egg-chair.jpg"
+    "image": "/images/chairs/egg-chair.jpg",
+    "descriptionEn": "A companion piece to the Swan, also created for the SAS Royal Hotel — yet the Egg Chair stands as a design icon in its own right. Its high-backed, ovoid shell wraps around the sitter to create a private refuge in the midst of any space. Frequently appearing in films and television as a symbol of sophistication and power, the Egg has become one of the most recognizable silhouettes in modern design.",
+    "featuresEn": [
+      "Creates a private, cocoon-like space",
+      "Enveloping high-back design",
+      "Optional matching ottoman",
+      "An icon of luxury hotel lobbies"
+    ]
   },
   {
     "id": "lc2",
@@ -553,7 +623,14 @@
       "barcelona-chair",
       "wassily-b3"
     ],
-    "image": "/images/chairs/lc2.jpg"
+    "image": "/images/chairs/lc2.jpg",
+    "descriptionEn": "Le Corbusier declared that ‘a house is a machine for living in,’ and the LC2 extends that philosophy to the armchair. Its exposed tubular steel frame holds plump leather cushions like a cage — a deliberate separation of structure and comfort that redefined furniture as ‘equipment for living.’ Co-designed with Charlotte Perriand and Pierre Jeanneret, the LC2 remains the ultimate expression of rationalist design.",
+    "featuresEn": [
+      "Designed by a master of modern architecture",
+      "Separate frame-and-cushion structure",
+      "Available as sofa and loveseat",
+      "Perfect complement to modernist interiors"
+    ]
   },
   {
     "id": "wassily-b3",
@@ -602,7 +679,14 @@
       "barcelona-chair",
       "lc2"
     ],
-    "image": "/images/chairs/wassily-b3.jpg"
+    "image": "/images/chairs/wassily-b3.jpg",
+    "descriptionEn": "Inspired by the tubular steel of a bicycle handlebar, the 22-year-old Marcel Breuer at the Bauhaus created what would become the genesis of all tubular steel furniture. Named after his colleague Wassily Kandinsky — who admired the prototype so much that Breuer made him one — the B3 is an astonishing achievement: nearly a century old and still utterly contemporary.",
+    "featuresEn": [
+      "The origin of all tubular steel furniture",
+      "A crystallization of Bauhaus philosophy",
+      "Visually lightweight and airy",
+      "A striking interior accent piece"
+    ]
   },
   {
     "id": "diamond-chair",
@@ -651,7 +735,14 @@
       "eames-shell-dsw",
       "panton-chair"
     ],
-    "image": "/images/chairs/diamond-chair.jpg"
+    "image": "/images/chairs/diamond-chair.jpg",
+    "descriptionEn": "Sculptor Harry Bertoia once said, ‘If you look at these chairs, they are mainly made of air, like sculpture. Space passes right through them.’ The Diamond Chair is that philosophy made tangible — a welded lattice of steel wire that blurs the line between furniture and fine art. Designed during his time at Knoll, it brings an openness and lightness to any space that few other chairs can match.",
+    "featuresEn": [
+      "Created by a sculptor, not just a designer",
+      "Transparent, airy wire construction",
+      "Suitable for indoor and outdoor use",
+      "Makes any space feel larger and lighter"
+    ]
   },
   {
     "id": "ball-chair",
@@ -701,7 +792,14 @@
       "egg-chair",
       "panton-chair"
     ],
-    "image": "/images/chairs/ball-chair.jpg"
+    "image": "/images/chairs/ball-chair.jpg",
+    "descriptionEn": "Eero Aarnio’s Ball Chair is a portal to another world. Step inside its hollowed-out sphere and the noise of the outside fades away, replaced by an intimate, womb-like cocoon of upholstered comfort. A defining object of the 1960s Space Age aesthetic, it has appeared in countless sci-fi films, music videos, and magazine editorials — and was even used as a stylish phone booth.",
+    "featuresEn": [
+      "Iconic symbol of the Space Age",
+      "Private, cocoon-like interior",
+      "Featured in countless films and music videos",
+      "Originally used as a stylish phone booth"
+    ]
   },
   {
     "id": "superleggera",
@@ -749,7 +847,14 @@
       "series7-3107",
       "ant-3100"
     ],
-    "image": "/images/chairs/superleggera.jpg"
+    "image": "/images/chairs/superleggera.jpg",
+    "descriptionEn": "At just 1.7 kg, the Superleggera (‘super light’ in Italian) can be lifted with a single finger — yet it comfortably supports a seated adult. Gio Ponti refined the traditional Chiavari chair from the Italian Riviera down to its structural essence, achieving an almost impossible balance between lightness and strength. It is Italian design philosophy — elegance through reduction — in its purest form.",
+    "featuresEn": [
+      "Weighs only 1.7 kg — liftable with one finger",
+      "Extreme lightness meets full structural integrity",
+      "The pinnacle of Italian design refinement",
+      "Durability and grace in perfect balance"
+    ]
   },
   {
     "id": "stool-60",
@@ -799,7 +904,14 @@
       "panton-chair",
       "eames-shell-dsw"
     ],
-    "image": "/images/chairs/stool-60.jpg"
+    "image": "/images/chairs/stool-60.jpg",
+    "descriptionEn": "Alvar Aalto’s three-legged stool is Nordic design reduced to its absolute essence: a round birch seat atop three bent L-legs. Over 90 years and more than 8 million units produced, Stool 60 has become the most successful piece of Finnish furniture ever made. It doubles as a side table, stacks beautifully, and embodies Aalto’s belief that good design should be as natural as the forests of Finland.",
+    "featuresEn": [
+      "Over 8 million units sold — the Finnish design icon",
+      "Stackable for easy storage",
+      "Doubles as a side table or display stand",
+      "Beautiful bent L-leg construction"
+    ]
   },
   {
     "id": "ch07-shell",
@@ -848,7 +960,14 @@
       "wishbone-ch24",
       "the-chair-pp501"
     ],
-    "image": "/images/chairs/ch07-shell.jpg"
+    "image": "/images/chairs/ch07-shell.jpg",
+    "descriptionEn": "A sculptural lounge chair whose wing-like shell hovers on three legs, the CH07 was so far ahead of its time when Wegner designed it in 1963 that the world wasn’t ready. Production ceased, and it wasn’t until the 2000s that Carl Hansen & Son revived it to widespread acclaim. Today it is recognized as one of Wegner’s most daring and visually striking creations.",
+    "featuresEn": [
+      "Wing-like sculptural shell",
+      "A design ahead of its time",
+      "Revived in the 2000s to critical acclaim",
+      "Stunning sculptural beauty"
+    ]
   },
   {
     "id": "eames-daw",
@@ -898,7 +1017,14 @@
       "eames-shell-dsw",
       "eames-lounge"
     ],
-    "image": "/images/chairs/eames-daw.jpg"
+    "image": "/images/chairs/eames-daw.jpg",
+    "descriptionEn": "The armchair sibling of the iconic DSW, the DAW adds welcoming armrests to the same beloved molded shell and wooden dowel base. The result is a chair that invites you to linger — equally suited to long dinner conversations and focused desk work. Like all Eames designs, it proves that comfort and beauty are not a compromise but a partnership.",
+    "featuresEn": [
+      "Supportive armrests for added comfort",
+      "Coordinates perfectly with the DSW",
+      "Comfortable for extended sitting",
+      "Versatile for dining and work"
+    ]
   },
   {
     "id": "ant-3100",
@@ -948,7 +1074,14 @@
       "series7-3107",
       "swan-chair"
     ],
-    "image": "/images/chairs/ant-3100.jpg"
+    "image": "/images/chairs/ant-3100.jpg",
+    "descriptionEn": "The chair that launched Arne Jacobsen’s furniture career and paved the way for the legendary Series 7. Originally designed with just three legs — a daring choice that gives it a distinctive, almost insect-like stance — the Ant proved that a single sheet of molded plywood could become a seat of astonishing grace. Light, stackable, and endlessly versatile, it is a staple of cafeterias and institutions across Scandinavia.",
+    "featuresEn": [
+      "The direct predecessor of the Series 7",
+      "Distinctive original three-legged design",
+      "Lightweight and stackable",
+      "A cafeteria and institution classic"
+    ]
   },
   {
     "id": "thonet-no14",
@@ -999,7 +1132,14 @@
       "stool-60",
       "superleggera"
     ],
-    "image": "/images/chairs/thonet-no14.jpg"
+    "image": "/images/chairs/thonet-no14.jpg",
+    "descriptionEn": "With over 200 million units sold since 1859, the Thonet No.14 is the best-selling chair in human history. Michael Thonet’s revolutionary bentwood technique — steam-bending solid beechwood into graceful curves — allowed the chair to be assembled from just 6 parts and 10 screws, and flat-packed for efficient shipping. It became the chair of the Parisian cafe, and more than 160 years later, it still is.",
+    "featuresEn": [
+      "The best-selling chair in history (200M+ units)",
+      "Only 6 parts and 10 screws",
+      "Revolutionary bentwood technique",
+      "The original cafe chair — for over 160 years"
+    ]
   },
   {
     "id": "colonial-ow149",
@@ -1049,7 +1189,14 @@
       "wishbone-ch24",
       "the-chair-pp501"
     ],
-    "image": "/images/chairs/colonial-ow149.jpg"
+    "image": "/images/chairs/colonial-ow149.jpg",
+    "descriptionEn": "Ole Wanscher’s masterpiece fuses the elegance of 18th-century British colonial furniture with the clean lines of Scandinavian modernism. Produced by Carl Hansen & Son, the Colonial Chair became internationally known as a favorite of the legendary musician Ryuichi Sakamoto, who was drawn to its generous proportions and supremely relaxed comfort. A chair that bridges centuries of craft tradition.",
+    "featuresEn": [
+      "Beloved by musician Ryuichi Sakamoto",
+      "Colonial elegance meets Nordic modernism",
+      "Generous, deeply relaxing comfort",
+      "Handcrafted by Carl Hansen & Son"
+    ]
   },
   {
     "id": "aeron-chair",
@@ -1107,7 +1254,14 @@
       "eames-lounge",
       "colonial-ow149"
     ],
-    "image": "/images/chairs/aeron-chair.jpg"
+    "image": "/images/chairs/aeron-chair.jpg",
+    "descriptionEn": "The chair that redefined what an office chair could be. Don Chadwick and Bill Stumpf’s Aeron replaced traditional foam padding with a breathable mesh membrane called Pellicle, creating a seat that conforms to the body while keeping it cool. During the dot-com boom, the Aeron became Silicon Valley’s ultimate status symbol — dubbed ‘the chair of success.’ Ryuichi Sakamoto used one for his studio work. A MoMA permanent collection piece with a 12-year warranty.",
+    "featuresEn": [
+      "Ryuichi Sakamoto’s studio work chair",
+      "MoMA permanent collection",
+      "Silicon Valley’s iconic status symbol",
+      "12-year warranty — the gold standard of ergonomics"
+    ]
   },
   {
     "id": "butterfly-stool",
@@ -1157,7 +1311,14 @@
       "stool-60",
       "panton-chair"
     ],
-    "image": "/images/chairs/butterfly-stool.jpg"
+    "image": "/images/chairs/butterfly-stool.jpg",
+    "descriptionEn": "The only globally iconic chair by a Japanese designer. Sori Yanagi — son of mingei (folk craft) pioneer Soetsu Yanagi and former assistant to Charlotte Perriand — joined two curved plywood shells with a brass rod to create a form as delicate and poetic as a butterfly in flight. Winner of the Gold Medal at the 1957 Milan Triennale, and held in the permanent collections of both MoMA and the Louvre. Manufactured by Tendo Mokko.",
+    "featuresEn": [
+      "Permanent collections of MoMA and the Louvre",
+      "1957 Milan Triennale Gold Medal",
+      "Japan’s most celebrated furniture design",
+      "Crafted by Tendo Mokko"
+    ]
   },
   {
     "id": "peacock-pp550",
@@ -1208,7 +1369,14 @@
       "wishbone-ch24",
       "the-chair-pp501"
     ],
-    "image": "/images/chairs/peacock-pp550.svg"
+    "image": "/images/chairs/peacock-pp550.svg",
+    "descriptionEn": "One of Wegner’s earliest masterpieces, the Peacock Chair transforms the traditional Windsor chair into a work of Nordic Modern art. Its soaring back — with spindles fanning out like a peacock’s tail — is breathtaking in its craftsmanship. An iconic photograph of Audrey Hepburn seated in this chair became one of the most famous images in design history, elevating it to a symbol of timeless elegance. Produced by PP Mobler.",
+    "featuresEn": [
+      "Made famous by an iconic Audrey Hepburn photograph",
+      "Peacock-tail fan back inspired by Windsor tradition",
+      "Nordic Modern reinterpretation of a classic",
+      "Handcrafted by PP Mobler"
+    ]
   },
   {
     "id": "kennedy-rocker",
@@ -1257,7 +1425,14 @@
       "colonial-ow149",
       "the-chair-pp501"
     ],
-    "image": "/images/chairs/kennedy-rocker.svg"
+    "image": "/images/chairs/kennedy-rocker.svg",
+    "descriptionEn": "President John F. Kennedy’s personal chair — and quite possibly the most politically significant piece of furniture in American history. After his doctor recommended a rocking chair for chronic back pain, JFK became so devoted to this design that he purchased 14 of them, placing one in the Oval Office itself. He rocked in it during the tense deliberations of the Cuban Missile Crisis. Made by the P&P Chair Company of North Carolina.",
+    "featuresEn": [
+      "JFK loved it so much he bought 14",
+      "Used in the Oval Office at the White House",
+      "The chair that witnessed the Cuban Missile Crisis",
+      "Ergonomically designed for back support"
+    ]
   },
   {
     "id": "djinn-chair",
@@ -1309,6 +1484,13 @@
       "ball-chair",
       "panton-chair"
     ],
-    "image": "/images/chairs/djinn-chair.svg"
+    "image": "/images/chairs/djinn-chair.svg",
+    "descriptionEn": "When Stanley Kubrick needed furniture for the space station lobby in ‘2001: A Space Odyssey’ (1968), he chose Olivier Mourgue’s Djinn Chair — and turned it into one of the most famous props in cinema history. Its undulating, jersey-covered form in vivid red perfectly captured Kubrick’s vision of a sleek, unsettling future. One of the most recognized chairs in film, and a permanent fixture in MoMA’s collection.",
+    "featuresEn": [
+      "Featured in Kubrick’s ‘2001: A Space Odyssey’",
+      "One of the most famous chairs in cinema history",
+      "Flowing, organic curves",
+      "MoMA permanent collection"
+    ]
   }
 ]

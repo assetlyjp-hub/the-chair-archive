@@ -44,8 +44,8 @@ jobs:
       - name: Install Python dependencies
         run: pip install anthropic
 
-      # スケジュール実行時は曜日ローテーションで記事タイプを切り替え
-      - name: Generate articles (scheduled)
+      # スケジュール実行時は曜日ローテーションで記事タイプを切り替え（日本語）
+      - name: Generate articles - Japanese (scheduled)
         if: github.event_name == 'schedule'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -58,11 +58,28 @@ jobs:
             4) TYPE="comparison" ;;
             5) TYPE="story" ;;
           esac
-          echo "Today is day $DOW, generating: $TYPE"
+          echo "Today is day $DOW, generating Japanese: $TYPE"
           python scripts/generate-articles.py --type $TYPE --limit 2
 
-      # 手動実行時は指定されたタイプで生成
-      - name: Generate articles (manual)
+      # スケジュール実行時: 日本語の後に英語記事も2記事生成
+      - name: Generate articles - English (scheduled)
+        if: github.event_name == 'schedule'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DOW=$(date +%u)
+          case $DOW in
+            1) TYPE="usecase" ;;
+            2) TYPE="style" ;;
+            3) TYPE="designer" ;;
+            4) TYPE="comparison" ;;
+            5) TYPE="story" ;;
+          esac
+          echo "Today is day $DOW, generating English: $TYPE"
+          python scripts/generate-articles.py --type $TYPE --limit 2 --lang en
+
+      # 手動実行時は指定されたタイプで生成（日本語）
+      - name: Generate articles - Japanese (manual)
         if: github.event_name == 'workflow_dispatch'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -71,12 +88,23 @@ jobs:
             --type ${{ inputs.article_type }} \
             --limit ${{ inputs.limit }}
 
+      # 手動実行時: 日本語の後に英語記事も生成
+      - name: Generate articles - English (manual)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python scripts/generate-articles.py \
+            --type ${{ inputs.article_type }} \
+            --limit ${{ inputs.limit }} \
+            --lang en
+
       # 生成された記事をコミット & プッシュ
       - name: Commit and push
         run: |
           git config user.name "chair-archive-bot"
           git config user.email "bot@thechairarchive.com"
-          git add src/content/articles/
+          git add src/content/articles/ src/content/articles/en/
           if git diff --cached --quiet; then
             echo "No new articles generated"
           else

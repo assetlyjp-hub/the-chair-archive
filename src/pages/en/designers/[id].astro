@@ -1,0 +1,83 @@
+---
+// en/designers/[id].astro - 英語版デザイナー詳細ページ
+// 日本語版(src/pages/designers/[id].astro)と同じデザインで、テキストだけ英語に
+
+import BaseEn from '../../../layouts/BaseEn.astro';
+import ChairCard from '../../../components/ChairCard.astro';
+import ChairModalEn from '../../../components/ChairModalEn.astro';
+
+// データ読み込み
+import designersData from '../../../data/designers.json';
+import chairsData from '../../../data/chairs.json';
+
+// 静的パスの生成（全デザイナーのページを事前生成）
+export function getStaticPaths() {
+  return designersData.map(designer => ({
+    params: { id: designer.id },
+  }));
+}
+
+// URLパラメータからデザイナーを特定
+const { id } = Astro.params;
+const designer = designersData.find(d => d.id === id);
+
+// デザイナーが見つからない場合は一覧にリダイレクト
+if (!designer) {
+  return Astro.redirect('/en/designers/');
+}
+
+// そのデザイナーの作品を取得
+const works = chairsData.filter(chair => chair.designerId === designer.id);
+
+// 英語のbioを使用（フォールバックで日本語）
+const bio = (designer as any).bioEn || designer.bio;
+---
+
+<BaseEn
+  title={designer.name}
+  description={`Biography and notable works of ${designer.name}`}
+  jaPath={`/designers/${designer.id}/`}
+>
+  <!-- デザイナー情報ヘッダー -->
+  <div class="page-header">
+    <h1 class="page-header__title">{designer.name}</h1>
+    <p class="page-header__description">{designer.nameJa}</p>
+  </div>
+
+  <div class="container section">
+    <!-- 経歴セクション -->
+    <div style="max-width: var(--container-narrow); margin: 0 auto var(--space-xl);">
+      <div style="display: flex; gap: var(--space-lg); flex-wrap: wrap; margin-bottom: var(--space-lg);">
+        <div>
+          <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Born / Died</p>
+          <p style="font-size: 0.9rem;">{designer.born} – {designer.died}</p>
+        </div>
+        <div>
+          <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Country</p>
+          <p style="font-size: 0.9rem;">{designer.country}</p>
+        </div>
+        <div>
+          <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Style</p>
+          <p style="font-size: 0.9rem;">{designer.style}</p>
+        </div>
+      </div>
+
+      <!-- 英語版の経歴テキスト -->
+      <p style="font-size: 0.95rem; line-height: 2; color: var(--color-accent);">{bio}</p>
+    </div>
+
+    <!-- 作品一覧 -->
+    <div style="border-top: 1px solid var(--color-border); padding-top: var(--space-lg);">
+      <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: var(--space-lg); text-align: center;">Notable Works</h2>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: var(--space-md);">
+        {works.map(chair => (
+          <ChairCard chair={chair} size="small" />
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <!-- モーダル（英語版） -->
+  <ChairModalEn />
+</BaseEn>

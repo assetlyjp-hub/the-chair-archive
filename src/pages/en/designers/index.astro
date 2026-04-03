@@ -1,0 +1,31 @@
+---
+// en/designers/index.astro - 英語版デザイナー一覧ページ
+// 日本語版(src/pages/designers/index.astro)と同じデザインで、テキストだけ英語に
+
+import BaseEn from '../../../layouts/BaseEn.astro';
+import DesignerCardEn from '../../../components/DesignerCardEn.astro';
+
+// デザイナーデータ読み込み
+import designersData from '../../../data/designers.json';
+---
+
+<BaseEn
+  title="Designers"
+  description="The master designers behind the world's most iconic chairs. Eames, Wegner, Jacobsen, and more."
+  jaPath="/designers/"
+>
+  <!-- ページヘッダー -->
+  <div class="page-header">
+    <h1 class="page-header__title">Designers</h1>
+    <p class="page-header__description">The masters who shaped the world of chairs</p>
+  </div>
+
+  <!-- デザイナー一覧グリッド -->
+  <div class="container section">
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md);">
+      {designersData.map(designer => (
+        <DesignerCardEn designer={designer} />
+      ))}
+    </div>
+  </div>
+</BaseEn>

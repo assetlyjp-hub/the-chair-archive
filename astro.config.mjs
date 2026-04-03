@@ -12,4 +12,12 @@ export default defineConfig({
     sitemap(),  // サイトマップ自動生成
     mdx(),      // MDXファイルサポート
   ],
+  // 多言語（i18n）設定
+  i18n: {
+    defaultLocale: 'ja',       // デフォルト言語: 日本語
+    locales: ['ja', 'en'],     // 対応言語: 日本語 と 英語
+    routing: {
+      prefixDefaultLocale: false,  // 日本語は / のまま、英語は /en/ プレフィックス
+    },
+  },
 });
