@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <!-- 背景 -->
+  <rect width="400" height="500" fill="#F5F5F5"/>
+
+  <!-- ケネディ・ロッキングチェア - ラダーバック＋ロッカー -->
+  <g transform="translate(80, 60)" stroke="#B0B0B0" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 背もたれのフレーム（ラダーバック） -->
+    <line x1="60" y1="0" x2="50" y2="200" />
+    <line x1="180" y1="0" x2="170" y2="200" />
+    <!-- ラダーの横棒 -->
+    <path d="M 62 30 Q 120 20 178 30" />
+    <path d="M 64 70 Q 120 60 176 70" />
+    <path d="M 66 110 Q 120 100 174 110" />
+    <path d="M 68 150 Q 120 140 172 150" />
+    <!-- 座面（編み込みシート） -->
+    <path d="M 50 200 L 170 200 L 190 220 L 30 220 Z" />
+    <!-- 座面のテクスチャライン -->
+    <line x1="60" y1="200" x2="50" y2="220" opacity="0.4" />
+    <line x1="90" y1="200" x2="80" y2="220" opacity="0.4" />
+    <line x1="120" y1="200" x2="110" y2="220" opacity="0.4" />
+    <line x1="150" y1="200" x2="140" y2="220" opacity="0.4" />
+    <!-- アームレスト -->
+    <path d="M 55 140 Q 20 145 10 160 Q 5 175 15 185 L 30 220" />
+    <path d="M 175 140 Q 210 145 220 160 Q 225 175 215 185 L 190 220" />
+    <!-- 前脚 -->
+    <line x1="35" y1="220" x2="25" y2="310" />
+    <line x1="185" y1="220" x2="205" y2="310" />
+    <!-- 後脚 -->
+    <line x1="50" y1="200" x2="40" y2="310" />
+    <line x1="170" y1="200" x2="195" y2="310" />
+    <!-- ロッカー（曲線の底部） -->
+    <path d="M 5 310 Q 60 325 120 325 Q 180 325 230 310" stroke-width="3" />
+  </g>
+
+  <!-- テキスト -->
+  <text x="200" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#BBBBBB" letter-spacing="2">KENNEDY ROCKER</text>
+  <text x="200" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#CCCCCC" letter-spacing="2">THE CHAIR ARCHIVE</text>
+</svg>

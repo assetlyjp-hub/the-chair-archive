@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <!-- 背景 -->
+  <rect width="400" height="500" fill="#F5F5F5"/>
+
+  <!-- ジンチェア - 低く流れるような一体型フォルム（2001年宇宙の旅） -->
+  <g transform="translate(40, 120)" stroke="#B0B0B0" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 一体型の流線形ボディ -->
+    <!-- 背もたれから座面、前端までの一続きのカーブ -->
+    <path d="M 60 0
+             Q 50 10 45 40
+             Q 40 80 50 120
+             Q 55 140 60 160
+             L 60 180
+             Q 65 200 80 210
+             Q 120 230 200 230
+             Q 260 230 290 220
+             Q 310 210 315 190
+             L 315 170"
+          stroke-width="2.5" />
+    <!-- 上部のライン（背もたれトップ） -->
+    <path d="M 60 0
+             Q 100 -10 180 -5
+             Q 240 0 280 20
+             Q 310 40 315 170"
+          stroke-width="2.5" />
+    <!-- 内側のクッションライン -->
+    <path d="M 75 20 Q 80 80 75 140 Q 80 170 100 190 Q 140 210 200 210 Q 260 210 290 195 Q 300 180 300 160"
+          stroke="#C8C8C8" stroke-width="1.5" />
+    <!-- 座面のステッチライン -->
+    <line x1="90" y1="190" x2="280" y2="190" stroke="#D0D0D0" stroke-width="1" />
+    <!-- 脚部（低いアルミベース） -->
+    <path d="M 80 230 L 80 260 Q 80 270 90 270 L 230 270 Q 240 270 240 260 L 240 230" stroke-width="2" />
+    <!-- ベースの影 -->
+    <line x1="95" y1="270" x2="225" y2="270" stroke="#D5D5D5" stroke-width="3" />
+  </g>
+
+  <!-- テキスト -->
+  <text x="200" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#BBBBBB" letter-spacing="2">DJINN CHAIR</text>
+  <text x="200" y="462" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#CCCCCC" letter-spacing="2">THE CHAIR ARCHIVE</text>
+</svg>

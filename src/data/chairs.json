@@ -1208,7 +1208,7 @@
       "wishbone-ch24",
       "the-chair-pp501"
     ],
-    "image": "/images/chairs/peacock-pp550.jpg"
+    "image": "/images/chairs/peacock-pp550.svg"
   },
   {
     "id": "kennedy-rocker",
@@ -1257,7 +1257,7 @@
       "colonial-ow149",
       "the-chair-pp501"
     ],
-    "image": "/images/chairs/kennedy-rocker.jpg"
+    "image": "/images/chairs/kennedy-rocker.svg"
   },
   {
     "id": "djinn-chair",
@@ -1309,6 +1309,6 @@
       "ball-chair",
       "panton-chair"
     ],
-    "image": "/images/chairs/djinn-chair.jpg"
+    "image": "/images/chairs/djinn-chair.svg"
   }
 ]
