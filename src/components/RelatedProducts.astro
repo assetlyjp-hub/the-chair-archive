@@ -1,0 +1,107 @@
+---
+// RelatedProducts.astro - 記事で紹介した商品カード
+// フロントマターのrelatedChairsからマッチした椅子を表示
+
+// 椅子データの型定義
+interface Chair {
+  id: string;
+  name: string;
+  nameJa: string;
+  designer: string;
+  designerJa?: string;
+  year: number;
+  priceRange: { authentic: number; replica: number };
+  affiliateUrls: { official: string; amazon: string; rakuten: string };
+  image?: string;
+  materials: string[];
+  materialsEn?: string[];
+}
+
+// コンポーネントのプロパティ
+interface Props {
+  chairs: Chair[];  // マッチした椅子の配列
+  lang?: 'ja' | 'en';  // 言語（デフォルト: ja）
+}
+
+const { chairs, lang = 'ja' } = Astro.props;
+---
+
+{/* 椅子データがある場合のみセクションを表示 */}
+{chairs.length > 0 && (
+  <section class="related-products">
+    <h2 class="related-products__title">
+      {lang === 'ja' ? 'この記事で紹介した椅子' : 'Featured Chairs in This Article'}
+    </h2>
+    <div class="related-products__grid">
+      {chairs.map((chair) => (
+        <div class="related-products__card">
+          {/* 椅子の画像 */}
+          <div class="related-products__image">
+            <img
+              src={chair.image || `/images/chairs/${chair.id}.jpg`}
+              alt={lang === 'ja' ? chair.nameJa : chair.name}
+              loading="lazy"
+            />
+          </div>
+
+          {/* 椅子の情報 */}
+          <div class="related-products__info">
+            {/* 椅子の名前（詳細ページへのリンク） */}
+            <h3 class="related-products__name">
+              <a href={`/chairs/${chair.id}/`}>
+                {lang === 'ja' ? chair.nameJa : chair.name}
+              </a>
+            </h3>
+
+            {/* デザイナー名と年代 */}
+            <p class="related-products__meta">
+              {lang === 'ja' && chair.designerJa ? chair.designerJa : chair.designer} · {chair.year}
+            </p>
+
+            {/* 正規品の参考価格 */}
+            <p class="related-products__price">
+              ¥{chair.priceRange.authentic.toLocaleString()}〜
+            </p>
+
+            {/* 素材情報 */}
+            <p class="related-products__materials">
+              {(lang === 'en' && chair.materialsEn ? chair.materialsEn : chair.materials).join(' / ')}
+            </p>
+
+            {/* 購入リンクボタン群 */}
+            <div class="related-products__links">
+              {/* 詳細ページへのリンク */}
+              <a href={`/chairs/${chair.id}/`} class="related-products__btn related-products__btn--detail">
+                {lang === 'ja' ? '詳細を見る' : 'View Details'}
+              </a>
+
+              {/* Amazonアフィリエイトリンク */}
+              {chair.affiliateUrls.amazon && (
+                <a
+                  href={chair.affiliateUrls.amazon}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  class="related-products__btn related-products__btn--amazon"
+                >
+                  Amazon
+                </a>
+              )}
+
+              {/* 楽天アフィリエイトリンク */}
+              {chair.affiliateUrls.rakuten && (
+                <a
+                  href={chair.affiliateUrls.rakuten}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  class="related-products__btn related-products__btn--rakuten"
+                >
+                  {lang === 'ja' ? '楽天' : 'Rakuten'}
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+)}

@@ -3,7 +3,9 @@
 // Content Layer APIを使ってMarkdown記事をレンダリング
 
 import Article from '../../layouts/Article.astro';
+import RelatedProducts from '../../components/RelatedProducts.astro';
 import { getCollection, render } from 'astro:content';
+import chairsData from '../../data/chairs.json';
 
 // 静的パスの生成
 export async function getStaticPaths() {
@@ -16,6 +18,35 @@ export async function getStaticPaths() {
 
 const { article } = Astro.props;
 const { Content } = await render(article);
+
+// relatedChairsフロントマターから椅子をマッチ
+// 記事によってIDで指定されている場合と、表示名で指定されている場合がある
+const relatedNames: string[] = article.data.relatedChairs || [];
+const matchedChairs = relatedNames
+  .map((nameOrId: string) => {
+    // まずIDで完全一致を試す
+    const byId = chairsData.find((c: any) => c.id === nameOrId);
+    if (byId) return byId;
+
+    // 次に英語名・日本語名で完全一致を試す
+    const byName = chairsData.find((c: any) =>
+      c.name === nameOrId || c.nameJa === nameOrId
+    );
+    if (byName) return byName;
+
+    // 部分一致を試す（名前の一部が含まれている場合）
+    const byPartial = chairsData.find((c: any) =>
+      c.name.includes(nameOrId) ||
+      nameOrId.includes(c.name) ||
+      c.nameJa.includes(nameOrId) ||
+      nameOrId.includes(c.nameJa)
+    );
+    return byPartial || null;
+  })
+  .filter(Boolean);
+
+// 記事が英語版かどうかを判定（article.idがen/で始まるか）
+const isEn = article.id.startsWith('en/');
 ---
 
 <Article
@@ -27,4 +58,5 @@ const { Content } = await render(article);
   tags={article.data.tags}
 >
   <Content />
+  <RelatedProducts chairs={matchedChairs} lang={isEn ? 'en' : 'ja'} />
 </Article>

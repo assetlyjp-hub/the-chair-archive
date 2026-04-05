@@ -1034,3 +1034,165 @@ body.menu-open {
 body.modal-open {
   overflow: hidden;
 }
+
+/* ===== 記事内 商品カード（Featured Products） ===== */
+
+/* セクション全体 */
+.related-products {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+/* セクションタイトル */
+.related-products__title {
+  font-family: var(--font-body);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+  color: var(--color-text);
+}
+
+/* カードのグリッド（縦並び） */
+.related-products__grid {
+  display: grid;
+  gap: var(--space-md);
+}
+
+/* 各カード（横並びレイアウト） */
+.related-products__card {
+  display: flex;
+  gap: var(--space-md);
+  border: 1px solid var(--color-border);
+  padding: var(--space-md);
+  transition: border-color var(--transition-base);
+}
+
+.related-products__card:hover {
+  border-color: var(--color-accent);
+}
+
+/* 画像エリア */
+.related-products__image {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-hover);
+  overflow: hidden;
+}
+
+.related-products__image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* 情報エリア */
+.related-products__info {
+  flex: 1;
+  min-width: 0;
+}
+
+/* 椅子の名前 */
+.related-products__name {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.related-products__name a {
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+.related-products__name a:hover {
+  color: var(--color-accent);
+}
+
+/* デザイナー名・年代 */
+.related-products__meta {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-bottom: 0.3rem;
+}
+
+/* 価格表示 */
+.related-products__price {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.3rem;
+}
+
+/* 素材情報 */
+.related-products__materials {
+  font-size: 0.8rem;
+  color: var(--color-muted);
+  margin-bottom: 0.5rem;
+}
+
+/* ボタン群 */
+.related-products__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+/* ボタン共通スタイル */
+.related-products__btn {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  font-family: var(--font-body);
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.03em;
+  transition: opacity var(--transition-base);
+}
+
+.related-products__btn:hover {
+  opacity: 0.8;
+}
+
+/* 詳細ボタン（サイトのメインボタンスタイル） */
+.related-products__btn--detail {
+  background: var(--color-button);
+  color: var(--color-button-text);
+}
+
+/* Amazonボタン */
+.related-products__btn--amazon {
+  background: #FF9900;
+  color: #000;
+}
+
+/* 楽天ボタン */
+.related-products__btn--rakuten {
+  background: #BF0000;
+  color: #fff;
+}
+
+/* モバイル対応（600px以下で縦並びに切り替え） */
+@media (max-width: 600px) {
+  .related-products__card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .related-products__image {
+    width: 100%;
+    height: 160px;
+  }
+
+  .related-products__links {
+    justify-content: center;
+  }
+}
