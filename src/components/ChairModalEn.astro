@@ -99,7 +99,7 @@ function formatPrice(price: number): string {
         </div>
         <div class="modal__spec-item">
           <span class="modal__spec-label">Materials</span>
-          <span class="modal__spec-value">${chair.materials.join(', ')}</span>
+          <span class="modal__spec-value">${(chair.materialsEn || chair.materials).join(', ')}</span>
         </div>
         <div class="modal__spec-item">
           <span class="modal__spec-label">Style</span>
