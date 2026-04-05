@@ -1,0 +1,21 @@
+---
+// 404.astro - ページが見つからない場合のエラーページ
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="Page Not Found"
+  description="お探しのページが見つかりません。"
+>
+  <div class="page-header">
+    <h1 class="page-header__title">404</h1>
+    <p class="page-header__description">Page Not Found</p>
+  </div>
+
+  <div class="container" style="text-align: center; padding-bottom: var(--space-xl); max-width: var(--container-narrow); margin: 0 auto;">
+    <p style="margin-bottom: var(--space-lg); line-height: 1.9; color: var(--color-muted);">
+      お探しのページは削除されたか、URLが変更された可能性があります。
+    </p>
+    <a href="/" style="font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent); text-decoration: none; border-bottom: 1px solid var(--color-accent); padding-bottom: 0.2rem;">Back to Archive</a>
+  </div>
+</Base>

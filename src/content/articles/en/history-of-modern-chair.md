@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "The Evolution of Modern Chair Design: Stories Behind Iconic Furniture That Changed the World"
 description: "Discover the fascinating history of modern chair design from 1859 to 1994, exploring the stories behind legendary pieces like the Eames Lounge Chair, Barcelona Chair, and Wegner's masterpieces that revolutionized how we think about furniture."
@@ -84,4 +83,3 @@ These iconic chairs represent more than just seating solutions—they embody the
 Today, these pieces continue to influence contemporary design, proving that truly great design transcends time and trends. They remind us that the best furniture doesn't just serve a function—it tells a story, evokes emotion, and connects us to the visionary minds that created it.
 
 The evolution of modern chair design reflects humanity's ongoing quest to improve daily life through thoughtful design. Each chair in this lineage represents a moment when form, function, technology, and human need aligned to create something truly extraordinary—furniture that doesn't just furnish our spaces, but enriches our lives.
-```
