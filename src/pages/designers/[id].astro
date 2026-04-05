@@ -34,8 +34,15 @@ const works = chairsData.filter(chair => chair.designerId === designer.id);
   title={designer.name}
   description={`${designer.nameJa}（${designer.name}）の経歴と代表作品`}
 >
+  <!-- 一覧への戻りリンク -->
+  <div class="container" style="padding-top: calc(var(--space-md) + 60px);">
+    <a href="/designers/" style="font-size: 0.85rem; color: var(--color-muted); text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: color 0.2s;">
+      <span>&larr;</span> Back to Designers
+    </a>
+  </div>
+
   <!-- デザイナー情報ヘッダー -->
-  <div class="page-header">
+  <div class="page-header" style="padding-top: var(--space-sm);">
     <h1 class="page-header__title">{designer.name}</h1>
     <p class="page-header__description">{designer.nameJa}</p>
   </div>

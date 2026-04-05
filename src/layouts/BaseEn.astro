@@ -109,8 +109,8 @@ import '../styles/global.css';
         <a href="/magazine/">Magazine</a>
         <a href="/compare/">Compare</a>
         <a href="/about/">About</a>
-        <!-- 言語切り替えリンク -->
-        <a href={jaPath} class="lang-switch" title="Japanese">&#x1f1ef;&#x1f1f5;</a>
+        <!-- 言語切り替えリンク（日本語版へ） -->
+        <a href={jaPath} class="lang-switch" title="日本語">JA</a>
       </nav>
 
       <!-- モバイルメニューボタン -->
@@ -121,6 +121,9 @@ import '../styles/global.css';
       </button>
     </div>
   </header>
+
+  <!-- モバイルメニュー用オーバーレイ -->
+  <div class="menu-overlay" id="menu-overlay"></div>
 
   <!-- メインコンテンツ（各ページが差し込まれる） -->
   <main>
@@ -135,26 +138,44 @@ import '../styles/global.css';
         <a href="/about/">About</a>
         <a href="/privacy/">Privacy</a>
       </div>
+      <!-- Archive Series links -->
+      <p class="site-footer__series" style="font-size: 0.7rem; color: var(--color-muted); margin-bottom: var(--space-sm); letter-spacing: 0.03em;">
+        Archive Series:
+        <a href="https://japaneseknifearchive.com" target="_blank" rel="noopener noreferrer" style="color: var(--color-muted);">Knives</a> &middot;
+        <a href="https://thepenarchive.com" target="_blank" rel="noopener noreferrer" style="color: var(--color-muted);">Pens</a> &middot;
+        <a href="https://coffeegeararchive.com" target="_blank" rel="noopener noreferrer" style="color: var(--color-muted);">Coffee</a> &middot;
+        <a href="https://bootcraftarchive.com" target="_blank" rel="noopener noreferrer" style="color: var(--color-muted);">Boots</a> &middot;
+        <strong>Chairs</strong>
+      </p>
       <p class="site-footer__text">&copy; {new Date().getFullYear()} Ichirin LLC. All rights reserved.</p>
     </div>
   </footer>
 
   <!-- モバイルメニューの開閉スクリプト -->
   <script>
-    // メニューボタンとナビゲーションの要素を取得
     const menuToggle = document.getElementById('menu-toggle');
     const mainNav = document.getElementById('main-nav');
+    const menuOverlay = document.getElementById('menu-overlay');
 
-    // メニューボタンをクリックしたときの処理
-    menuToggle?.addEventListener('click', () => {
-      mainNav?.classList.toggle('is-open');
-    });
+    function toggleMenu() {
+      const isOpen = mainNav?.classList.toggle('is-open');
+      menuToggle?.classList.toggle('is-open', isOpen);
+      menuOverlay?.classList.toggle('is-open', isOpen);
+      document.body.classList.toggle('menu-open', isOpen);
+    }
 
-    // ナビリンクをクリックしたらメニューを閉じる
+    function closeMenu() {
+      mainNav?.classList.remove('is-open');
+      menuToggle?.classList.remove('is-open');
+      menuOverlay?.classList.remove('is-open');
+      document.body.classList.remove('menu-open');
+    }
+
+    menuToggle?.addEventListener('click', toggleMenu);
+    menuOverlay?.addEventListener('click', closeMenu);
+
     mainNav?.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        mainNav?.classList.remove('is-open');
-      });
+      link.addEventListener('click', closeMenu);
     });
   </script>
 </body>

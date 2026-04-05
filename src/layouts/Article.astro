@@ -25,8 +25,13 @@ function formatDate(dateStr: string): string {
 
 <Base title={title} description={description} type="article">
   <article class="article-layout">
+    <!-- 記事一覧へ戻るリンク（上部） -->
+    <nav style="padding-top: calc(var(--space-2xl) + 60px); margin-bottom: var(--space-md);">
+      <a href="/magazine/" class="article-back-link">&larr; Back to Magazine</a>
+    </nav>
+
     <!-- 記事ヘッダー -->
-    <header style="padding-top: calc(var(--space-2xl) + 60px); margin-bottom: var(--space-lg);">
+    <header style="margin-bottom: var(--space-lg);">
       <!-- カテゴリラベル -->
       <p style="font-family: var(--font-display); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); margin-bottom: var(--space-sm);">
         {category}
@@ -57,5 +62,10 @@ function formatDate(dateStr: string): string {
     <div class="article-content">
       <slot />
     </div>
+
+    <!-- 記事一覧へ戻るリンク（下部） -->
+    <nav style="margin-top: var(--space-xl); padding-top: var(--space-md); border-top: 1px solid var(--color-border);">
+      <a href="/magazine/" class="article-back-link">&larr; Back to Magazine</a>
+    </nav>
   </article>
 </Base>
