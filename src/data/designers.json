@@ -73,7 +73,8 @@
     "bio": "近代建築の三大巨匠の一人。「住宅は住むための機械である」と唱え、建築のみならず都市計画、家具デザインにまで革命をもたらしました。LC2をはじめとするLCシリーズは、シャルロット・ペリアン、ピエール・ジャンヌレとの共作です。",
     "style": "bauhaus",
     "notableWorks": [
-      "lc2"
+      "lc2",
+      "lc4-chaise-longue"
     ],
     "bioEn": "One of the three great masters of modern architecture. Le Corbusier declared ‘a house is a machine for living in’ and revolutionized not only architecture but urban planning and furniture design. The LC series, including the iconic LC2, was co-created with Charlotte Perriand and Pierre Jeanneret."
   },
@@ -102,7 +103,8 @@
     "bio": "フィンランド生まれ、アメリカで活躍した建築家・デザイナー。JFK国際空港のTWAターミナルやゲートウェイアーチなど、彫刻的な建築で知られます。「椅子の脚という醜いもの」をなくしたいという思いから生まれたチューリップチェアは、ペデスタル家具の先駆けとなりました。",
     "style": "mid-century",
     "notableWorks": [
-      "tulip-chair"
+      "tulip-chair",
+      "womb-chair"
     ],
     "bioEn": "A Finnish-born architect and designer who made his mark in America. Known for sculptural buildings like the TWA Terminal at JFK Airport and the Gateway Arch, Saarinen’s desire to eliminate ‘the ugly legs of chairs’ led to the Tulip Chair—a pioneering work of pedestal furniture."
   },
@@ -203,5 +205,47 @@
       "djinn-chair"
     ],
     "bioEn": "A French interior designer and sculptor who trained at the École des Arts Décoratifs. Mourgue gained international fame when Stanley Kubrick selected his Djinn Chair for the space station scenes in ‘2001: A Space Odyssey.’ His work is defined by organic forms and a futuristic sensibility."
+  },
+  {
+    "id": "philippe-starck",
+    "name": "Philippe Starck",
+    "nameJa": "フィリップ・スタルク",
+    "born": "1949",
+    "died": "-",
+    "country": "France",
+    "bio": "フランスが生んだ現代デザイン界のスーパースター。家具、インテリア、建築、日用品からヨットまで、あらゆるジャンルを手がける多作なデザイナー。1982年、当時のミッテラン大統領からエリゼ宮の内装を依頼されたことで一躍脚光を浴び、カフェ・コステスのためにデザインしたコステスチェアで世界的名声を確立。ユーモアと挑発に満ちたポストモダンデザインの旗手。",
+    "style": "postmodern",
+    "notableWorks": [
+      "costes-chair"
+    ],
+    "bioEn": "A French superstar of contemporary design who works across furniture, interiors, architecture, everyday objects, and even superyachts. Starck burst into the spotlight in 1982 when President Mitterrand commissioned him to redesign the Élysée Palace interiors, and his Costes Chair for Paris’s Café Costes established his worldwide reputation. A champion of postmodern design filled with wit and provocation."
+  },
+  {
+    "id": "naoto-fukasawa",
+    "name": "Naoto Fukasawa",
+    "nameJa": "深澤直人",
+    "born": "1956",
+    "died": "-",
+    "country": "Japan",
+    "bio": "日本を代表するプロダクトデザイナー。IDEO東京オフィスの設立に携わった後、独立。「Without Thought（意識の中心にデザインを置かない）」という独自の哲学で、人が無意識に求める形を追求しています。無印良品の壁掛式CDプレーヤーやマルニ木工のHIROSHIMAチェアなど、日常に溶け込む名プロダクトを多数手がけ、日本民藝館の館長も務めています。",
+    "style": "contemporary",
+    "notableWorks": [
+      "hiroshima-arm-chair"
+    ],
+    "bioEn": "One of Japan’s foremost product designers. After helping establish IDEO’s Tokyo office, Fukasawa went independent, guided by his philosophy of ‘Without Thought’ — designing objects that people reach for unconsciously. His acclaimed works include the MUJI wall-mounted CD player and the Hiroshima Chair for Maruni Wood Industry. He also serves as director of the Japan Folk Crafts Museum."
+  },
+  {
+    "id": "konstantin-grcic",
+    "name": "Konstantin Grcic",
+    "nameJa": "コンスタンティン・グルチッチ",
+    "born": "1965",
+    "died": "-",
+    "country": "Germany",
+    "bio": "ミュンヘンを拠点に活動するドイツのインダストリアルデザイナー。ロンドンのRCAで学び、ジャスパー・モリソンの事務所を経て独立。論理的な構造分析と大胆な造形を融合させた「ニュー・ブルータリズム」とも評されるデザインで知られます。マジス社のチェアワンは21世紀を代表する名作として世界中の美術館に収蔵されています。",
+    "style": "contemporary",
+    "notableWorks": [
+      "magis-chair-one"
+    ],
+    "bioEn": "A German industrial designer based in Munich. After studying at the Royal College of Art in London and working under Jasper Morrison, Grcic established his own studio. Known for a ‘New Brutalist’ approach that fuses rigorous structural analysis with bold sculptural form, his Chair One for Magis is recognized as a 21st-century icon and held in museum collections worldwide."
   }
 ]

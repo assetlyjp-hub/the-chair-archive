@@ -4,6 +4,7 @@ description: "Discover the fascinating history of modern chair design from 1859 
 category: story
 tags: ["design history", "iconic chairs", "modernist furniture", "mid-century design", "bauhaus", "scandinavian design"]
 publishedAt: "2026-04-03"
+updatedAt: "2026-04-06"
 relatedChairs: ["Eames Lounge Chair", "Barcelona Chair", "Wishbone Chair", "Wassily Chair", "The Chair PP501"]
 articleType: story
 ---

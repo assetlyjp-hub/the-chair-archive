@@ -4,6 +4,7 @@ description: "生涯500脚以上の椅子をデザインした「椅子の巨匠
 category: "designer"
 tags: ["ハンス・ウェグナー", "北欧デザイン", "デンマーク"]
 publishedAt: "2026-03-20"
+updatedAt: "2026-04-06"
 relatedChairs: ["wishbone-ch24", "the-chair-pp501", "ch07-shell"]
 articleType: "feature"
 ---

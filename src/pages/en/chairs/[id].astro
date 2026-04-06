@@ -1,0 +1,218 @@
+---
+// en/chairs/[id].astro - Chair detail page (English version)
+// Dynamic routing for each chair's detailed information
+// SEO: Product JSON-LD for rich snippets
+
+import BaseEn from '../../../layouts/BaseEn.astro';
+import ChairCard from '../../../components/ChairCard.astro';
+
+// Data imports
+import chairsData from '../../../data/chairs.json';
+import designersData from '../../../data/designers.json';
+
+// Static path generation
+export function getStaticPaths() {
+  return chairsData.map((chair) => ({
+    params: { id: chair.id },
+  }));
+}
+
+// Get chair ID from URL
+const { id } = Astro.params;
+
+// Find chair data
+const chair = chairsData.find(c => c.id === id);
+if (!chair) return Astro.redirect('/en/');
+
+// Find designer data
+const designer = designersData.find(d => d.id === chair.designerId);
+
+// Get related chairs
+const relatedChairs = chair.relatedChairs
+  .map(relId => chairsData.find(c => c.id === relId))
+  .filter(Boolean);
+
+// Price formatter (JPY)
+function formatPrice(price: number): string {
+  return `¥${price.toLocaleString()}`;
+}
+
+// JSON-LD structured data (Product schema)
+const productJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": chair.name,
+  "description": chair.descriptionEn || chair.description,
+  "image": new URL(chair.image, Astro.site).href,
+  "brand": {
+    "@type": "Brand",
+    "name": chair.designer,
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "lowPrice": chair.priceRange.replica || chair.priceRange.authentic,
+    "highPrice": chair.priceRange.authentic,
+    "priceCurrency": "JPY",
+    "availability": "https://schema.org/InStock",
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": chair.rating,
+    "bestRating": 5,
+    "worstRating": 1,
+    "ratingCount": 1,
+  },
+  "additionalProperty": [
+    { "@type": "PropertyValue", "name": "Designer", "value": chair.designer },
+    { "@type": "PropertyValue", "name": "Year", "value": String(chair.year) },
+    { "@type": "PropertyValue", "name": "Style", "value": chair.style },
+    { "@type": "PropertyValue", "name": "Country", "value": chair.country },
+  ],
+};
+---
+
+<BaseEn
+  title={chair.name}
+  description={(chair.descriptionEn || chair.description).slice(0, 160)}
+  ogImage={chair.image}
+  jaPath={`/chairs/${chair.id}/`}
+  jsonLd={productJsonLd}
+>
+  <!-- Back link -->
+  <div class="container" style="padding-top: calc(var(--space-md) + 60px);">
+    <a href="/en/" style="font-size: 0.85rem; color: var(--color-muted); text-decoration: none; display: inline-flex; align-items: center; gap: 0.3rem; transition: color 0.2s;">
+      <span>&larr;</span> Back to Archive
+    </a>
+  </div>
+
+  <!-- Chair detail header -->
+  <div class="page-header" style="padding-top: var(--space-sm);">
+    <p style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-accent); margin-bottom: 0.5rem; font-family: var(--font-display);">
+      {chair.style.charAt(0).toUpperCase() + chair.style.slice(1)} · {chair.year}
+    </p>
+    <h1 class="page-header__title" style="font-family: var(--font-display);">{chair.name}</h1>
+    <p class="page-header__description">
+      by {chair.designer}
+    </p>
+  </div>
+
+  <div class="container section" style="max-width: var(--container-narrow); margin: 0 auto;">
+    <!-- Chair image -->
+    <div style="text-align: center; margin-bottom: var(--space-lg);">
+      <img
+        src={chair.image}
+        alt={chair.name}
+        style="max-width: 100%; max-height: 500px; object-fit: contain;"
+        onerror="this.onerror=null; this.src='/images/chairs/placeholder.svg';"
+      />
+    </div>
+
+    <!-- Description -->
+    <div style="margin-bottom: var(--space-lg); line-height: 2; font-size: 0.95rem;">
+      <p>{chair.descriptionEn || chair.description}</p>
+    </div>
+
+    <!-- Specifications -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: var(--space-sm); margin-bottom: var(--space-lg); padding: var(--space-md); border: 1px solid var(--color-border);">
+      <div>
+        <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Width</p>
+        <p style="font-size: 0.9rem;">{chair.dimensions.width} cm</p>
+      </div>
+      <div>
+        <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Depth</p>
+        <p style="font-size: 0.9rem;">{chair.dimensions.depth} cm</p>
+      </div>
+      <div>
+        <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Height</p>
+        <p style="font-size: 0.9rem;">{chair.dimensions.height} cm</p>
+      </div>
+      <div>
+        <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Seat Height</p>
+        <p style="font-size: 0.9rem;">{chair.dimensions.seatHeight} cm</p>
+      </div>
+      <div>
+        <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Weight</p>
+        <p style="font-size: 0.9rem;">{chair.weight} kg</p>
+      </div>
+      <div>
+        <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Materials</p>
+        <p style="font-size: 0.9rem;">{(chair.materialsEn || chair.materials).join(', ')}</p>
+      </div>
+      <div>
+        <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Colors</p>
+        <p style="font-size: 0.9rem;">{(chair.colorsEn || chair.colors).join(', ')}</p>
+      </div>
+      <div>
+        <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Country</p>
+        <p style="font-size: 0.9rem;">{chair.country}</p>
+      </div>
+    </div>
+
+    <!-- Price Range -->
+    <div style="margin-bottom: var(--space-lg); padding: var(--space-md); border: 1px solid var(--color-border);">
+      <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: var(--space-sm);">Price Range</p>
+      <p style="font-size: 1.1rem; font-family: var(--font-display);">
+        Authentic: {formatPrice(chair.priceRange.authentic)}
+        {chair.priceRange.replica && ` / Replica: ${formatPrice(chair.priceRange.replica)}`}
+      </p>
+    </div>
+
+    <!-- Features -->
+    <div style="margin-bottom: var(--space-lg);">
+      <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: var(--space-sm);">Features</p>
+      <ul style="display: flex; flex-wrap: wrap; gap: var(--space-xs); list-style: none;">
+        {(chair.featuresEn || chair.features).map((f: string) => (
+          <li style="font-size: 0.8rem; padding: 0.3rem 0.8rem; border: 1px solid var(--color-border);">{f}</li>
+        ))}
+      </ul>
+    </div>
+
+    <!-- Buy links -->
+    <div style="display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-bottom: var(--space-xl);">
+      {chair.affiliateUrls.amazon ? (
+        <a href={chair.affiliateUrls.amazon} target="_blank" rel="nofollow noopener" class="btn btn--filled">View on Amazon</a>
+      ) : (
+        <span class="btn btn--filled" style="opacity:0.4; cursor:default;">Amazon (Coming Soon)</span>
+      )}
+      {chair.affiliateUrls.rakuten ? (
+        <a href={chair.affiliateUrls.rakuten} target="_blank" rel="nofollow noopener" class="btn">View on Rakuten</a>
+      ) : (
+        <span class="btn" style="opacity:0.4; cursor:default;">Rakuten (Coming Soon)</span>
+      )}
+      {chair.affiliateUrls.official ? (
+        <a href={chair.affiliateUrls.official} target="_blank" rel="noopener" class="btn">Official Site</a>
+      ) : (
+        <span class="btn" style="opacity:0.4; cursor:default;">Official Site (Coming Soon)</span>
+      )}
+    </div>
+
+    <!-- Designer info -->
+    {designer && (
+      <div style="border-top: 1px solid var(--color-border); padding-top: var(--space-lg); margin-bottom: var(--space-lg);">
+        <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: var(--space-sm);">Designer</p>
+        <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: var(--space-sm);">
+          <a href={`/en/designers/${designer.id}/`} style="color: var(--color-text); text-decoration: none;">
+            {designer.name}
+          </a>
+        </h2>
+        <p style="font-size: 0.9rem; line-height: 1.8;">{(designer.bioEn || designer.bio).slice(0, 200)}…
+          <a href={`/en/designers/${designer.id}/`} style="color: var(--color-accent);">Read more</a>
+        </p>
+      </div>
+    )}
+
+    <!-- Related chairs -->
+    {relatedChairs.length > 0 && (
+      <div style="border-top: 1px solid var(--color-border); padding-top: var(--space-lg);">
+        <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: var(--space-lg); text-align: center;">Related Chairs</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: var(--space-md);">
+          {relatedChairs.map(rc => (
+            <a href={`/en/chairs/${rc.id}/`} style="text-decoration: none; color: inherit;">
+              <ChairCard chair={rc} size="small" />
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+</BaseEn>

@@ -4,6 +4,7 @@ description: "名作ダイニングチェアの二大巨頭、イームズ シ�
 category: "comparison"
 tags: ["イームズ", "ウィッシュボーン", "比較", "ダイニングチェア"]
 publishedAt: "2026-03-15"
+updatedAt: "2026-04-06"
 relatedChairs: ["eames-shell-dsw", "wishbone-ch24"]
 articleType: "comparison"
 ---
