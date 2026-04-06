@@ -1,10 +1,8 @@
 ---
-// ChairGrid.astro - 大小混合グリッドレイアウト
-// 大1枚 + 小3枚のパターンを繰り返し、大の位置は左右交互
+// ChairGrid.astro - 均等サイズのグリッドレイアウト
 
 import ChairCard from './ChairCard.astro';
 
-// 椅子データの型
 interface Chair {
   id: string;
   name: string;
@@ -21,33 +19,10 @@ interface Props {
 }
 
 const { chairs } = Astro.props;
-
-// 4脚ずつのグループに分割する関数
-// 例: 20脚 → [[0,1,2,3], [4,5,6,7], [8,9,10,11], ...]
-function chunkArray(arr: Chair[], size: number): Chair[][] {
-  const chunks: Chair[][] = [];
-  for (let i = 0; i < arr.length; i += size) {
-    chunks.push(arr.slice(i, i + size));
-  }
-  return chunks;
-}
-
-// 4脚ずつのグループに分割
-const groups = chunkArray(chairs, 4);
 ---
 
-<!-- グリッド全体のコンテナ -->
 <div class="chair-grid" id="chair-grid">
-  {groups.map((group, groupIndex) => (
-    <!-- 各グループ: 大1 + 小3 -->
-    <div class="chair-grid__group">
-      {group.map((chair, index) => (
-        <!-- 最初の1脚が大カード、残り3脚が小カード -->
-        <ChairCard
-          chair={chair}
-          size={index === 0 ? 'large' : 'small'}
-        />
-      ))}
-    </div>
+  {chairs.map((chair) => (
+    <ChairCard chair={chair} />
   ))}
 </div>

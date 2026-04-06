@@ -490,66 +490,19 @@ p {
   accent-color: var(--color-text);
 }
 
-/* === 大小混合グリッドレイアウト === */
+/* === 均等グリッドレイアウト === */
 .chair-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: var(--space-sm);
 }
 
-/* 4脚ずつのグループ（大1 + 小3） */
-.chair-grid__group {
-  display: grid;
-  gap: var(--space-sm);
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
-}
-
-/* 偶数グループは左右反転 */
-.chair-grid__group:nth-child(even) {
-  grid-template-columns: 1fr 2fr;
-}
-
-/* 大きいカード: 3行分を占める */
-.chair-grid__group .chair-card-wrapper:first-child {
-  grid-row: 1 / 4;
-}
-
-/* 偶数グループの大きいカード: 2列目に配置 */
-.chair-grid__group:nth-child(even) .chair-card-wrapper:first-child {
-  grid-column: 2;
-  grid-row: 1 / 4;
-}
-
-/* 偶数グループの小さいカード: 1列目に配置 */
-.chair-grid__group:nth-child(even) .chair-card-wrapper:not(:first-child) {
-  grid-column: 1;
-}
-
-/* === フィルタリング中のフラットグリッド === */
-/* フィルター適用時、グループ構造を無効化して隙間なく並べる */
-.chair-grid.is-filtering {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: var(--space-sm);
-}
-
-/* グループの入れ子グリッドを解除し、子要素を親グリッドに直接流す */
-.chair-grid.is-filtering .chair-grid__group {
-  display: contents;
-}
-
-/* フィルタリング中は大小の区別をなくし、統一サイズで表示 */
-.chair-grid.is-filtering .chair-card--large,
-.chair-grid.is-filtering .chair-card--small {
-  aspect-ratio: 1 / 1;
-}
-
-/* 大カードのアスペクト比 3:4 */
-.chair-card--large {
+/* カードのアスペクト比 */
+.chair-card {
   aspect-ratio: 3 / 4;
 }
 
-/* 小カードのアスペクト比 1:1 */
+/* 関連椅子など小さいカード用 */
 .chair-card--small {
   aspect-ratio: 1 / 1;
 }
@@ -961,29 +914,9 @@ body.menu-open {
     font-size: 1.1rem;
   }
 
-  /* グリッドをスマホ対応（2列均等） */
-  .chair-grid__group {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-  }
-
-  .chair-grid__group .chair-card-wrapper:first-child {
-    grid-row: auto;
-    grid-column: 1 / -1;
-  }
-
-  .chair-grid__group:nth-child(even) .chair-card-wrapper:first-child {
-    grid-column: 1 / -1;
-    grid-row: auto;
-  }
-
-  .chair-grid__group:nth-child(even) .chair-card-wrapper:not(:first-child) {
-    grid-column: auto;
-  }
-
-  /* 大カードもアスペクト比を調整 */
-  .chair-card--large {
-    aspect-ratio: 16 / 9;
+  /* グリッドをスマホ対応（2列） */
+  .chair-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   /* フィルターバー */
@@ -1036,12 +969,8 @@ body.menu-open {
     font-size: 2.5rem;
   }
 
-  .chair-grid__group {
+  .chair-grid {
     grid-template-columns: 1fr;
-  }
-
-  .chair-card--small {
-    aspect-ratio: 4 / 3;
   }
 
   .modal__specs {

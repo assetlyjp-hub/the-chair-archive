@@ -2,7 +2,6 @@
 // ChairCard.astro - 椅子カードコンポーネント
 // ホバーすると「本めくり」のように右端がめくれて、価格がチラ見えする演出
 
-// カードに渡すプロパティ
 interface Props {
   chair: {
     id: string;
@@ -14,7 +13,7 @@ interface Props {
     priceRange: { authentic: number; replica: number };
     image: string;
   };
-  size: 'large' | 'small';  // 大カード or 小カード
+  size?: 'small';  // 関連椅子で使う小サイズ用（オプション）
 }
 
 const { chair, size } = Astro.props;
@@ -25,15 +24,14 @@ function formatPrice(price: number): string {
 }
 ---
 
-<!-- カードのラッパー（3D空間のperspectiveを設定） -->
+<!-- カードのラッパー -->
 <div
   class="chair-card-wrapper"
   data-chair-id={chair.id}
   data-style={chair.style}
   data-price={chair.priceRange.authentic}
 >
-  <!-- カード本体 -->
-  <div class={`chair-card chair-card--${size}`}>
+  <div class={`chair-card${size === 'small' ? ' chair-card--small' : ''}`}>
     <!-- 椅子画像 -->
     <img
       src={chair.image}
