@@ -9,9 +9,23 @@ import ChairModal from '../components/ChairModal.astro';
 
 // 椅子データの読み込み
 import chairsData from '../data/chairs.json';
+
+// ItemList JSON-LD: Google検索結果でカルーセル表示の可能性を高める
+const itemListJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Iconic Designer Chairs",
+  "numberOfItems": chairsData.length,
+  "itemListElement": chairsData.map((chair, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "url": `https://thechairarchive.com/chairs/${chair.id}/`,
+    "name": chair.name,
+  })),
+};
 ---
 
-<Base title="The Chair Archive">
+<Base title="The Chair Archive" jsonLd={itemListJsonLd}>
   <!-- ヒーローセクション: 大きなタイポグラフィ -->
   <section class="hero">
     <h1 class="hero__title">The Chair Archive</h1>

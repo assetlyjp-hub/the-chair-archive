@@ -1,0 +1,53 @@
+---
+// en/magazine/index.astro - English Magazine page
+import BaseEn from '../../../layouts/BaseEn.astro';
+import { getCollection } from 'astro:content';
+
+// Get English articles only (en/ prefix)
+const articles = await getCollection('articles');
+const sortedArticles = articles
+  .filter(a => a.id.startsWith('en/'))
+  .sort((a, b) =>
+    new Date(b.data.publishedAt).getTime() - new Date(a.data.publishedAt).getTime()
+  );
+
+const categoryLabels: Record<string, string> = {
+  usecase: 'Use Case',
+  style: 'Style Guide',
+  price: 'Price Guide',
+  designer: 'Designer',
+  comparison: 'Comparison',
+  story: 'Story',
+};
+---
+
+<BaseEn
+  title="Magazine"
+  description="Articles about iconic chairs. Buying guides, comparisons, history, and more."
+  jaPath="/magazine/"
+>
+  <div class="page-header">
+    <h1 class="page-header__title">Magazine</h1>
+    <p class="page-header__description">Stories and guides about iconic chairs</p>
+  </div>
+
+  <div class="container section">
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space-md);">
+      {sortedArticles.map(article => (
+        <a href={`/en/articles/${article.id.replace('en/', '')}/`} class="article-card">
+          <div class="article-card__body">
+            <p class="article-card__category">{categoryLabels[article.data.category] || article.data.category}</p>
+            <h3 class="article-card__title">{article.data.title}</h3>
+            <p class="article-card__excerpt">{article.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    {sortedArticles.length === 0 && (
+      <p style="text-align: center; color: var(--color-muted); padding: var(--space-xl);">
+        Articles coming soon.
+      </p>
+    )}
+  </div>
+</BaseEn>

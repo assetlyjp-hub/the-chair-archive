@@ -4,6 +4,7 @@ description: "在宅勤務を快適にする名作椅子を厳選。長時間の
 category: "usecase"
 tags: ["テレワーク", "デスクワーク", "おすすめ"]
 publishedAt: "2026-04-01"
+updatedAt: "2026-04-06"
 relatedChairs: ["eames-shell-dsw", "eames-daw", "series7-3107", "ant-3100", "wishbone-ch24"]
 articleType: "guide"
 ---

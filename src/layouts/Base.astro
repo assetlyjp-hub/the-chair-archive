@@ -9,6 +9,7 @@ interface Props {
   ogImage?: string;       // OGP画像のURL
   type?: string;          // ページタイプ（website / article）
   enPath?: string;        // 英語版ページのパス（hreflang用、なければ /en/）
+  jsonLd?: object;        // 追加のJSON-LD構造化データ
 }
 
 const {
@@ -17,6 +18,7 @@ const {
   ogImage = '/images/og-default.jpg',
   type = 'website',
   enPath = '/en/',  // 英語版ページのパス（デフォルトは英語版トップ）
+  jsonLd,
 } = Astro.props;
 
 // ページのフルタイトル
@@ -90,6 +92,11 @@ import '../styles/global.css';
       "email": "info@thechairarchive.com"
     }
   })} />
+
+  <!-- 追加のJSON-LD（ページ固有の構造化データ） -->
+  {jsonLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  )}
 </head>
 
 <body>
@@ -130,6 +137,10 @@ import '../styles/global.css';
     <div class="site-footer__inner">
       <p class="site-footer__logo">The Chair Archive</p>
       <div class="site-footer__links">
+        <a href="/">Archive</a>
+        <a href="/designers/">Designers</a>
+        <a href="/magazine/">Magazine</a>
+        <a href="/compare/">Compare</a>
         <a href="/about/">About</a>
         <a href="/privacy/">Privacy</a>
       </div>

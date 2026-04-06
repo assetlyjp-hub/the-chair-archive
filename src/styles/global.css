@@ -525,6 +525,25 @@ p {
   grid-column: 1;
 }
 
+/* === フィルタリング中のフラットグリッド === */
+/* フィルター適用時、グループ構造を無効化して隙間なく並べる */
+.chair-grid.is-filtering {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-sm);
+}
+
+/* グループの入れ子グリッドを解除し、子要素を親グリッドに直接流す */
+.chair-grid.is-filtering .chair-grid__group {
+  display: contents;
+}
+
+/* フィルタリング中は大小の区別をなくし、統一サイズで表示 */
+.chair-grid.is-filtering .chair-card--large,
+.chair-grid.is-filtering .chair-card--small {
+  aspect-ratio: 1 / 1;
+}
+
 /* 大カードのアスペクト比 3:4 */
 .chair-card--large {
   aspect-ratio: 3 / 4;

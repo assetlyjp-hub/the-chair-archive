@@ -4,6 +4,7 @@ description: "バウハウス運動が家具デザインにもたらした革命
 category: "story"
 tags: ["バウハウス", "bauhaus", "デザイン史", "名作椅子", "モダンデザイン"]
 publishedAt: "2026-04-03"
+updatedAt: "2026-04-06"
 relatedChairs: ["Barcelona Chair", "Wassily Chair (B3)", "LC2"]
 articleType: "story"
 ---

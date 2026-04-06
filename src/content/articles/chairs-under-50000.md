@@ -4,6 +4,7 @@ description: "予算5万円以内で購入できるデザイナーズチェア�
 category: "price"
 tags: ["予算別", "お手頃", "正規品"]
 publishedAt: "2026-03-25"
+updatedAt: "2026-04-06"
 relatedChairs: ["stool-60", "panton-chair", "eames-shell-dsw", "eames-daw"]
 articleType: "guide"
 ---

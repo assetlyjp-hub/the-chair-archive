@@ -4,6 +4,7 @@ description: "1940〜60年代のアメリカを中心に花開いたミッドセ
 category: "style"
 tags: ["ミッドセンチュリー", "デザイン史", "入門ガイド"]
 publishedAt: "2026-03-28"
+updatedAt: "2026-04-06"
 relatedChairs: ["eames-shell-dsw", "eames-lounge", "tulip-chair", "diamond-chair", "eames-daw"]
 articleType: "guide"
 ---

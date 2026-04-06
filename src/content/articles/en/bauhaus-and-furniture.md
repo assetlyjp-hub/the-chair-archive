@@ -4,6 +4,7 @@ description: "Discover the fascinating stories behind the Barcelona Chair, LC2, 
 category: story
 tags: ["bauhaus", "modern design", "chair history", "barcelona chair", "wassily chair", "LC2", "design revolution"]
 publishedAt: "2026-04-03"
+updatedAt: "2026-04-06"
 relatedChairs: ["Barcelona Chair", "LC2", "Wassily Chair"]
 articleType: story
 ---

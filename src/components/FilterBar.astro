@@ -42,6 +42,8 @@
   function filterCards() {
     // すべてのカードを取得
     const cards = document.querySelectorAll('.chair-card-wrapper[data-chair-id]');
+    // フィルターが有効かどうか（"all" 以外のスタイル、または価格上限が変更されている場合）
+    const isFiltering = currentStyle !== 'all' || currentMaxPrice < 1000000;
 
     cards.forEach(card => {
       const style = card.getAttribute('data-style');
@@ -58,6 +60,17 @@
         (card as HTMLElement).style.display = 'none';
       }
     });
+
+    // グリッド全体にフィルタリング中クラスを付与/除去
+    // フィルター中はグループ構造を無効化し、フラットなグリッドで隙間なく並べる
+    const grid = document.getElementById('chair-grid');
+    if (grid) {
+      if (isFiltering) {
+        grid.classList.add('is-filtering');
+      } else {
+        grid.classList.remove('is-filtering');
+      }
+    }
   }
 
   // スタイルフィルターボタンのクリック処理

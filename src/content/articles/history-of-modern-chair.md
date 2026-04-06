@@ -4,6 +4,7 @@ description: "1925年から1990年代までの近代椅子デザインの歴史�
 category: "story"
 tags: ["椅子の歴史", "バウハウス", "北欧デザイン", "ミッドセンチュリー", "モダンデザイン", "名作椅子"]
 publishedAt: "2026-04-03"
+updatedAt: "2026-04-06"
 relatedChairs: ["Wassily Chair (B3)", "Barcelona Chair", "Eames Lounge Chair", "Wishbone Chair (CH24)", "Series 7 (3107)"]
 articleType: "story"
 ---
