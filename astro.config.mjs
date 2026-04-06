@@ -4,14 +4,18 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 
+import cloudflare from '@astrojs/cloudflare';
+
 export default defineConfig({
   // 本番サイトのURL
   site: 'https://thechairarchive.com',
+
   // 使用するインテグレーション
   integrations: [
     sitemap(),  // サイトマップ自動生成
     mdx(),      // MDXファイルサポート
   ],
+
   // 多言語（i18n）設定
   i18n: {
     defaultLocale: 'ja',       // デフォルト言語: 日本語
@@ -20,4 +24,6 @@ export default defineConfig({
       prefixDefaultLocale: false,  // 日本語は / のまま、英語は /en/ プレフィックス
     },
   },
+
+  adapter: cloudflare(),
 });
