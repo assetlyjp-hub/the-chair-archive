@@ -2165,5 +2165,407 @@
       "series7-3107"
     ],
     "image": "/images/chairs/magis-chair-one.webp"
+  },
+  {
+    "id": "cesca-chair-b32",
+    "name": "Cesca Chair (B32)",
+    "nameJa": "チェスカチェア B32",
+    "designer": "Marcel Breuer",
+    "designerJa": "マルセル・ブロイヤー",
+    "designerId": "marcel-breuer",
+    "year": 1928,
+    "style": "bauhaus",
+    "country": "Austria/Germany",
+    "description": "バウハウスを代表する名作チェア。スチールパイプのカンチレバー構造が、脚のないフローティング感を生み出します。キャンバスとケイン（籐）の座面・背もたれが、冷たいスチールに温かみを添える絶妙なバランス。20世紀の椅子デザインを決定づけた一脚。",
+    "dimensions": {
+      "width": 46,
+      "depth": 57,
+      "height": 80,
+      "seatHeight": 45
+    },
+    "weight": 5.5,
+    "materials": [
+      "スチールパイプ",
+      "ケイン（籐）",
+      "ビーチ材"
+    ],
+    "colors": [
+      "ナチュラルケイン",
+      "ブラックフレーム",
+      "クロームフレーム"
+    ],
+    "priceRange": {
+      "authentic": 150000,
+      "replica": 25000
+    },
+    "rating": 4.7,
+    "features": [
+      "カンチレバー構造による浮遊感",
+      "スチールと天然素材のコントラスト",
+      "バウハウスデザインの象徴",
+      "ダイニングに最適"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": ""
+    },
+    "relatedChairs": [
+      "eames-shell-dsw",
+      "prouve-standard",
+      "tolix-chair-a"
+    ],
+    "image": "/images/chairs/cesca-chair-b32.webp",
+    "descriptionEn": "The quintessential Bauhaus chair. Marcel Breuer's cantilevered tubular steel frame eliminates traditional legs, creating a floating sensation that was revolutionary in 1928. The woven cane seat and back add warmth to the industrial steel, achieving a perfect balance of form and function that defined 20th-century chair design.",
+    "featuresEn": [
+      "Cantilevered structure creates floating effect",
+      "Contrast of steel and natural materials",
+      "Icon of Bauhaus design",
+      "Perfect for dining spaces"
+    ],
+    "materialsEn": [
+      "Tubular Steel",
+      "Cane",
+      "Beech Wood"
+    ],
+    "colorsEn": [
+      "Natural Cane",
+      "Black Frame",
+      "Chrome Frame"
+    ]
+  },
+  {
+    "id": "eames-aluminum-group",
+    "name": "Eames Aluminum Group",
+    "nameJa": "イームズ アルミナムグループ",
+    "designer": "Charles & Ray Eames",
+    "designerJa": "チャールズ＆レイ・イームズ",
+    "designerId": "charles-ray-eames",
+    "year": 1958,
+    "style": "mid-century",
+    "country": "USA",
+    "description": "イームズ夫妻がアレキサンダー・ジラードの自宅のために設計したアウトドアチェアが原型。アルミフレームにレザーやメッシュを張った軽量かつエレガントなデザインは、エグゼクティブオフィスから住宅まで幅広く愛されています。半世紀以上経っても色褪せないモダンデザインの傑作。",
+    "dimensions": {
+      "width": 58,
+      "depth": 60,
+      "height": 83,
+      "seatHeight": 44
+    },
+    "weight": 11.5,
+    "materials": [
+      "アルミニウム",
+      "レザー"
+    ],
+    "colors": [
+      "ブラックレザー",
+      "ホワイトレザー",
+      "タンレザー"
+    ],
+    "priceRange": {
+      "authentic": 350000,
+      "replica": 50000
+    },
+    "rating": 4.8,
+    "features": [
+      "軽量アルミフレーム",
+      "チルト＆スウィベル機構",
+      "オフィスにも住宅にも",
+      "エイジレスなミッドセンチュリーデザイン"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": ""
+    },
+    "relatedChairs": [
+      "eames-shell-dsw",
+      "eames-lounge",
+      "nelson-coconut-chair"
+    ],
+    "image": "/images/chairs/eames-aluminum-group.webp",
+    "descriptionEn": "Originally designed as an outdoor chair for Alexander Girard's home, the Eames Aluminum Group evolved into one of the most influential office chairs ever made. The suspended seat stretched between cast aluminum side frames creates a comfortable, elegant seating experience. Over half a century later, it remains the gold standard for executive seating.",
+    "featuresEn": [
+      "Lightweight aluminum frame",
+      "Tilt and swivel mechanism",
+      "Suitable for office and home",
+      "Ageless Mid-Century Modern design"
+    ],
+    "materialsEn": [
+      "Aluminum",
+      "Leather"
+    ],
+    "colorsEn": [
+      "Black Leather",
+      "White Leather",
+      "Tan Leather"
+    ]
+  },
+  {
+    "id": "prouve-standard",
+    "name": "Prouvé Standard Chair",
+    "nameJa": "プルーヴェ スタンダード",
+    "designer": "Jean Prouvé",
+    "designerJa": "ジャン・プルーヴェ",
+    "designerId": "jean-prouve",
+    "year": 1934,
+    "style": "modern",
+    "country": "France",
+    "description": "フランスの建築家・デザイナー、ジャン・プルーヴェによる構造主義の傑作。後脚にスチール、前脚にウッドを使い分ける合理的な設計は、力学的な必然性から生まれた美しさ。工業製品でありながら温かみのあるデザインは、今も世界中のクリエイターに影響を与え続けています。",
+    "dimensions": {
+      "width": 42,
+      "depth": 49,
+      "height": 81,
+      "seatHeight": 46
+    },
+    "weight": 4.5,
+    "materials": [
+      "スチール",
+      "オーク材"
+    ],
+    "colors": [
+      "ナチュラルオーク/ブラック",
+      "ダークオーク/ブラック",
+      "ジャポンルージュ"
+    ],
+    "priceRange": {
+      "authentic": 180000,
+      "replica": 30000
+    },
+    "rating": 4.7,
+    "features": [
+      "力学に基づく合理的構造",
+      "スチールとウッドの素材コントラスト",
+      "フランス構造主義デザインの代表作",
+      "軽量で移動しやすい"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": ""
+    },
+    "relatedChairs": [
+      "tolix-chair-a",
+      "cesca-chair-b32",
+      "series7-3107"
+    ],
+    "image": "/images/chairs/prouve-standard.webp",
+    "descriptionEn": "A masterpiece of structural rationalism by French architect-designer Jean Prouvé. The rear legs are steel to handle compression, while the front legs are wood — a design born from mechanical necessity that produces unexpected beauty. Industrial yet warm, this chair continues to inspire creators worldwide nearly a century after its creation.",
+    "featuresEn": [
+      "Structurally rational design based on mechanics",
+      "Contrast of steel and wood materials",
+      "Icon of French structural design",
+      "Lightweight and easy to move"
+    ],
+    "materialsEn": [
+      "Steel",
+      "Oak Wood"
+    ],
+    "colorsEn": [
+      "Natural Oak / Black",
+      "Dark Oak / Black",
+      "Japon Rouge"
+    ]
+  },
+  {
+    "id": "nelson-coconut-chair",
+    "name": "Nelson Coconut Chair",
+    "nameJa": "ネルソン ココナッツチェア",
+    "designer": "George Nelson",
+    "designerJa": "ジョージ・ネルソン",
+    "designerId": "george-nelson",
+    "year": 1955,
+    "style": "mid-century",
+    "country": "USA",
+    "description": "ココナッツを8分の1にカットした形からインスピレーションを得た、遊び心あふれるラウンジチェア。三本のスチール脚が大きなシェルを軽やかに支え、深い座面が身体を包み込みます。ジョージ・ネルソンの自由な発想とユーモアが凝縮された名作。",
+    "dimensions": {
+      "width": 106,
+      "depth": 90,
+      "height": 81,
+      "seatHeight": 38
+    },
+    "weight": 25,
+    "materials": [
+      "FRP",
+      "レザー",
+      "スチール"
+    ],
+    "colors": [
+      "ブラックレザー",
+      "ホワイトレザー",
+      "タンレザー"
+    ],
+    "priceRange": {
+      "authentic": 500000,
+      "replica": 80000
+    },
+    "rating": 4.6,
+    "features": [
+      "ココナッツをカットした有機的フォルム",
+      "深い座面で包み込むような座り心地",
+      "三本脚の軽快なデザイン",
+      "リビングの主役になるステートメントピース"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": ""
+    },
+    "relatedChairs": [
+      "eames-lounge",
+      "eames-aluminum-group",
+      "womb-chair"
+    ],
+    "image": "/images/chairs/nelson-coconut-chair.webp",
+    "descriptionEn": "Inspired by the shape of a coconut cut into eighths, this playful lounge chair is pure George Nelson wit. Three slender steel legs effortlessly support the generous shell, while the deep seat cradles the body in comfort. A statement piece that captures Nelson's free-spirited creativity and humor in every curve.",
+    "featuresEn": [
+      "Organic form inspired by a sliced coconut",
+      "Deep seat for enveloping comfort",
+      "Light and airy three-leg design",
+      "Statement piece for any living room"
+    ],
+    "materialsEn": [
+      "FRP",
+      "Leather",
+      "Steel"
+    ],
+    "colorsEn": [
+      "Black Leather",
+      "White Leather",
+      "Tan Leather"
+    ]
+  },
+  {
+    "id": "tolix-chair-a",
+    "name": "Tolix Chair A",
+    "nameJa": "トリックス チェアA",
+    "designer": "Xavier Pauchard",
+    "designerJa": "グザビエ・ポシャール",
+    "designerId": "xavier-pauchard",
+    "year": 1934,
+    "style": "modern",
+    "country": "France",
+    "description": "1934年にグザビエ・ポシャールが亜鉛メッキ鋼板から生み出したフランスの産業デザインアイコン。元々はカフェやビストロ用に設計され、スタッキング可能で耐候性に優れた実用的なデザイン。無骨な中にエレガンスが宿る、フレンチインダストリアルの真髄。",
+    "dimensions": {
+      "width": 44,
+      "depth": 50,
+      "height": 85,
+      "seatHeight": 45
+    },
+    "weight": 3.5,
+    "materials": [
+      "亜鉛メッキ鋼板"
+    ],
+    "colors": [
+      "ロウスチール",
+      "ブラック",
+      "ホワイト",
+      "レッド",
+      "グリーン"
+    ],
+    "priceRange": {
+      "authentic": 40000,
+      "replica": 8000
+    },
+    "rating": 4.5,
+    "features": [
+      "スタッキング可能",
+      "屋外使用OK（耐候性）",
+      "軽量で丈夫",
+      "カフェ・ビストロスタイルの定番"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": ""
+    },
+    "relatedChairs": [
+      "prouve-standard",
+      "cesca-chair-b32",
+      "series7-3107"
+    ],
+    "image": "/images/chairs/tolix-chair-a.webp",
+    "descriptionEn": "Created in 1934 by Xavier Pauchard from galvanized steel sheet, the Tolix Chair A is a French industrial design icon. Originally designed for cafés and bistros, it is stackable, weather-resistant, and endlessly practical. Rugged yet elegant, it embodies the essence of French industrial style and remains ubiquitous in design-conscious spaces worldwide.",
+    "featuresEn": [
+      "Stackable design",
+      "Weather-resistant for outdoor use",
+      "Lightweight yet durable",
+      "Classic café and bistro style"
+    ],
+    "materialsEn": [
+      "Galvanized Steel"
+    ],
+    "colorsEn": [
+      "Raw Steel",
+      "Black",
+      "White",
+      "Red",
+      "Green"
+    ]
+  },
+  {
+    "id": "embody-chair",
+    "name": "Embody Chair",
+    "nameJa": "エンボディチェア",
+    "designer": "Bill Stumpf & Jeff Weber",
+    "designerJa": "ビル・スタンフ＆ジェフ・ウェーバー",
+    "designerId": "bill-stumpf-jeff-weber",
+    "year": 2008,
+    "style": "modern",
+    "country": "USA",
+    "description": "人体の仕組みを科学的に研究して生まれた究極のエルゴノミクスチェア。背面のピクセルサポート構造が脊椎の自然なカーブに追従し、長時間のデスクワークでも身体への負担を最小限に。ハーマンミラーのフラッグシップモデルとして、健康と生産性を両立させる一脚。",
+    "dimensions": {
+      "width": 75,
+      "depth": 38,
+      "height": 112,
+      "seatHeight": 42
+    },
+    "weight": 21,
+    "materials": [
+      "ガラス繊維強化ポリアミド",
+      "ダイキャストアルミニウム"
+    ],
+    "colors": [
+      "グラファイト/ブラック",
+      "ホワイト/チタニウム",
+      "シアンブルー"
+    ],
+    "priceRange": {
+      "authentic": 250000,
+      "replica": 0
+    },
+    "rating": 4.8,
+    "features": [
+      "ピクセルサポートで脊椎に追従",
+      "座面の圧力を均等に分散",
+      "リクライニング時も自然な姿勢を維持",
+      "12年保証"
+    ],
+    "affiliateUrls": {
+      "official": "",
+      "amazon": "",
+      "rakuten": ""
+    },
+    "relatedChairs": [
+      "eames-aluminum-group",
+      "aeron-chair",
+      "series7-3107"
+    ],
+    "image": "/images/chairs/embody-chair.webp",
+    "descriptionEn": "The ultimate ergonomic chair, born from scientific study of the human body. The Pixelated Support backrest dynamically conforms to the spine's natural curvature, minimizing strain during extended desk work. As Herman Miller's flagship model, the Embody bridges the gap between health and productivity — no replica exists because no one has matched its engineering.",
+    "featuresEn": [
+      "Pixelated Support conforms to the spine",
+      "Even pressure distribution across the seat",
+      "Natural posture maintained while reclining",
+      "12-year warranty"
+    ],
+    "materialsEn": [
+      "Glass-Fiber Reinforced Polyamide",
+      "Die-Cast Aluminum"
+    ],
+    "colorsEn": [
+      "Graphite / Black",
+      "White / Titanium",
+      "Cyan Blue"
+    ]
   }
 ]
