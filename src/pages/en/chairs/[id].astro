@@ -177,13 +177,18 @@ const productJsonLd = {
 
     <!-- Buy links -->
     <div style="display: flex; flex-wrap: wrap; gap: var(--space-sm); margin-bottom: var(--space-xl);">
-      {chair.affiliateUrls.amazon ? (
-        <a href={chair.affiliateUrls.amazon} target="_blank" rel="nofollow noopener" class="btn btn--filled">View on Amazon</a>
+      {chair.affiliateUrls.amazonJP ? (
+        <a href={chair.affiliateUrls.amazonJP} target="_blank" rel="nofollow noopener" class="btn btn--filled">Amazon JP</a>
       ) : (
-        <span class="btn btn--filled" style="opacity:0.4; cursor:default;">Amazon (Coming Soon)</span>
+        <span class="btn btn--filled" style="opacity:0.4; cursor:default;">Amazon JP (Coming Soon)</span>
+      )}
+      {chair.affiliateUrls.amazonUK ? (
+        <a href={chair.affiliateUrls.amazonUK} target="_blank" rel="nofollow noopener" class="btn btn--filled">Amazon UK</a>
+      ) : (
+        <span class="btn btn--filled" style="opacity:0.4; cursor:default;">Amazon UK (Coming Soon)</span>
       )}
       {chair.affiliateUrls.rakuten ? (
-        <a href={chair.affiliateUrls.rakuten} target="_blank" rel="nofollow noopener" class="btn">View on Rakuten</a>
+        <a href={chair.affiliateUrls.rakuten} target="_blank" rel="nofollow noopener" class="btn">Rakuten</a>
       ) : (
         <span class="btn" style="opacity:0.4; cursor:default;">Rakuten (Coming Soon)</span>
       )}

@@ -127,7 +127,8 @@ function formatPrice(price: number): string {
 
       <!-- 購入リンク -->
       <div class="modal__buy-links">
-        ${chair.affiliateUrls.amazon ? `<a href="${chair.affiliateUrls.amazon}" target="_blank" rel="nofollow noopener" class="btn btn--filled">Amazon で見る</a>` : '<span class="btn btn--filled" style="opacity:0.4; cursor:default;">Amazon（準備中）</span>'}
+        ${chair.affiliateUrls.amazonJP ? `<a href="${chair.affiliateUrls.amazonJP}" target="_blank" rel="nofollow noopener" class="btn btn--filled">Amazon JP で見る</a>` : '<span class="btn btn--filled" style="opacity:0.4; cursor:default;">Amazon JP（準備中）</span>'}
+        ${chair.affiliateUrls.amazonUK ? `<a href="${chair.affiliateUrls.amazonUK}" target="_blank" rel="nofollow noopener" class="btn btn--filled">Amazon UK で見る</a>` : '<span class="btn btn--filled" style="opacity:0.4; cursor:default;">Amazon UK（準備中）</span>'}
         ${chair.affiliateUrls.rakuten ? `<a href="${chair.affiliateUrls.rakuten}" target="_blank" rel="nofollow noopener" class="btn">楽天市場 で見る</a>` : '<span class="btn" style="opacity:0.4; cursor:default;">楽天市場（準備中）</span>'}
         ${chair.affiliateUrls.official ? `<a href="${chair.affiliateUrls.official}" target="_blank" rel="noopener" class="btn">公式サイト</a>` : '<span class="btn" style="opacity:0.4; cursor:default;">公式サイト（準備中）</span>'}
       </div>
