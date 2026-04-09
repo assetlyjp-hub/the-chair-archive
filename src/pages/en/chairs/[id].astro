@@ -1,7 +1,7 @@
 ---
 // en/chairs/[id].astro - Chair detail page (English version)
 // Dynamic routing for each chair's detailed information
-// SEO: Product JSON-LD for rich snippets
+// SEO: Article JSON-LD for rich snippets
 
 import BaseEn from '../../../layouts/BaseEn.astro';
 import ChairCard from '../../../components/ChairCard.astro';
@@ -37,37 +37,22 @@ function formatPrice(price: number): string {
   return `¥${price.toLocaleString()}`;
 }
 
-// JSON-LD structured data (Product schema)
-const productJsonLd = {
+// JSON-LD structured data (Article schema)
+const articleJsonLd = {
   "@context": "https://schema.org",
-  "@type": "Product",
-  "name": chair.name,
+  "@type": "Article",
+  "headline": chair.name,
   "description": chair.descriptionEn || chair.description,
   "image": new URL(chair.image, Astro.site).href,
-  "brand": {
-    "@type": "Brand",
-    "name": chair.designer,
+  "author": {
+    "@type": "Organization",
+    "name": "The Chair Archive",
   },
-  "offers": {
-    "@type": "AggregateOffer",
-    "lowPrice": chair.priceRange.replica || chair.priceRange.authentic,
-    "highPrice": chair.priceRange.authentic,
-    "priceCurrency": "JPY",
-    "availability": "https://schema.org/InStock",
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Chair Archive",
   },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": chair.rating,
-    "bestRating": 5,
-    "worstRating": 1,
-    "ratingCount": 1,
-  },
-  "additionalProperty": [
-    { "@type": "PropertyValue", "name": "Designer", "value": chair.designer },
-    { "@type": "PropertyValue", "name": "Year", "value": String(chair.year) },
-    { "@type": "PropertyValue", "name": "Style", "value": chair.style },
-    { "@type": "PropertyValue", "name": "Country", "value": chair.country },
-  ],
+  "datePublished": new Date().toISOString().split('T')[0],
 };
 ---
 
@@ -76,7 +61,7 @@ const productJsonLd = {
   description={(chair.descriptionEn || chair.description).slice(0, 160)}
   ogImage={chair.image}
   jaPath={`/chairs/${chair.id}/`}
-  jsonLd={productJsonLd}
+  jsonLd={articleJsonLd}
 >
   <!-- Back link -->
   <div class="container" style="padding-top: calc(var(--space-md) + 60px);">
