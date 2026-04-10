@@ -5,7 +5,7 @@ category: "story"
 tags: ["椅子の歴史", "バウハウス", "北欧デザイン", "ミッドセンチュリー", "モダンデザイン", "名作椅子"]
 publishedAt: "2026-04-03"
 updatedAt: "2026-04-06"
-relatedChairs: ["Wassily Chair (B3)", "Barcelona Chair", "Eames Lounge Chair", "Wishbone Chair (CH24)", "Series 7 (3107)"]
+relatedChairs: ["wassily-b3", "barcelona-chair", "eames-lounge", "wishbone-ch24", "series7-3107"]
 articleType: "story"
 ---
 

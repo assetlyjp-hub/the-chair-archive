@@ -1,11 +1,11 @@
-```markdown
 ---
 title: "一人暮らしにおすすめの名作チェア5選｜狭い部屋でも映える椅子の選び方"
 description: "限られた空間の一人暮らしでも取り入れやすい名作椅子を厳選してご紹介。機能性とデザイン性を兼ね備えた椅子で、お部屋をワンランクアップさせましょう。"
 category: "usecase"
 tags: ["一人暮らし", "コンパクト", "名作椅子", "インテリア", "デザイン"]
 publishedAt: "2026-04-06"
-relatedChairs: ["Eames Shell Chair (DSW)", "Series 7 (3107)", "Panton Chair", "Stool 60", "Ant Chair (3100)"]
+updatedAt: "2026-04-10"
+relatedChairs: ["eames-shell-dsw", "series7-3107", "panton-chair", "stool-60", "ant-3100"]
 articleType: "guide"
 ---
 
@@ -127,4 +127,3 @@ articleType: "guide"
 一人暮らしでも名作椅子は十分に楽しめます。今回ご紹介した5脚は、いずれも機能性とデザイン性を兼ね備え、限られた空間を有効活用できる優秀なチェアです。
 
 椅子選びは住まいの快適性を大きく左右する重要な要素。予算や部屋のスタイルに合わせて、長く愛用できる一脚を見つけてください。名作椅子があることで、毎日の暮らしがより豊かで心地よいものになるはずです。
-```

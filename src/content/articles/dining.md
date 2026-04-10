@@ -4,6 +4,7 @@ description: "食卓を美しく彩る名作ダイニングチェア。毎日使
 category: "usecase"
 tags: ["ダイニング", "食卓", "チェア", "おすすめ", "インテリア"]
 publishedAt: "2026-04-06"
+updatedAt: "2026-04-10"
 relatedChairs: ["wishbone-ch24", "series7-3107", "ant-3100", "eames-shell-dsw", "superleggera"]
 articleType: "guide"
 ---

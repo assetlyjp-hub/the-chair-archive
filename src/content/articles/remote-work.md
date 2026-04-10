@@ -4,6 +4,7 @@ description: "在宅勤務を快適にする名作椅子を厳選。長時間の
 category: "usecase"
 tags: ["テレワーク", "在宅勤務", "デスクチェア", "おすすめ"]
 publishedAt: "2026-04-06"
+updatedAt: "2026-04-10"
 relatedChairs: ["aeron-chair", "eames-shell-dsw", "series7-3107", "eames-daw", "stool-60"]
 articleType: "guide"
 ---

@@ -4,6 +4,7 @@ description: "アーロンチェアは高すぎる？20万円以下で同等の�
 category: "usecase"
 tags: ["エルゴノミクス", "ハーマンミラー", "アーロンチェア", "代替品", "リモートワーク", "腰痛"]
 publishedAt: "2026-04-09"
+updatedAt: "2026-04-10"
 articleType: "comparison"
 ---
 

@@ -1,11 +1,11 @@
-```markdown
 ---
 title: "リビングにおすすめの名作ラウンジチェア5選｜寛ぎの空間を演出する究極の座り心地"
 description: "リビングでの寛ぎを最上級に演出する名作ラウンジチェアをご紹介。イームズやサーリネンなど巨匠がデザインした特別な椅子で、あなたのリビング空間をワンランク上の癒しの場所に変えませんか？"
 category: "usecase"
 tags: ["ラウンジチェア", "リビング", "名作椅子", "イームズ", "サーリネン", "ヤコブセン", "寛ぎ", "インテリア"]
 publishedAt: "2026-04-06"
-relatedChairs: ["Eames Lounge Chair", "Womb Chair", "Egg Chair", "Swan Chair", "Ball Chair"]
+updatedAt: "2026-04-10"
+relatedChairs: ["eames-lounge", "womb-chair", "egg-chair", "swan-chair", "ball-chair"]
 articleType: "guide"
 ---
 
@@ -109,4 +109,3 @@ articleType: "guide"
 今回ご紹介した5脚は、いずれも世界中で愛され続けている名作ばかり。あなたのライフスタイルと空間に最も適した一脚を見つけて、毎日の寛ぎの時間をより特別なものにしてください。投資価値も高く、きっと一生の宝物となることでしょう。
 
 リビングに名作ラウンジチェアを迎えることで、あなたの住まいが単なる居住空間から、心安らぐ特別な場所へと変わっていくはずです。
-```
