@@ -3,8 +3,8 @@ title: "Wegner vs Eames: Which Mid-Century Master Belongs in Your Home?"
 description: "Hans Wegner vs Charles & Ray Eames compared on materials, philosophy, room compatibility, and which masterpieces are worth the investment."
 category: "comparison"
 tags: [wegner, eames, comparison, mid-century, scandinavian]
-publishedAt: "2026-05-07"
-updatedAt: "2026-05-07"
+publishedAt: "2026-05-10"
+updatedAt: "2026-05-10"
 relatedChairs: ["wishbone-ch24", "the-chair-pp501", "eames-lounge", "eames-shell-dsw"]
 articleType: "comparison"
 ---

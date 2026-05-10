@@ -3,8 +3,8 @@ title: "ハーマンミラー エンボディ徹底レビュー｜5年使った�
 description: "ハーマンミラー エンボディを5年所有した正直レビュー。ピクセル背もたれ・エアロンとの違い・$1700の価値を実体験で解説。"
 category: "review"
 tags: ["エンボディ", "ハーマンミラー", "レビュー", "高級チェア", "デザイン"]
-publishedAt: "2026-05-07"
-updatedAt: "2026-05-07"
+publishedAt: "2026-05-10"
+updatedAt: "2026-05-10"
 relatedChairs: ["aeron-chair", "eames-lounge"]
 articleType: "review"
 ---

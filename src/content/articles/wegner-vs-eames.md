@@ -3,8 +3,8 @@ title: "ウェグナー vs イームズ｜北欧巨匠 vs アメリカ巨匠 椅
 description: "ハンス・J・ウェグナーとチャールズ＆レイ・イームズの椅子を素材・哲学・空間相性で徹底比較。代表作と価格帯から選び方まで網羅。"
 category: "comparison"
 tags: ["ウェグナー", "イームズ", "比較", "北欧", "ミッドセンチュリー"]
-publishedAt: "2026-05-07"
-updatedAt: "2026-05-07"
+publishedAt: "2026-05-10"
+updatedAt: "2026-05-10"
 relatedChairs: ["wishbone-ch24", "the-chair-pp501", "eames-lounge", "eames-shell-dsw"]
 articleType: "comparison"
 ---

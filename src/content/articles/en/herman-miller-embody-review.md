@@ -3,8 +3,8 @@ title: "Herman Miller Embody Review: 5-Year Honest Verdict"
 description: "Herman Miller Embody after 5 years of daily use — pixelated back, posture support, durability, vs Aeron, and whether $1,800 is justified."
 category: "review"
 tags: [embody, herman-miller, review, premium-chair, ergonomic]
-publishedAt: "2026-05-07"
-updatedAt: "2026-05-07"
+publishedAt: "2026-05-10"
+updatedAt: "2026-05-10"
 relatedChairs: ["aeron-chair", "eames-lounge"]
 articleType: "review"
 ---
