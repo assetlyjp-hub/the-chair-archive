@@ -78,7 +78,7 @@ Living with a recliner in my work area for two years, here's what I would not gi
 - **Reading-heavy tasks.** Long PDFs, reports, books, research papers — productivity climbs noticeably when I'm not fighting a desk.
 - **Frictionless naps.** A 15-minute nap from a recliner takes 15 minutes. From a bed it takes 35, because of the ritual.
 
-I sing the Aeron's praises in my [Herman Miller Aeron review for 2026](/en/articles/herman-miller-aeron-review-2026), and I still wouldn't give up the LC4.
+I sing the Aeron's praises in my [Herman Miller Aeron review for 2026](/articles/en/herman-miller-aeron-review-2026), and I still wouldn't give up the LC4.
 
 ## What's Honestly Bad About a Recliner
 
@@ -90,7 +90,7 @@ Most articles sell the recliner fantasy and skip these. I won't.
 - **The "Steve Jobs knee-up" trap.** Bent knees + laptop on thighs compresses the lumbar spine. Famous photos exist; the man also had famously bad posture.
 - **Chronic neck pain.** I personally developed it after three months of recliner-heavy days. A physical therapist eventually un-knotted me. It was avoidable.
 
-If you have any existing back issues, please read [my office chair guide for back pain](/en/articles/office-chair-for-back-pain) before going recliner-only.
+If you have any existing back issues, please read [my office chair guide for back pain](/articles/en/office-chair-for-back-pain) before going recliner-only.
 
 ## What's Great About an Office Chair
 
@@ -115,21 +115,21 @@ After all that, here's the honest verdict: **own one of each, and rotate.** My d
 - 15:00–16:00 — LC4 (video calls, intake reading)
 - 16:00–18:00 — Aeron (closing tasks)
 
-Two chairs is overkill for some, life-changing for others. If you're considering a sit-stand workflow as a third option, my [standing desk + chair pairing guide](/en/articles/standing-desk-chair-guide) covers that combination.
+Two chairs is overkill for some, life-changing for others. If you're considering a sit-stand workflow as a third option, my [standing desk + chair pairing guide](/articles/en/standing-desk-chair-guide) covers that combination.
 
 ## Specific Picks
 
 ### Recliner side
 - **LC4 Chaise Longue** (Cassina). The serious choice. Expensive, but a lifetime piece.
 - **Eames Lounge Chair** (Herman Miller). Iconic, warm, deeply comfortable.
-- **Barcelona Chair** (Knoll). Discussed in detail in [Eames Lounge vs Barcelona](/en/articles/eames-lounge-vs-barcelona).
+- **Barcelona Chair** (Knoll). Discussed in detail in [Eames Lounge vs Barcelona](/articles/en/eames-lounge-vs-barcelona).
 
 ### Office chair side
 - **Aeron** (Herman Miller). The remote-work default for a reason.
 - **Embody** (Herman Miller). Better for very long screen sessions.
 - **Leap V2** (Steelcase). My pick for back-pain-prone users.
 
-If you're still narrowing down, the [how to choose a work chair guide](/en/articles/how-to-choose-work-chair) walks through the decision tree.
+If you're still narrowing down, the [how to choose a work chair guide](/articles/en/how-to-choose-work-chair) walks through the decision tree.
 
 ## FAQ
 
@@ -163,6 +163,6 @@ A. Honestly, no. Tablet arms and lap desks help marginally but don't override th
 
 Switching to a two-chair setup genuinely raised the quality of my remote-work life. Having physically distinct "focus" and "decompression" zones makes the brain switch states more cleanly than any productivity app I've tried.
 
-For the broader picture and combinations, see my [best chairs for remote work guide](/en/articles/remote-work).
+For the broader picture and combinations, see my [best chairs for remote work guide](/articles/en/remote-work).
 
 A chair holds your body for up to eight hours a day. Compromising on it eventually costs you in spinal discs, shoulder tension, or lost focus. Whether that's an LC4, an Aeron, or both — invest properly in the seat that fits your actual working style.

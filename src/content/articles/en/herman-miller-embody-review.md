@@ -13,7 +13,7 @@ articleType: "review"
 
 I bought my Herman Miller Embody in spring 2021. At roughly $1,700 (now $1,800 in 2026), it felt less like a furniture purchase and more like a vow — a long-term bet on my own back.
 
-Five years later, I've spent more time in this chair than in any bed I've ever owned. Remote work, writing, gaming, endless Zoom calls — averaging ten hours a day, every day. This review is what the marketing copy never tells you: the foam compression after five summers, the heat in August, and the moments when I still wished I'd bought [the Aeron](/en/articles/herman-miller-aeron-review-2026) instead.
+Five years later, I've spent more time in this chair than in any bed I've ever owned. Remote work, writing, gaming, endless Zoom calls — averaging ten hours a day, every day. This review is what the marketing copy never tells you: the foam compression after five summers, the heat in August, and the moments when I still wished I'd bought [the Aeron](/articles/en/herman-miller-aeron-review-2026) instead.
 
 ---
 
@@ -108,7 +108,7 @@ The honest version:
 - **Arm adjustment hardware** — zero wobble or play
 - **Gas cylinder** — no sag, no drift
 
-Amortized over five years: $360 per year, $30 per month. At 10 hours of daily use, the Embody costs roughly **$0.10 per hour**. That makes a chair the most efficient ergonomic investment in your home — see [The Designer Chair Investment Case](/en/articles/replica-vs-authentic) for a longer breakdown.
+Amortized over five years: $360 per year, $30 per month. At 10 hours of daily use, the Embody costs roughly **$0.10 per hour**. That makes a chair the most efficient ergonomic investment in your home — see [The Designer Chair Investment Case](/articles/en/replica-vs-authentic) for a longer breakdown.
 
 ---
 
@@ -127,7 +127,7 @@ Amortized over five years: $360 per year, $30 per month. At 10 hours of daily us
 
 **Short version: choose Aeron if your office runs hot or if you want maximum airflow. Choose Embody if you do focused work at home and want a chair that feels like it's holding you.**
 
-A wider competitor analysis is in [Herman Miller vs Steelcase](/en/articles/herman-miller-vs-steelcase).
+A wider competitor analysis is in [Herman Miller vs Steelcase](/articles/en/herman-miller-vs-steelcase).
 
 ---
 
@@ -137,8 +137,8 @@ My answer: **yes, with conditions.**
 
 ### Where it pays off
 - You sit 6+ hours per day at a desk
-- You have back, neck, or hip issues (see [Office Chairs for Back Pain](/en/articles/office-chair-for-back-pain))
-- You work from home (see [Remote Work Setup Guide](/en/articles/remote-work))
+- You have back, neck, or hip issues (see [Office Chairs for Back Pain](/articles/en/office-chair-for-back-pain))
+- You work from home (see [Remote Work Setup Guide](/articles/en/remote-work))
 - You're 5'9"/175cm or taller — the seat depth rewards you
 - You plan to use the same chair for 5+ years
 
@@ -175,7 +175,7 @@ A. Official spec: heights 4'10" to 6'2" (147-188 cm). Above that, look at Steelc
 A. No factory option. Third-party attachments (e.g., Engineered Now) are widely available.
 
 ### Q4. Does it work for gaming?
-A. Yes for FPS and forward-leaning sessions. The recline is shallower than gaming chairs, so for movie-watching/relaxed gaming, look elsewhere — see [Ergonomic Chair Trends 2026](/en/articles/ergonomic-chair-trends-2026).
+A. Yes for FPS and forward-leaning sessions. The recline is shallower than gaming chairs, so for movie-watching/relaxed gaming, look elsewhere — see [Ergonomic Chair Trends 2026](/articles/en/ergonomic-chair-trends-2026).
 
 ### Q5. Should I buy used?
 A. Possible, but inspect the pixel mechanism in person. A test sit is strongly advised.
@@ -184,7 +184,7 @@ A. Possible, but inspect the pixel mechanism in person. A test sit is strongly a
 A. No. Ships fully assembled. Unbox, sit, work.
 
 ### Q7. Are there replicas?
-A. Almost none. The pixel mechanism is patented and complex enough that knockoff manufacturers don't bother. That's part of the value — see [Replica vs Authentic](/en/articles/replica-vs-authentic) for the broader landscape.
+A. Almost none. The pixel mechanism is patented and complex enough that knockoff manufacturers don't bother. That's part of the value — see [Replica vs Authentic](/articles/en/replica-vs-authentic) for the broader landscape.
 
 ---
 

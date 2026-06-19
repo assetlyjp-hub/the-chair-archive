@@ -20,7 +20,7 @@ A headrest exists to transfer the weight of your head — roughly 10 to 12 pound
 - **You have a history of neck pain or "tech neck."** A headrest physically discourages forward head posture, which is the single biggest contributor to chronic cervical strain.
 - **You're tall (5'9" / 175cm and above).** Standard backrests cap out around your shoulders, leaving your neck unsupported even when reclining. A headrest closes that gap.
 
-For a broader chair-buying lens, see our [remote-work chair guide](/en/articles/remote-work).
+For a broader chair-buying lens, see our [remote-work chair guide](/articles/en/remote-work).
 
 ## When a Headrest Is Wasted
 
@@ -31,7 +31,7 @@ Skip the headrest entirely if any of these describe you:
 - **Your monitor is close and you scrutinize it.** Forward head movement pulls you completely off the headrest.
 - **You're shorter than 5'3" (160cm).** Fixed headrests often hit the base of the skull instead of the back of the head, which actively creates strain.
 
-If you're not sure whether you're a forward-leaner or a recliner, the [how to choose a work chair](/en/articles/how-to-choose-work-chair) guide has a quick self-assessment.
+If you're not sure whether you're a forward-leaner or a recliner, the [how to choose a work chair](/articles/en/how-to-choose-work-chair) guide has a quick self-assessment.
 
 ## The Three Big Problems with Aftermarket Headrests
 
@@ -67,9 +67,9 @@ Roughly $1,200–1,800. Every contact point — **headrest, lumbar, and armrests
 
 ### Important: Aeron and Gesture have no factory option
 
-The [Herman Miller Aeron](/en/articles/herman-miller-aeron-review-2026) — arguably the most iconic office chair ever made — has **no manufacturer-supplied headrest**. None. Third-party units exist, but they fall into all three aftermarket traps above. The Steelcase Gesture is the same story: no official headrest variant. If a headrest is non-negotiable, choose a different chair rather than modifying these.
+The [Herman Miller Aeron](/articles/en/herman-miller-aeron-review-2026) — arguably the most iconic office chair ever made — has **no manufacturer-supplied headrest**. None. Third-party units exist, but they fall into all three aftermarket traps above. The Steelcase Gesture is the same story: no official headrest variant. If a headrest is non-negotiable, choose a different chair rather than modifying these.
 
-For where the category is heading, see [2026 ergonomic chair trends](/en/articles/ergonomic-chair-trends-2026).
+For where the category is heading, see [2026 ergonomic chair trends](/articles/en/ergonomic-chair-trends-2026).
 
 ## Adjustable vs. Fixed Headrests
 
@@ -87,7 +87,7 @@ For where the category is heading, see [2026 ergonomic chair trends](/en/article
 - **Head-mobility tasks suffer.** Musicians, multi-monitor users, and anyone who frequently rotates their head can find the headrest in the way.
 - **Visual weight.** A headrest reads as "executive" and can look out of place in a clean, minimalist room.
 
-Anyone already managing back or neck issues should also read [office chairs for back pain](/en/articles/office-chair-for-back-pain).
+Anyone already managing back or neck issues should also read [office chairs for back pain](/articles/en/office-chair-for-back-pain).
 
 ## FAQ
 

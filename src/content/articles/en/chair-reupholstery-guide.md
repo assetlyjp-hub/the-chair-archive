@@ -25,7 +25,7 @@ Look for these signs that say "reupholster, don't replace":
 
 That last point is non-negotiable. If the wood joints are loose or the steel frame is bent, no amount of new fabric will fix the seat feel. **Flip the chair over first and check structural integrity** before you spend a dollar.
 
-On the flip side, sub-$300 originals (including most replicas), chairs with MDF base seats, or anything from flat-pack assembly furniture rarely justify the cost. The reupholstery bill will exceed the replacement price. See my piece on [replica vs authentic chairs](/en/articles/replica-vs-authentic) for more on this calculus.
+On the flip side, sub-$300 originals (including most replicas), chairs with MDF base seats, or anything from flat-pack assembly furniture rarely justify the cost. The reupholstery bill will exceed the replacement price. See my piece on [replica vs authentic chairs](/articles/en/replica-vs-authentic) for more on this calculus.
 
 ## DIY vs Professional: The Real Numbers
 
@@ -92,7 +92,7 @@ The wrong shop will charge you premium prices for amateur work. Vet them careful
 - **Warranty period** — 6 months to 1 year minimum on workmanship
 - **Pickup and delivery** — a real shop will handle logistics
 
-Don't shop on price alone. My Barcelona chair cost $1,200 at a regional workshop, but the result is indistinguishable from new and should hold up another decade. **For chairs worth $1,000+, professional work is asset preservation, not an indulgence.** See my [designer chair maintenance guide](/en/articles/designer-chair-maintenance-guide) for ongoing care that extends any reupholstery job.
+Don't shop on price alone. My Barcelona chair cost $1,200 at a regional workshop, but the result is indistinguishable from new and should hold up another decade. **For chairs worth $1,000+, professional work is asset preservation, not an indulgence.** See my [designer chair maintenance guide](/articles/en/designer-chair-maintenance-guide) for ongoing care that extends any reupholstery job.
 
 ## Worth Restoring vs Not Worth Restoring
 
@@ -128,7 +128,7 @@ Seat-only is possible, but matching color and texture exactly across years of fa
 If you replace the foam too, yes — almost completely. Smells trapped in the frame need ozone treatment.
 
 **Q6. Is reupholstering an office chair worth it?**
-Usually no. Ergonomic chairs have mesh, gas cylinders, and mechanisms that age in parallel — replacement makes more sense. Details in [office chair lifespan](/en/articles/office-chair-lifespan).
+Usually no. Ergonomic chairs have mesh, gas cylinders, and mechanisms that age in parallel — replacement makes more sense. Details in [office chair lifespan](/articles/en/office-chair-lifespan).
 
 **Q7. What if the shell of an Eames shell chair cracks?**
 That's a shell replacement, not a reupholstery job. Herman Miller sells parts but the cost can approach a new chair.
@@ -137,4 +137,4 @@ That's a shell replacement, not a reupholstery job. Herman Miller sells parts bu
 
 Reupholstery isn't perfect. **The patina of an aged frame doesn't transfer to new upholstery** — if you love the way old leather looks worn-in, the moment you cover the chair in fresh hide, the visual harmony breaks. DIY is more physical than people expect; I strained my back on my first attempt. Professional jobs separate you from your chair for weeks, which matters if it's your only seat.
 
-That said, **extending a beloved chair's life by another decade** is the strongest argument for going down this road. Before clicking "buy new," reupholstery deserves a real look — especially if you've already invested in [Nordic and Scandinavian classics](/en/articles/nordic-chairs-guide) that gain character with every year.
+That said, **extending a beloved chair's life by another decade** is the strongest argument for going down this road. Before clicking "buy new," reupholstery deserves a real look — especially if you've already invested in [Nordic and Scandinavian classics](/articles/en/nordic-chairs-guide) that gain character with every year.

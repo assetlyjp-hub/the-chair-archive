@@ -25,7 +25,7 @@ For most people, comfortable sitting at a standing desk in its lowered position 
 
 You could lower the desk further, but then you lose the sweet spot for standing height. You could raise your chair with a cushion, but then your feet dangle and you've created a whole new ergonomic problem. The geometry simply doesn't reconcile.
 
-This is the gap that drafting chairs were designed to fill. If you're building a [remote work setup](/en/articles/remote-work) around a standing desk, the chair choice is just as critical as the desk itself.
+This is the gap that drafting chairs were designed to fill. If you're building a [remote work setup](/articles/en/remote-work) around a standing desk, the chair choice is just as critical as the desk itself.
 
 ## Drafting Chairs vs. Office Chairs: What's Actually Different
 
@@ -65,7 +65,7 @@ Chair shopping online means trusting spec sheets, and spec sheets lie by omissio
 
 **The math**: Measure your desk surface height in sitting mode. Subtract 10"–12" (the distance from your elbow to the seat when typing). That's your target seat height. Then add 1"–2" to account for gas lift compression. That's the minimum spec you need.
 
-For deeper context on how ergonomic measurements work together, our [office chair ergonomics guide](/en/articles/office-chair-ergonomics-guide) covers the full picture.
+For deeper context on how ergonomic measurements work together, our [office chair ergonomics guide](/articles/en/office-chair-ergonomics-guide) covers the full picture.
 
 ## Price Tiers: What You Get at Each Level
 
@@ -101,7 +101,7 @@ Premium drafting chairs live here, and some are worth every dollar.
 
 **Best for**: Full-time sit-stand workers, architects, designers, or anyone who spends their career at elevated work surfaces.
 
-**Models worth considering**: Steelcase Leap Drafting Stool, Herman Miller Aeron Stool. These are the office chair equivalents of the chairs reviewed in [2026's ergonomic trends](/en/articles/ergonomic-chair-trends-2026) — same engineering principles, adapted for height.
+**Models worth considering**: Steelcase Leap Drafting Stool, Herman Miller Aeron Stool. These are the office chair equivalents of the chairs reviewed in [2026's ergonomic trends](/articles/en/ergonomic-chair-trends-2026) — same engineering principles, adapted for height.
 
 **Honest take**: At $600+, you're buying durability and warranty as much as comfort. A Steelcase Leap Stool will outlast three $200 drafting chairs and feel better every day of its life. Whether that math works for your budget is a personal question.
 
@@ -140,7 +140,7 @@ Standing desks already consume significant floor space. Adding a drafting chair 
 - Consider a saddle stool as an alternative — smaller footprint, no backrest, naturally encourages the perching position
 - If you have a separate traditional desk, keep your regular chair there and use a compact stool at the standing desk
 
-For design-conscious small spaces, [Nordic-inspired chairs](/en/articles/nordic-chairs-guide) often offer a visual lightness that bulky drafting chairs can't match — though most aren't tall enough for standing desks without modification.
+For design-conscious small spaces, [Nordic-inspired chairs](/articles/en/nordic-chairs-guide) often offer a visual lightness that bulky drafting chairs can't match — though most aren't tall enough for standing desks without modification.
 
 ## The Honest Downsides Nobody Mentions
 
@@ -162,7 +162,7 @@ This is extremely common and there's no clean solution. The people who avoid it 
 
 ### Resale Value Is Poor
 
-Unlike iconic office chairs that hold their value — genuine [Aeron chairs and their competitors](/en/articles/replica-vs-authentic) have a robust secondary market — drafting chairs depreciate rapidly. Niche product, smaller demand pool, more wear on the gas lift and footring. If you're buying with an eye on resale, go with a name brand that offers a drafting version of a popular model.
+Unlike iconic office chairs that hold their value — genuine [Aeron chairs and their competitors](/articles/en/replica-vs-authentic) have a robust secondary market — drafting chairs depreciate rapidly. Niche product, smaller demand pool, more wear on the gas lift and footring. If you're buying with an eye on resale, go with a name brand that offers a drafting version of a popular model.
 
 ## The Bottom Line
 
@@ -172,6 +172,6 @@ If you're just starting out, buy a $200–$400 drafting chair and commit to task
 
 If you've been doing sit-stand for a while and the chair is the bottleneck, invest in the $400–$800 range. The difference in build quality and daily comfort justifies the price over a chair's 5–10 year lifespan.
 
-And if you're still on the fence about whether you need a standing desk at all — you might not. A great office chair at a traditional desk, paired with regular movement breaks, gets you 80% of the health benefits with none of the furniture complexity. The [history of office seating](/en/articles/history-of-modern-chair) is a story of solving the same problem over and over: how to make sitting less harmful. Standing desks are the latest chapter, not the final answer.
+And if you're still on the fence about whether you need a standing desk at all — you might not. A great office chair at a traditional desk, paired with regular movement breaks, gets you 80% of the health benefits with none of the furniture complexity. The [history of office seating](/articles/en/history-of-modern-chair) is a story of solving the same problem over and over: how to make sitting less harmful. Standing desks are the latest chapter, not the final answer.
 
 The best workstation is the one you actually move in. The chair just needs to make that movement possible.

@@ -25,7 +25,7 @@ Posture upright. Presence commanding. The chair is meant to anchor a room, not d
 
 > The 27-year gap matters less than the gap in intent. One chair invites collapse. The other expects composure.
 
-For broader context on how these two pieces sit within design history, see [The History of the Modern Chair](/en/articles/history-of-modern-chair) and [Bauhaus and Furniture](/en/articles/bauhaus-and-furniture).
+For broader context on how these two pieces sit within design history, see [The History of the Modern Chair](/articles/en/history-of-modern-chair) and [Bauhaus and Furniture](/articles/en/bauhaus-and-furniture).
 
 ## 2. Comfort: Sinking In vs Sitting Up
 
@@ -72,7 +72,7 @@ Let me be straight: neither chair is cheap when you go authentic.
 - Eames-style: $600 to $2,000
 - Barcelona-style: $700 to $2,500
 
-Replica quality varies wildly — plywood ply count, leather thickness, stitch density, and weld quality all separate a respectable copy from a cheap one. The full breakdown lives in [Replica vs Authentic](/en/articles/replica-vs-authentic).
+Replica quality varies wildly — plywood ply count, leather thickness, stitch density, and weld quality all separate a respectable copy from a cheap one. The full breakdown lives in [Replica vs Authentic](/articles/en/replica-vs-authentic).
 
 ## 5. Are Replicas Acceptable? My Honest Take
 
@@ -110,7 +110,7 @@ The Barcelona is built from chrome and leather. It refuses temperature, by desig
 
 Drop a Barcelona Chair into a generic suburban living room with a beige carpet and a brown couch and it will look stranded — not because it is wrong, but because it has nothing to talk to. The opposite is also true: a minimalist white-cube apartment will make the Eames feel like a misplaced artifact.
 
-For broader styling instincts, [Nordic Chairs Guide](/en/articles/nordic-chairs-guide) offers a useful contrast on warmth-led interiors.
+For broader styling instincts, [Nordic Chairs Guide](/articles/en/nordic-chairs-guide) offers a useful contrast on warmth-led interiors.
 
 ## 7. Resale Value: Both Strong, Differently
 
@@ -129,7 +129,7 @@ Resold after 15 years, both chairs hold value beautifully. The buyer profiles, h
 - The sea of replicas makes Knoll documentation critical
 
 In short: **the Eames is the chair you sell after using it. The Barcelona is the chair you sell after preserving it.**
-Either way, basic care matters. [The Designer Chair Maintenance Guide](/en/articles/designer-chair-maintenance-guide) covers leather conditioning, chrome care, and seasonal checks.
+Either way, basic care matters. [The Designer Chair Maintenance Guide](/articles/en/designer-chair-maintenance-guide) covers leather conditioning, chrome care, and seasonal checks.
 
 ## 8. Honest Downsides — Both of Them
 

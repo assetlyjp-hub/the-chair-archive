@@ -23,7 +23,7 @@ But three things to keep in mind:
 - **Trademarks are separate.** Selling a chair labeled "Eames" or "Herman Miller" is trademark infringement, full stop
 - **Newer designs from the 1970s onward** are legally murky — Aeron Chair replicas, for instance, sit in a gray zone
 
-Old classics: fine. Recent originals: risky. For a deeper dive on the line between legal and not, see my [replica vs authentic article](/en/articles/replica-vs-authentic).
+Old classics: fine. Recent originals: risky. For a deeper dive on the line between legal and not, see my [replica vs authentic article](/articles/en/replica-vs-authentic).
 
 ## 2. The Price-Tier Quality Map
 
@@ -106,7 +106,7 @@ To hit a price point, something always gets sacrificed. Knowing what to expect h
 - **Finish details** — edge treatment, leather color, stitch consistency
 - **Metal feel** — authentic plating has depth; replicas often look thin and mirror-bright
 
-If you can, see the originals in person at a showroom once. After that, your eye for replicas gets dramatically sharper. I cover the originals' details in [Eames Lounge vs Barcelona](/en/articles/eames-lounge-vs-barcelona).
+If you can, see the originals in person at a showroom once. After that, your eye for replicas gets dramatically sharper. I cover the originals' details in [Eames Lounge vs Barcelona](/articles/en/eames-lounge-vs-barcelona).
 
 ## 7. When a Replica Is the Right Call vs. When to Splurge
 
@@ -126,7 +126,7 @@ My honest stance is: use both, in different situations.
 - You're a detail person who notices everything
 - The chair lives somewhere visible — office, client space, public room
 
-A bit of context on the modern chair's evolution lives in [the history of modern chair design](/en/articles/history-of-modern-chair) if you want to understand why originals command what they do.
+A bit of context on the modern chair's evolution lives in [the history of modern chair design](/articles/en/history-of-modern-chair) if you want to understand why originals command what they do.
 
 ## 8. Pre- and Post-Purchase Checklist
 
@@ -145,7 +145,7 @@ A practical checklist to protect yourself.
 - Check for wobble, loose screws, stitching defects
 - Use it for a week — if something feels wrong, return it before the window closes
 
-Replicas reward maintenance just like originals. Leather conditioning, occasional screw re-tightening, keeping them out of direct sun — see my [maintenance guide](/en/articles/designer-chair-maintenance-guide). For models with replaceable upholstery, the [reupholstery guide](/en/articles/chair-reupholstery-guide) is worth a read.
+Replicas reward maintenance just like originals. Leather conditioning, occasional screw re-tightening, keeping them out of direct sun — see my [maintenance guide](/articles/en/designer-chair-maintenance-guide). For models with replaceable upholstery, the [reupholstery guide](/articles/en/chair-reupholstery-guide) is worth a read.
 
 ## FAQ
 

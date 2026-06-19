@@ -52,7 +52,7 @@ The numbers here are honest and not flattering to either side.
 
 That said, many cushion chairs have replaceable seat pans (Steelcase Leap is a great example), and 12-year manufacturer warranties cover swap-outs. Mesh, once stretched, usually requires full replacement because re-tensioning the fabric isn't a serviceable repair.
 
-For a deeper look at when to replace your chair, see [How long does an office chair really last?](/en/articles/office-chair-lifespan).
+For a deeper look at when to replace your chair, see [How long does an office chair really last?](/articles/en/office-chair-lifespan).
 
 ## Climate: An Underrated Factor
 
@@ -64,13 +64,13 @@ This is the variable most reviewers ignore.
 
 **Climate-controlled offices**: If your space stays at a constant 22°C / 72°F year-round, either works. But if you're working from home and using AC/heat conservatively to save energy, the seasonal swing matters.
 
-If you have chronic back pain and need year-round consistency, also read [How to choose an office chair for back pain](/en/articles/office-chair-for-back-pain).
+If you have chronic back pain and need year-round consistency, also read [How to choose an office chair for back pain](/articles/en/office-chair-for-back-pain).
 
 ## Four Real Models, Real Trade-offs
 
 ### Mesh Camp
 
-**Herman Miller Aeron (2026 remastered)**: The 8Z Pellicle mesh varies tension across 8 zones in the seat and 8 in the back, easing pressure around the sit bones. The Size A/B/C system separates it from any other mesh chair on the market. Full breakdown in our [Herman Miller Aeron 2026 review](/en/articles/herman-miller-aeron-review-2026).
+**Herman Miller Aeron (2026 remastered)**: The 8Z Pellicle mesh varies tension across 8 zones in the seat and 8 in the back, easing pressure around the sit bones. The Size A/B/C system separates it from any other mesh chair on the market. Full breakdown in our [Herman Miller Aeron 2026 review](/articles/en/herman-miller-aeron-review-2026).
 
 **Herman Miller Embody**: A backrest "BackFit Adjustment" system molds to individual spinal curves, with a hybrid mesh/cushion construction. At $2,000+ it's expensive, but power users — programmers, writers, traders — swear by it for marathon sessions.
 
@@ -98,7 +98,7 @@ Neither side is flawless. Here are the trade-offs you should know before buying.
 - Heavier (often 5–10 kg / 11–22 lb heavier than mesh equivalents)
 - Leather variants crack with age
 
-For a holistic decision framework that weighs budget against use case, see [How to choose a work chair without regrets](/en/articles/how-to-choose-work-chair).
+For a holistic decision framework that weighs budget against use case, see [How to choose a work chair without regrets](/articles/en/how-to-choose-work-chair).
 
 ## Quick Reference: Who Should Buy What
 
@@ -113,7 +113,7 @@ For a holistic decision framework that weighs budget against use case, see [How 
 | Under 4 hours/day | Either; prioritize budget |
 | 8+ hours/day | Premium tier mandatory; cheap chairs are torture |
 
-For long remote-work sessions specifically, [Best chairs for remote work in 2026](/en/articles/remote-work) gives concrete model picks.
+For long remote-work sessions specifically, [Best chairs for remote work in 2026](/articles/en/remote-work) gives concrete model picks.
 
 ## FAQ
 

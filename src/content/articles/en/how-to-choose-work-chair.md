@@ -15,7 +15,7 @@ I've bought, returned, and lived with more than ten work chairs over the last fi
 
 This isn't a list of brand names. It's a way of reading spec sheets — and your own body — so you can walk into any showroom and filter out 80% of the options within five minutes.
 
-For complementary reading, pair this with the [remote work setup guide](/en/articles/remote-work) and the [2026 ergonomic trends piece](/en/articles/ergonomic-chair-trends-2026).
+For complementary reading, pair this with the [remote work setup guide](/articles/en/remote-work) and the [2026 ergonomic trends piece](/articles/en/ergonomic-chair-trends-2026).
 
 ## Checkpoint 1: Seat Height Range vs. Your Actual Body
 
@@ -25,7 +25,7 @@ The ideal seat height puts your feet flat on the floor with your knees at roughl
 
 Most standard office chairs are engineered for users between 5'3" and 6'0". If you're outside that range, you're going to fight the chair forever. **If your ideal height is more than two inches from either end of the chair's adjustment range, walk away.** No amount of cushioning fixes this.
 
-A hidden catch: gas cylinders in budget chairs fail within 12–18 months, sinking slowly to their lowest position regardless of how often you re-pump them. As noted in the [office chair for back pain guide](/en/articles/office-chair-for-back-pain), replaceable cylinders are a quiet marker of quality. Ask explicitly whether the cylinder is a user-replaceable part.
+A hidden catch: gas cylinders in budget chairs fail within 12–18 months, sinking slowly to their lowest position regardless of how often you re-pump them. As noted in the [office chair for back pain guide](/articles/en/office-chair-for-back-pain), replaceable cylinders are a quiet marker of quality. Ask explicitly whether the cylinder is a user-replaceable part.
 
 ## Checkpoint 2: Lumbar Support — Adjustable, Not Fixed
 
@@ -91,7 +91,7 @@ Material choice isn't about looks — it's about climate, hours per day, and rep
 
 **Fabric** is comfortable year-round but shows stains and absorbs odors. In a household with kids or pets, expect visible wear within two years.
 
-**PU leather** — this is the one I'd tell a friend to avoid for a primary work chair. It looks great for the first 18 months. Then it cracks, flakes, and eventually leaves black confetti on your pants. Replica chairs and budget gaming chairs lean heavily on PU. The [gaming chair vs. office chair breakdown](/en/articles/gaming-chair-vs-office-chair) covers this in more depth.
+**PU leather** — this is the one I'd tell a friend to avoid for a primary work chair. It looks great for the first 18 months. Then it cracks, flakes, and eventually leaves black confetti on your pants. Replica chairs and budget gaming chairs lean heavily on PU. The [gaming chair vs. office chair breakdown](/articles/en/gaming-chair-vs-office-chair) covers this in more depth.
 
 **Genuine leather** lasts decades with care but runs hot and requires a real maintenance routine. Reasonable for executives who aren't perched in the chair for eight straight hours.
 
@@ -109,7 +109,7 @@ But "12-year warranty" hides nuance. Before buying, get specific answers on thes
 4. **Parts availability** — can you buy a replacement armrest pad, mesh seat, or caster in year eight?
 5. **Regional support** — if the chair is imported, is there a service center in your country?
 
-The [Herman Miller Aeron review](/en/articles/herman-miller-aeron-review-2026) digs into parts availability in detail — it's one of the strongest arguments for buying authentic rather than a replica. Speaking of which, the [replica vs. authentic analysis](/en/articles/replica-vs-authentic) covers why cheap clones fail the warranty test every time.
+The [Herman Miller Aeron review](/articles/en/herman-miller-aeron-review-2026) digs into parts availability in detail — it's one of the strongest arguments for buying authentic rather than a replica. Speaking of which, the [replica vs. authentic analysis](/articles/en/replica-vs-authentic) covers why cheap clones fail the warranty test every time.
 
 ## Common Mistakes
 
@@ -175,16 +175,16 @@ A. $500 minimum, $1,000+ is the sweet spot. Amortize over hours: a $1,000 chair 
 A. If it's a 2015-or-newer model from a reputable reseller with the remaining warranty transferred, yes. Older used units often need cylinder and mesh replacements that approach new-chair prices.
 
 **Q4. Can I use a gaming chair for work?**
-A. For short sessions, sure. For 8+ hours daily, no — the ergonomic science is overwhelmingly on the office-chair side. See the [gaming chair vs. office chair comparison](/en/articles/gaming-chair-vs-office-chair).
+A. For short sessions, sure. For 8+ hours daily, no — the ergonomic science is overwhelmingly on the office-chair side. See the [gaming chair vs. office chair comparison](/articles/en/gaming-chair-vs-office-chair).
 
 **Q5. What about petite or tall users?**
 A. Look for sizing options explicitly — Aeron comes in A/B/C, several brands offer "small" or "tall" variants. Standard-size chairs engineered around 5'9" will disappoint users more than four inches from that benchmark.
 
 **Q6. I have chronic back pain. Where do I start?**
-A. Height-plus-depth adjustable lumbar is the non-negotiable. See the [office chair for back pain guide](/en/articles/office-chair-for-back-pain) for a detailed treatment.
+A. Height-plus-depth adjustable lumbar is the non-negotiable. See the [office chair for back pain guide](/articles/en/office-chair-for-back-pain) for a detailed treatment.
 
 **Q7. I use a standing desk. Does this list still apply?**
-A. For sitting sessions, yes. If you also want to perch at standing height, you need a dedicated chair — see the [standing desk chair guide](/en/articles/standing-desk-chair-guide).
+A. For sitting sessions, yes. If you also want to perch at standing height, you need a dedicated chair — see the [standing desk chair guide](/articles/en/standing-desk-chair-guide).
 
 **Q8. Should I rent, subscribe, or buy?**
 A. Use the manufacturer's return window first — it's free and forces a real-world test. Rental makes sense for 1–3 month stints (short-term remote work, temp housing). Subscriptions rarely beat buying over a 3+ year horizon.

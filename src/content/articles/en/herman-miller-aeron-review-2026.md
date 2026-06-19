@@ -15,7 +15,7 @@ In April 2021, I bought a Herman Miller Aeron Remastered (Size B, Graphite, with
 
 Five years later, I have logged something close to 12,500 hours in this chair — averaging ten hours a day, six days a week, for five years. That is more time than most people spend with their car. So when I write a review, it is not the breathless honeymoon piece you read after a month of ownership. This is what the Aeron actually feels like after thousands of full work days.
 
-If you are still researching ergonomic chairs in general, start with our [ergonomic chair trends for 2026](/en/articles/ergonomic-chair-trends-2026) and come back when you are ready for the deep dive.
+If you are still researching ergonomic chairs in general, start with our [ergonomic chair trends for 2026](/articles/en/ergonomic-chair-trends-2026) and come back when you are ready for the deep dive.
 
 ## Verdict First, Detail Later
 
@@ -33,7 +33,7 @@ The rest of this article is the evidence behind those bullets.
 
 Skip this if you already know. The Aeron was designed in 1994 by Bill Stumpf and Don Chadwick — the first mainstream all-mesh task chair, and the only chair in the permanent collection of New York's MoMA. The current model, called Aeron Remastered, has been on sale since 2017 with the 8Z Pellicle mesh, the PostureFit SL pelvic support, and a refined tilt mechanism. Herman Miller covers it with a 12-year warranty.
 
-For ergonomic context on what these features actually do, our [office chair ergonomics guide](/en/articles/office-chair-ergonomics-guide) is a good companion read.
+For ergonomic context on what these features actually do, our [office chair ergonomics guide](/articles/en/office-chair-ergonomics-guide) is a good companion read.
 
 ## Five-Year Wear Report, Component by Component
 
@@ -100,7 +100,7 @@ Sit in all three sizes before buying. That is non-negotiable.
 
 The Aeron offers two back-support options.
 
-**PostureFit SL** pushes against the **sacrum** — the bone at the bottom of your spine — to keep the pelvis tilted slightly forward. This is the support most physical therapists actually recommend, because it fixes posture from the foundation upward. If you have any history of lower back pain, PostureFit is the right answer. Our [office chair guide for back pain](/en/articles/office-chair-for-back-pain) explains the biomechanics in more detail.
+**PostureFit SL** pushes against the **sacrum** — the bone at the bottom of your spine — to keep the pelvis tilted slightly forward. This is the support most physical therapists actually recommend, because it fixes posture from the foundation upward. If you have any history of lower back pain, PostureFit is the right answer. Our [office chair guide for back pain](/articles/en/office-chair-for-back-pain) explains the biomechanics in more detail.
 
 **Adjustable Lumbar** pushes against the **lumbar curve itself** — the small of your back. It feels nicer in the first ten minutes, but does less to prevent pelvic collapse over an eight-hour day. Pick this only if you specifically dislike the PostureFit feel after testing both.
 
@@ -134,7 +134,7 @@ I run an Atlas. It works, but it noticeably changes the silhouette of the chair.
 
 **The smartest buy in 2026 is Herman Miller Certified Refurbished.** Herman Miller takes back chairs from corporate accounts, replaces every consumable part (mesh, cylinder, casters), and resells them with a fresh full-length warranty. You give up colour and exact configuration choice in exchange for roughly 35–45% off MSRP.
 
-If buying used from a stranger, demand close-up photos of the seat mesh and ask whether the cylinder holds height for 24 hours. If either answer is wrong, walk away. For a broader treatment of buying chairs second-hand, our [authentic vs replica](/en/articles/replica-vs-authentic) piece covers what to look out for.
+If buying used from a stranger, demand close-up photos of the seat mesh and ask whether the cylinder holds height for 24 hours. If either answer is wrong, walk away. For a broader treatment of buying chairs second-hand, our [authentic vs replica](/articles/en/replica-vs-authentic) piece covers what to look out for.
 
 ## Aeron vs Steelcase Leap V2 vs Steelcase Gesture
 
@@ -165,7 +165,7 @@ Designed for the smartphone-and-tablet era, with arms that swing through nearly 
 - Existing back pain, fabric over mesh, slightly tighter budget → **Leap V2**
 - Mixing devices, reading, gaming, multiple postures → **Gesture**
 
-If you are weighing a gaming chair against an ergonomic chair instead, our [gaming chair vs office chair](/en/articles/gaming-chair-vs-office-chair) breakdown covers that head-to-head.
+If you are weighing a gaming chair against an ergonomic chair instead, our [gaming chair vs office chair](/articles/en/gaming-chair-vs-office-chair) breakdown covers that head-to-head.
 
 ## My Three Biggest Regrets
 
@@ -175,7 +175,7 @@ After five honest years, here are mine.
 
 **2. I skipped the forward-tilt option.** The Aeron offers an optional forward tilt that lets the seat tip slightly nose-down — useful for drawing, hand-writing, or anyone who works leaned forward over a laptop. I assumed I would never use it. Five years in, I find myself wanting it during long focus sessions. You **cannot retrofit** this option later.
 
-**3. I underestimated summer.** "Mesh means cool" is half right and half marketing. Compared to leather or fabric, the Aeron is dramatically more breathable. But on a humid 80°F afternoon without aggressive air conditioning, sweat does pool in the lower seat zone. A thin towel layer or proper climate control is the only fix. If you also use a sit-stand desk to alternate postures, see our [standing desk chair guide](/en/articles/standing-desk-chair-guide).
+**3. I underestimated summer.** "Mesh means cool" is half right and half marketing. Compared to leather or fabric, the Aeron is dramatically more breathable. But on a humid 80°F afternoon without aggressive air conditioning, sweat does pool in the lower seat zone. A thin towel layer or proper climate control is the only fix. If you also use a sit-stand desk to alternate postures, see our [standing desk chair guide](/articles/en/standing-desk-chair-guide).
 
 ## Who Should Skip the Aeron Entirely
 
@@ -199,7 +199,7 @@ Things I do, and recommend:
 - **Arms:** if you hear a squeak, drop a tiny amount of silicone oil on the pivot
 - **Tilt mechanism:** do nothing. If it ever starts squeaking, contact Herman Miller — that is a warranty event
 
-For a broader perspective on what good remote-work seating looks like, our [remote work setup](/en/articles/remote-work) article folds chair selection into the bigger picture.
+For a broader perspective on what good remote-work seating looks like, our [remote work setup](/articles/en/remote-work) article folds chair selection into the bigger picture.
 
 ## Resale Value: Where the Aeron Quietly Wins
 
@@ -227,7 +227,7 @@ Size A is technically usable from about 4'7" / 140 cm, but a growth-stage child 
 
 ### Is it a good gaming chair?
 
-For long sessions of FPS, MMO, or strategy games, yes — the breathability and posture support are excellent. For gamers who want to lean way back or sprawl, no. For a deeper comparison see [gaming chair vs office chair](/en/articles/gaming-chair-vs-office-chair).
+For long sessions of FPS, MMO, or strategy games, yes — the breathability and posture support are excellent. For gamers who want to lean way back or sprawl, no. For a deeper comparison see [gaming chair vs office chair](/articles/en/gaming-chair-vs-office-chair).
 
 ### Do I need to assemble it?
 

@@ -15,7 +15,7 @@ Most office chair content online is written for first-time buyers — spec compa
 
 I've been on the other side of that gap. I burned through a $200 chair in three years, lived with a mid-tier chair for eight, and I'm now six years into a premium one. What I've learned is that office chairs are not a "buy and forget" purchase. Ignore the lifespan curve and you wreck your back without realizing it. Pay attention, do basic maintenance, and replace at the right moment, and a single chair can serve you for ten or fifteen years comfortably.
 
-This guide is the long-term ownership perspective: how long chairs really last by price tier, the ten warning signs that tell you it's time to act, and the repair-versus-replace framework I actually use. If you're shopping for your first serious chair, pair this with [How to Choose a Work Chair](/en/articles/how-to-choose-work-chair) for the buying side.
+This guide is the long-term ownership perspective: how long chairs really last by price tier, the ten warning signs that tell you it's time to act, and the repair-versus-replace framework I actually use. If you're shopping for your first serious chair, pair this with [How to Choose a Work Chair](/articles/en/how-to-choose-work-chair) for the buying side.
 
 ## Lifespan by Price Tier: How Long Does Your Money Last?
 
@@ -60,7 +60,7 @@ Office chair longevity tracks price more linearly than almost any other furnitur
 
 Sub-$200 chairs aren't bad in absolute terms — they're rational for short-term use, guest seating, or kids' rooms. As a daily eight-hour driver for remote work, they fall apart inside three years. My first chair lost its gas cylinder at month 30 and the manufacturer didn't sell replacement parts. Done.
 
-Above $500, the design philosophy shifts. Herman Miller, Steelcase, and Humanscale build with the assumption that parts will be replaced over a 12-year arc. Twelve-year warranties are standard. Mesh, casters, cylinders, armrest pads — all individually orderable. The upfront cost stings, but on a ten-year amortization basis, the math often favors the expensive chair. The same analysis appears in the [Herman Miller Aeron 2026 review](/en/articles/herman-miller-aeron-review-2026) if you want the brand-specific numbers.
+Above $500, the design philosophy shifts. Herman Miller, Steelcase, and Humanscale build with the assumption that parts will be replaced over a 12-year arc. Twelve-year warranties are standard. Mesh, casters, cylinders, armrest pads — all individually orderable. The upfront cost stings, but on a ten-year amortization basis, the math often favors the expensive chair. The same analysis appears in the [Herman Miller Aeron 2026 review](/articles/en/herman-miller-aeron-review-2026) if you want the brand-specific numbers.
 
 ## Lifespan by Material: What Fails First
 
@@ -71,7 +71,7 @@ A chair lives or dies by its weakest material — usually the upholstery or seat
 - **PU / synthetic leather**: 2–5 years. Shortest-lived material in the category. Cracking and peeling are inevitable, not a question of if.
 - **Real leather**: 10–20 years with care. Skip the conditioning and it dries out by year 5.
 
-PU leather chairs photograph well and price low, which is why they dominate the gaming-chair market. But the surface starts flaking by year 3 and is usually unsalvageable by year 5. As covered in the [remote work chair guide](/en/articles/remote-work), PU leather is best understood as a photogenic consumable.
+PU leather chairs photograph well and price low, which is why they dominate the gaming-chair market. But the surface starts flaking by year 3 and is usually unsalvageable by year 5. As covered in the [remote work chair guide](/articles/en/remote-work), PU leather is best understood as a photogenic consumable.
 
 Mesh, especially Herman Miller's Pellicle, is the most practical choice for ten-year ownership. It cleans easily, doesn't trap heat, and the manufacturer covers it for 12 years. Real leather can outlast mesh, but only with consistent oiling — most owners don't do this and theirs cracks by year five.
 
@@ -85,7 +85,7 @@ You sit at the right height in the morning, and by afternoon the seat has sunk t
 
 ### 2. Lumbar support broken or sagging
 
-The lower-back support compresses when you push it instead of pushing back. Or it never had real tension to begin with — you only noticed because the rest of the chair compensated. This is dangerous because back pain creeps up gradually. Covered in depth in the [office chair for back pain guide](/en/articles/office-chair-for-back-pain).
+The lower-back support compresses when you push it instead of pushing back. Or it never had real tension to begin with — you only noticed because the rest of the chair compensated. This is dangerous because back pain creeps up gradually. Covered in depth in the [office chair for back pain guide](/articles/en/office-chair-for-back-pain).
 
 ### 3. Mesh stretched or torn
 
@@ -173,7 +173,7 @@ The "10-year warranty" or "12-year warranty" stamped on premium chairs looks lik
 
 My Herman Miller chair developed a faulty gas cylinder at year 5. One support call, one parts shipment, one DIY install with the included instructions. Total cost to me: zero. The same failure on a no-name chair would have cost me $80–150 plus shipping, or in the worst case forced a full replacement.
 
-The [Aeron 2026 review](/en/articles/herman-miller-aeron-review-2026) covers this in more detail, but Herman Miller's warranty covers the frame, mechanism, and Pellicle mesh — that's effectively the whole chair. On a $1,800 purchase, that warranty alone is worth several hundred dollars over twelve years.
+The [Aeron 2026 review](/articles/en/herman-miller-aeron-review-2026) covers this in more detail, but Herman Miller's warranty covers the frame, mechanism, and Pellicle mesh — that's effectively the whole chair. On a $1,800 purchase, that warranty alone is worth several hundred dollars over twelve years.
 
 ## Resale Reality: Aerons Hold 40–60% at Year 10
 
@@ -188,7 +188,7 @@ The unspoken third element of long-term ownership economics is the resale market
 
 A $1,800 Aeron sold for $800–1,000 after a decade of use means real cost of ownership was $80–100 per year. By contrast, a $200 chair replaced four times across that decade costs $800 with no resale recovery.
 
-This is also the reason the [Aeron alternatives guide](/en/articles/herman-miller-aeron-alternatives) treats used Aerons as a serious budget option. The used-Aeron market exists because original owners actually do resell, and the chairs hold up well enough to be worth buying secondhand. That circular market lowers the effective new-chair cost too.
+This is also the reason the [Aeron alternatives guide](/articles/en/herman-miller-aeron-alternatives) treats used Aerons as a serious budget option. The used-Aeron market exists because original owners actually do resell, and the chairs hold up well enough to be worth buying secondhand. That circular market lowers the effective new-chair cost too.
 
 ## Sustainable Disposal Options
 
@@ -213,7 +213,7 @@ Everything above tilts toward "buy the expensive chair, keep it forever." Worth 
 - Your budget is genuinely tight and a $1,500 outlay would create real stress
 - You honestly don't notice or care about chair quality (some people don't, and that's fine)
 
-The threshold I use: if you sit in the chair 6+ hours per day for remote work, premium starts paying off. For 2–3 day-per-week hybrid workers, $300–500 chairs deliver 80% of the benefit at 25% of the cost. The [2026 ergonomic trends piece](/en/articles/ergonomic-chair-trends-2026) covers how mid-tier quality has improved enough that the gap to premium is narrower than it was five years ago.
+The threshold I use: if you sit in the chair 6+ hours per day for remote work, premium starts paying off. For 2–3 day-per-week hybrid workers, $300–500 chairs deliver 80% of the benefit at 25% of the cost. The [2026 ergonomic trends piece](/articles/en/ergonomic-chair-trends-2026) covers how mid-tier quality has improved enough that the gap to premium is narrower than it was five years ago.
 
 ## FAQ
 
@@ -239,7 +239,7 @@ The threshold I use: if you sit in the chair 6+ hours per day for remote work, p
 
 ### Can you repair peeling PU leather?
 
-**Patch repair exists; permanent repair doesn't.** PU leather hydrolyzes — moisture and UV gradually break the polymer chains. Once peeling starts, the entire surface is failing and patches buy you a few months. Real-leather reupholstery ($300–800) is one path; replacement is the more common one. The [authentic vs. replica guide](/en/articles/replica-vs-authentic) explains why genuine leather costs more upfront but lasts an order of magnitude longer.
+**Patch repair exists; permanent repair doesn't.** PU leather hydrolyzes — moisture and UV gradually break the polymer chains. Once peeling starts, the entire surface is failing and patches buy you a few months. Real-leather reupholstery ($300–800) is one path; replacement is the more common one. The [authentic vs. replica guide](/articles/en/replica-vs-authentic) explains why genuine leather costs more upfront but lasts an order of magnitude longer.
 
 ### How many years before I should replace?
 
@@ -251,4 +251,4 @@ Office chairs aren't appliances. They're closer to bicycles or shoes — things 
 
 The pattern that's worked for me, after a decade of trial and error: spend $700+ on the initial chair, do the six-month maintenance routine, and replace promptly when 3+ warning signs appear. This is cheaper per year than the budget-replacement cycle, easier on your back, and far easier on the planet.
 
-If you're in the buying stage, [How to Choose a Work Chair](/en/articles/how-to-choose-work-chair) is the companion piece. If you're already in pain from your current chair, [Office Chairs for Back Pain](/en/articles/office-chair-for-back-pain) helps you triage. And if you're looking at premium specifically, the [Aeron 2026 review](/en/articles/herman-miller-aeron-review-2026) is the deepest single-chair analysis on the site.
+If you're in the buying stage, [How to Choose a Work Chair](/articles/en/how-to-choose-work-chair) is the companion piece. If you're already in pain from your current chair, [Office Chairs for Back Pain](/articles/en/office-chair-for-back-pain) helps you triage. And if you're looking at premium specifically, the [Aeron 2026 review](/articles/en/herman-miller-aeron-review-2026) is the deepest single-chair analysis on the site.

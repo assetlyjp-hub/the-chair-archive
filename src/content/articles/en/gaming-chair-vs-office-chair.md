@@ -23,7 +23,7 @@ The original gaming chair lineage traces directly back to **motorsport bucket se
 
 ### Office chairs: descended from ergonomics research
 
-Office chairs evolved from **1970s human-factors research**. Herman Miller's Ergon (1976, Bill Stumpf) and later the Aeron (1994) redefined seating around anatomy and circulation. As covered in our [2026 ergonomic chair trends guide](/en/articles/ergonomic-chair-trends-2026), modern office chairs are increasingly designed around "active sitting"—micro-movements and postural variation rather than rigid support.
+Office chairs evolved from **1970s human-factors research**. Herman Miller's Ergon (1976, Bill Stumpf) and later the Aeron (1994) redefined seating around anatomy and circulation. As covered in our [2026 ergonomic chair trends guide](/articles/en/ergonomic-chair-trends-2026), modern office chairs are increasingly designed around "active sitting"—micro-movements and postural variation rather than rigid support.
 
 These two origin stories produce two fundamentally different priorities: **hold you still** versus **let you move**.
 
@@ -57,7 +57,7 @@ This is where the categories diverge most.
 
 **Office chairs use synchro-tilt** (or sync-recline). The seat pan and backrest pivot together, typically at a 1:2 ratio, so when you lean back the whole chair responds. Critically, **your weight keeps the chair in gentle motion** throughout the day. This is the core of "active sitting": micro-movements promote circulation in the lumbar region and reduce spinal disc pressure compared to static postures.
 
-If back pain is a concern, this difference alone likely decides the question. See our [office chair for back pain guide](/en/articles/office-chair-for-back-pain) for the clinical reasoning.
+If back pain is a concern, this difference alone likely decides the question. See our [office chair for back pain guide](/articles/en/office-chair-for-back-pain) for the clinical reasoning.
 
 ### 3. Armrests: specs similar, build quality diverges
 
@@ -100,13 +100,13 @@ The "gaming chairs are cheaper" framing falls apart on an **annual-cost basis**:
 - **Quality used office chair** ($700 × 10 years): ~$70/year
 - **Aeron new** ($1,800 × 12-year warranty): ~$150/year
 
-The better office chairs are frequently cheaper per year *and* more comfortable every day. Our [ergonomics guide](/en/articles/office-chair-ergonomics-guide) goes deeper on why up-front price is the wrong metric.
+The better office chairs are frequently cheaper per year *and* more comfortable every day. Our [ergonomics guide](/articles/en/office-chair-ergonomics-guide) goes deeper on why up-front price is the wrong metric.
 
 ## Use-case verdicts
 
 ### 8-hour workdays → Office chair
 
-This one is not close. Synchro-tilt, breathable materials, adjustable seat depth—every feature that matters for all-day work is native to the office chair category. See our [remote work chair overview](/en/articles/remote-work) for specific recommendations.
+This one is not close. Synchro-tilt, breathable materials, adjustable seat depth—every feature that matters for all-day work is native to the office chair category. See our [remote work chair overview](/articles/en/remote-work) for specific recommendations.
 
 ### Short gaming sessions (under 2 hours) → Either
 
@@ -114,11 +114,11 @@ Material breathability is barely a factor under two hours. If the aesthetic moti
 
 ### Back pain → Office chair, decisively
 
-The physiological cause of most sitting-related back pain is **postural stasis**—holding the same position too long. Synchro-tilt mechanisms counteract that by keeping you in gentle motion. Our [back pain guide](/en/articles/office-chair-for-back-pain) explains the mechanism in detail.
+The physiological cause of most sitting-related back pain is **postural stasis**—holding the same position too long. Synchro-tilt mechanisms counteract that by keeping you in gentle motion. Our [back pain guide](/articles/en/office-chair-for-back-pain) explains the mechanism in detail.
 
 ### Small rooms / minimalist interiors → Office chair
 
-Gaming chairs are **visually loud**. In a 120-square-foot room, a red-and-black bucket seat dominates the space. Mesh office chairs disappear visually, which matters if the room doubles as a bedroom or living space. A [sit-stand setup](/en/articles/standing-desk-chair-guide) can also reduce the footprint.
+Gaming chairs are **visually loud**. In a 120-square-foot room, a red-and-black bucket seat dominates the space. Mesh office chairs disappear visually, which matters if the room doubles as a bedroom or living space. A [sit-stand setup](/articles/en/standing-desk-chair-guide) can also reduce the footprint.
 
 ## When a gaming chair *is* the right call
 
@@ -147,7 +147,7 @@ For premium gaming chairs that lean into productivity use, Secretlab TITAN EVO i
 - **Ergohuman Pro** — mesh, integrated lumbar, strong price-to-performance.
 - **Okamura Baron** — Japanese premium with high-grade mesh.
 
-If the Aeron is outside your budget, see [our Aeron alternatives guide](/en/articles/herman-miller-aeron-alternatives) for value picks. And if you're considering replicas, our [replica vs authentic article](/en/articles/replica-vs-authentic) covers the trade-offs.
+If the Aeron is outside your budget, see [our Aeron alternatives guide](/articles/en/herman-miller-aeron-alternatives) for value picks. And if you're considering replicas, our [replica vs authentic article](/articles/en/replica-vs-authentic) covers the trade-offs.
 
 ## Honest downsides of each
 

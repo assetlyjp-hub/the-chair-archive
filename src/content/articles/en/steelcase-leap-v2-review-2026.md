@@ -38,7 +38,7 @@ In practice:
 
 This top-and-bottom independent flex is the key difference versus other chairs. The Aeron's PostureFit pushes your lumbar passively from the front; the Leap's LiveBack actively follows your whole back. When I'm hunched over writing and lean forward, the chair leans with me instead of falling behind. The freedom of posture is real.
 
-I cover this in more depth in our [best chairs for remote work guide](/en/articles/remote-work).
+I cover this in more depth in our [best chairs for remote work guide](/articles/en/remote-work).
 
 ---
 
@@ -49,7 +49,7 @@ The Leap V2's lumbar support has a wider adjustment range than the Aeron's.
 - **Firmness:** a dial on the back of the chair adjusts lumbar pressure on a continuous scale.
 - **Height:** a slider moves the lumbar pad up and down.
 
-I'm 5'9" with a relatively high lumbar curve. On the Aeron, the support sat too low and the middle of my back floated. On the Leap V2, I can dial in the height exactly. If you want more options, our [office chair for back pain guide](/en/articles/office-chair-for-back-pain) breaks down the alternatives.
+I'm 5'9" with a relatively high lumbar curve. On the Aeron, the support sat too low and the middle of my back floated. On the Leap V2, I can dial in the height exactly. If you want more options, our [office chair for back pain guide](/articles/en/office-chair-for-back-pain) breaks down the alternatives.
 
 In five years, the Leap has never aggravated my lower back. After years of cheap gaming chairs, the difference in evening back tension was obvious within the first week.
 
@@ -90,7 +90,7 @@ What's covered:
 - Gas cylinder, casters: 12 years
 - 24/7 commercial use covered
 
-In year three, the angle adjuster on my left armrest stopped clicking into place. I called my authorized dealer; they replaced the entire armrest assembly free of charge in two weeks. The warranty is real. For more on warranty math and replacement timing, see our [office chair lifespan guide](/en/articles/office-chair-lifespan).
+In year three, the angle adjuster on my left armrest stopped clicking into place. I called my authorized dealer; they replaced the entire armrest assembly free of charge in two weeks. The warranty is real. For more on warranty math and replacement timing, see our [office chair lifespan guide](/articles/en/office-chair-lifespan).
 
 ---
 
@@ -110,7 +110,7 @@ This is where personal preference takes over.
 - Slightly cool in winter
 - Lighter users may find support diffuse
 
-I run a Leap V2 in winter and an Aeron in summer when the AC is running hard. For a fuller comparison, see our [Herman Miller vs Steelcase article](/en/articles/herman-miller-vs-steelcase).
+I run a Leap V2 in winter and an Aeron in summer when the AC is running hard. For a fuller comparison, see our [Herman Miller vs Steelcase article](/articles/en/herman-miller-vs-steelcase).
 
 ---
 
@@ -177,7 +177,7 @@ After five years on both, here is the honest split:
 - You prefer the iconic mesh look
 - You want a chair sized to your body (A/B/C)
 
-For a deeper Aeron-side perspective, see [Herman Miller Aeron Review 2026](/en/articles/herman-miller-aeron-review-2026).
+For a deeper Aeron-side perspective, see [Herman Miller Aeron Review 2026](/articles/en/herman-miller-aeron-review-2026).
 
 ---
 
@@ -202,7 +202,7 @@ It's close to a universal task chair, but it especially shines for:
 - Buyers who think "if I'm spending $1,500, I want to use it for a decade"
 - People who value reliability over showroom looks
 
-For broader chair-buying frameworks, see our [how to choose a work chair guide](/en/articles/how-to-choose-work-chair).
+For broader chair-buying frameworks, see our [how to choose a work chair guide](/articles/en/how-to-choose-work-chair).
 
 ---
 

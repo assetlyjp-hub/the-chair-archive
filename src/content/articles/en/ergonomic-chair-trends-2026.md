@@ -13,7 +13,7 @@ articleType: "guide"
 
 Remote work stopped being a trend years ago — it's infrastructure now. And the chair you sit in for 8+ hours a day is no longer a furniture decision. It's a health decision. The good news: 2026's ergonomic chair market has caught up to the demand with genuine innovation, not just marketing.
 
-Here are the five megatrends defining office seating this year, and what they mean for your next purchase. If you're specifically shopping for a [remote work setup](/en/articles/best-chairs-for-remote-work), we've covered that in depth too.
+Here are the five megatrends defining office seating this year, and what they mean for your next purchase. If you're specifically shopping for a [remote work setup](/articles/en/best-chairs-for-remote-work), we've covered that in depth too.
 
 ## Trend 1: Dynamic Lumbar Support
 
@@ -27,7 +27,7 @@ This isn't just about comfort. Static lumbar support actually contributes to mus
 - **Steelcase Karman** — A frameless mesh construction where support isn't zoned — it's distributed across the entire backrest
 - **Humanscale Freedom** — The pioneer of automatic recline. No levers, no adjustments. Your body weight does everything.
 
-Looking for [alternatives to the Herman Miller Aeron](/en/articles/herman-miller-aeron-alternatives)? These models are strong contenders.
+Looking for [alternatives to the Herman Miller Aeron](/articles/en/herman-miller-aeron-alternatives)? These models are strong contenders.
 
 ## Trend 2: Smart Technology Integration
 

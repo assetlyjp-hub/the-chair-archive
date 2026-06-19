@@ -97,7 +97,7 @@ More traditional aesthetics with a foam seat. Solid lumbar adjustment, decent ar
 
 **Honest downsides**: Foam seat compresses over time faster than mesh. Assembly is finicky.
 
-If you want a broader budget picture, our [ergonomic chair trends for 2026](/en/articles/ergonomic-chair-trends-2026) covers what's new in dynamic lumbar tech and where the market is going.
+If you want a broader budget picture, our [ergonomic chair trends for 2026](/articles/en/ergonomic-chair-trends-2026) covers what's new in dynamic lumbar tech and where the market is going.
 
 ### $400-1000: The Sweet Spot for Most People
 
@@ -139,11 +139,11 @@ The Freedom eliminates manual recline adjustment entirely — it uses your body 
 
 **Honest downsides**: If you want to lock the recline in a specific position, you can't. The auto-recline is the whole philosophy; either you love it or you don't.
 
-For more on how the premium market compares to replicas you'll find online, see our guide on [replicas versus authentic ergonomic chairs](/en/articles/replica-vs-authentic) — a topic that comes up constantly for Aeron and Embody shoppers.
+For more on how the premium market compares to replicas you'll find online, see our guide on [replicas versus authentic ergonomic chairs](/articles/en/replica-vs-authentic) — a topic that comes up constantly for Aeron and Embody shoppers.
 
 ## A Note on Aesthetic Alternatives
 
-Not every great chair for your back needs to look like a spaceship. For home offices where aesthetics matter, some of the [Nordic design-led chairs we've covered](/en/articles/nordic-chairs-guide) pair genuine ergonomic fundamentals with furniture you won't want to hide. And if you're considering a sit-stand setup, a proper [standing-desk chair or perching stool](/en/articles/standing-desk-chair-guide) can reduce overall sitting time — which is, biomechanically, the single best thing you can do for your back.
+Not every great chair for your back needs to look like a spaceship. For home offices where aesthetics matter, some of the [Nordic design-led chairs we've covered](/articles/en/nordic-chairs-guide) pair genuine ergonomic fundamentals with furniture you won't want to hide. And if you're considering a sit-stand setup, a proper [standing-desk chair or perching stool](/articles/en/standing-desk-chair-guide) can reduce overall sitting time — which is, biomechanically, the single best thing you can do for your back.
 
 ## Supporting Habits (The Chair Isn't Enough)
 
@@ -168,7 +168,7 @@ The three that matter most, all of which take under 60 seconds:
 
 The single best long-term investment you can make in your back is a stronger core. Not crunches — planks, dead bugs, and bird-dog variations. Two or three short sessions per week beats hour-long gym days you won't sustain.
 
-For context on how remote work specifically affects posture and what to do about it, we have a separate deep dive on [remote work ergonomics and chair selection](/en/articles/remote-work).
+For context on how remote work specifically affects posture and what to do about it, we have a separate deep dive on [remote work ergonomics and chair selection](/articles/en/remote-work).
 
 ## Honest Downsides (What No One Tells You)
 

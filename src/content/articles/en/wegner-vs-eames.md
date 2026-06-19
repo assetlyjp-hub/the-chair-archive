@@ -80,7 +80,7 @@ A useful shorthand: **Wegner is furniture that grows with you, Eames is a finish
 - Vintage rugs with houseplants and indirect light
 - Light-filled living rooms with wood and linen
 
-See [Nordic Chairs: A Buyer's Guide](/en/articles/nordic-chairs-guide) for more on building this kind of space.
+See [Nordic Chairs: A Buyer's Guide](/articles/en/nordic-chairs-guide) for more on building this kind of space.
 
 ### Where Eames Shines
 
@@ -121,8 +121,8 @@ In my own home, Wegner lives in the dining room and Eames lives in the office. M
 
 - Shell chairs get uncomfortable for long sittings without a cushion
 - The Lounge Chair has a large footprint and overpowers small rooms
-- The market is flooded with replicas, which dilutes the perception of authentic pieces (see [Replica vs Authentic](/en/articles/replica-vs-authentic))
-- Leather panels can crack over decades if neglected (see [Maintenance Guide](/en/articles/designer-chair-maintenance-guide))
+- The market is flooded with replicas, which dilutes the perception of authentic pieces (see [Replica vs Authentic](/articles/en/replica-vs-authentic))
+- Leather panels can crack over decades if neglected (see [Maintenance Guide](/articles/en/designer-chair-maintenance-guide))
 
 ---
 
@@ -135,7 +135,7 @@ In my own home, Wegner lives in the dining room and Eames lives in the office. M
 - **Budget under $600** — Eames Shell DSW
 - **Budget $5,000 and up** — PP501 The Chair or Eames Lounge
 
-For more on how the modern chair evolved across both Europe and America, see [The History of the Modern Chair](/en/articles/history-of-modern-chair).
+For more on how the modern chair evolved across both Europe and America, see [The History of the Modern Chair](/articles/en/history-of-modern-chair).
 
 ---
 
@@ -145,7 +145,7 @@ For more on how the modern chair evolved across both Europe and America, see [Th
 If budget is the priority, start with an Eames Shell DSW. If long-term ownership is the priority, the Wishbone CH24 is hard to beat.
 
 **Q2. Are replicas good enough?**
-For a few years of casual use, sometimes. The differences show up in the seat weave, the joinery, and the wood selection. The investment angle is covered in [Eames Lounge vs Barcelona Chair](/en/articles/eames-lounge-vs-barcelona) too.
+For a few years of casual use, sometimes. The differences show up in the seat weave, the joinery, and the wood selection. The investment angle is covered in [Eames Lounge vs Barcelona Chair](/articles/en/eames-lounge-vs-barcelona) too.
 
 **Q3. Can I mix Wegner and Eames in the same room?**
 It's tough. The material languages are opposites. I'd assign them to different rooms.
@@ -168,4 +168,4 @@ Yes. Solid wood actually forgives small dings — it can be sanded and re-oiled.
 
 Wegner and Eames worked in the same mid-century moment, but they rewrote the rules of chair design from opposite ends. **Wegner perfected wood and joinery; the Eameses pioneered industrial materials and democratized great design.** Both expanded what we mean by "a great chair."
 
-If you're stuck deciding, start with one entry-level masterpiece — a CH24 or a DSW — live with it for a season, and let your eye tell you which world you belong to. Then deepen your knowledge with [Nordic Chairs: A Buyer's Guide](/en/articles/nordic-chairs-guide), [The History of the Modern Chair](/en/articles/history-of-modern-chair), and the [Maintenance Guide](/en/articles/designer-chair-maintenance-guide) to keep whichever you choose looking its best for decades.
+If you're stuck deciding, start with one entry-level masterpiece — a CH24 or a DSW — live with it for a season, and let your eye tell you which world you belong to. Then deepen your knowledge with [Nordic Chairs: A Buyer's Guide](/articles/en/nordic-chairs-guide), [The History of the Modern Chair](/articles/en/history-of-modern-chair), and the [Maintenance Guide](/articles/en/designer-chair-maintenance-guide) to keep whichever you choose looking its best for decades.

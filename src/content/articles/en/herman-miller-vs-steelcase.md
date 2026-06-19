@@ -38,7 +38,7 @@ That difference shows up in how the chairs sit, look, and resell.
 | Sizes | A / B / C | One size, adjustable |
 | Used resale | 50-65 percent of new | 30-45 percent of new |
 
-I covered the chair itself in the [Aeron review](/en/articles/herman-miller-aeron-review-2026), but the headline is this: the Aeron lifts you onto a layer of air; the Leap catches you in a fabric net. Same job, different sensation.
+I covered the chair itself in the [Aeron review](/articles/en/herman-miller-aeron-review-2026), but the headline is this: the Aeron lifts you onto a layer of air; the Leap catches you in a fabric net. Same job, different sensation.
 
 The Embody vs Gesture matchup is less talked about, so worth a note. **Embody** has a spine-following back that tracks each vertebra independently — it is the chair I would buy for a writer or a developer who lives in a forward-leaning posture. **Gesture** answers the modern problem of devices: phones in laps, tablets propped up, screens at three different heights. Its arms move in arcs no other chair can match, and that is its real point.
 
@@ -54,7 +54,7 @@ The Leap is **adaptive**. The seat sinks. The fabric finds the contours of your 
 
 ### 2. Heat and Summer
 
-Aeron wins, full stop. Pellicle breathes; you do not get a sweat patch in August. The Leap is cushioned, and from June to September I want a thin breathable cover on top. If you sit nine hours a day in a [remote work setup](/en/articles/remote-work), that summer gap matters.
+Aeron wins, full stop. Pellicle breathes; you do not get a sweat patch in August. The Leap is cushioned, and from June to September I want a thin breathable cover on top. If you sit nine hours a day in a [remote work setup](/articles/en/remote-work), that summer gap matters.
 
 ### 3. Body Fit
 
@@ -67,7 +67,7 @@ Both come with **12-year warranties**, which is the loudest claim either company
 - **Herman Miller** — cylinder, mesh, casters, arm pivots, frame, all 12 years.
 - **Steelcase** — full structure 12 years assuming 24/7 capability; upholstery 12 years excluding burn or chemical damage.
 
-I wrote about [office chair lifespan](/en/articles/office-chair-lifespan) separately. My four-year Aeron's gas cylinder started settling early; the official channel replaced it for free. My two-year Leap is still flawless. Both chairs survive in the secondary market past the ten-year mark, which is something IKEA chairs and budget mesh chairs simply cannot claim. That is part of why the price tag is justifiable.
+I wrote about [office chair lifespan](/articles/en/office-chair-lifespan) separately. My four-year Aeron's gas cylinder started settling early; the official channel replaced it for free. My two-year Leap is still flawless. Both chairs survive in the secondary market past the ten-year mark, which is something IKEA chairs and budget mesh chairs simply cannot claim. That is part of why the price tag is justifiable.
 
 ## Resale Value: Where Aeron Pulls Away
 
@@ -109,7 +109,7 @@ The decision gets simple when you map it to how you work.
 - **Designers and editors**: Embody or Leap. Long focus stretches with frequent posture shifts.
 - **Executives**: Aeron (size C) or Gesture. Visual presence and arm range during meetings.
 - **Heavy-meeting managers**: Leap V2 or Gesture. Permissive postures.
-- **Remote workers, 10+ hours a day**: Aeron. Heat management plus [back pain mitigation](/en/articles/office-chair-for-back-pain).
+- **Remote workers, 10+ hours a day**: Aeron. Heat management plus [back pain mitigation](/articles/en/office-chair-for-back-pain).
 
 ## The Honest Downsides
 
@@ -127,7 +127,7 @@ The decision gets simple when you map it to how you work.
 - Slower secondary market in many regions
 - Headrest version costs another $200-300
 
-This isn't replica-versus-real territory like the [replica vs authentic](/en/articles/replica-vs-authentic) debate around iconic lounge chairs — both these office chairs are genuine engineered products from their original makers. The trade-off is taste and use case, not authenticity.
+This isn't replica-versus-real territory like the [replica vs authentic](/articles/en/replica-vs-authentic) debate around iconic lounge chairs — both these office chairs are genuine engineered products from their original makers. The trade-off is taste and use case, not authenticity.
 
 ## FAQ
 
@@ -138,7 +138,7 @@ A. Aeron if you optimize for ten-plus years, ventilation, and resale. Leap V2 if
 A. Aeron: go fully loaded with PostureFit SL — anything less feels under-spec'd. Leap: add the integrated headrest version; it transforms long-day comfort.
 
 **Q3. Better for chronic back pain?**
-A. Individual fit dominates, but in my anecdotal experience Leap V2 has a higher hit rate on chronic lower-back complaints. Aeron is better for forward-lean back fatigue. The [back pain article](/en/articles/office-chair-for-back-pain) has the longer version.
+A. Individual fit dominates, but in my anecdotal experience Leap V2 has a higher hit rate on chronic lower-back complaints. Aeron is better for forward-lean back fatigue. The [back pain article](/articles/en/office-chair-for-back-pain) has the longer version.
 
 **Q4. Smaller or larger bodies?**
 A. Aeron's A size is the only mainstream premium chair that genuinely fits smaller frames. The C size handles heavier and taller users. Leap's one-size design works for most but not the extremes.
@@ -158,4 +158,4 @@ My setup landed at **Aeron at the main desk, Leap V2 at the side desk**. The 10-
 
 A four-figure chair purchase deserves caution, but both these are decade-class tools. The honest take is: neither pick is wrong. The pick is whichever matches your body and your workday.
 
-If you are still on the fence, start with [how to choose a work chair](/en/articles/how-to-choose-work-chair). And if you want me to push you off the fence: I'd choose the Aeron. A chair with strong resale gives you a clean exit on day one — that is its own kind of comfort.
+If you are still on the fence, start with [how to choose a work chair](/articles/en/how-to-choose-work-chair). And if you want me to push you off the fence: I'd choose the Aeron. A chair with strong resale gives you a clean exit on day one — that is its own kind of comfort.

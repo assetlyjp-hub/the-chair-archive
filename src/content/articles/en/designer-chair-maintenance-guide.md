@@ -86,7 +86,7 @@ The Wishbone Chair's signature feature is 120 meters of paper cord hand-woven in
 - Distribute weight when sitting and standing; don't drop into the chair
 - Expected lifespan with proper care: 15 to 30 years. Re-weaving costs around $300-$500 at authorized Carl Hansen dealers.
 
-For a deeper comparison, see [Nordic chairs guide](/en/articles/nordic-chairs-guide).
+For a deeper comparison, see [Nordic chairs guide](/articles/en/nordic-chairs-guide).
 
 ### Fabric Upholstery
 
@@ -188,7 +188,7 @@ Don't experiment when you see these warning signs:
 
 Use authorized restoration networks when possible. Original parts and certified techniques preserve value; back-alley repairs visibly destroy it.
 
-This is part of why authentic chairs cost what they do — see [replica vs authentic](/en/articles/replica-vs-authentic) for the long-view economics.
+This is part of why authentic chairs cost what they do — see [replica vs authentic](/articles/en/replica-vs-authentic) for the long-view economics.
 
 ## Storage When Not in Use
 
@@ -202,9 +202,9 @@ Moving, traveling, or rotating chairs seasonally? Store correctly.
 
 ## Designer Chairs vs. Office Chairs
 
-A high-end task chair like the Herman Miller Aeron has a useful life of 7 to 12 years — see [office chair lifespan](/en/articles/office-chair-lifespan). Designer lounge chairs, properly maintained, can last 30 to 50 years. They aren't competing for the same job. Use task chairs for daily work; reserve design pieces for the moments and rooms where they matter.
+A high-end task chair like the Herman Miller Aeron has a useful life of 7 to 12 years — see [office chair lifespan](/articles/en/office-chair-lifespan). Designer lounge chairs, properly maintained, can last 30 to 50 years. They aren't competing for the same job. Use task chairs for daily work; reserve design pieces for the moments and rooms where they matter.
 
-For task chair specifics, [Herman Miller Aeron review 2026](/en/articles/herman-miller-aeron-review-2026) covers mesh cleaning and pneumatic cylinder care.
+For task chair specifics, [Herman Miller Aeron review 2026](/articles/en/herman-miller-aeron-review-2026) covers mesh cleaning and pneumatic cylinder care.
 
 ## FAQ
 
@@ -234,7 +234,7 @@ Leather: Leather Honey, Lexol, Saphir — available on Amazon and specialty leat
 
 **Q7. What if I've already neglected my chair for years?**
 
-Start now. Clean thoroughly, condition deeply, and tighten everything. Many chairs that look beyond hope respond dramatically to a careful first session. For a chair worth more than $1,000, a one-time professional restoration ($200-$500) often makes economic sense before you start a regular routine. The history of design — covered in [the history of modern chair](/en/articles/history-of-modern-chair) — is full of pieces brought back from the brink.
+Start now. Clean thoroughly, condition deeply, and tighten everything. Many chairs that look beyond hope respond dramatically to a careful first session. For a chair worth more than $1,000, a one-time professional restoration ($200-$500) often makes economic sense before you start a regular routine. The history of design — covered in [the history of modern chair](/articles/en/history-of-modern-chair) — is full of pieces brought back from the brink.
 
 ---
 
