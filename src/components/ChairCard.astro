@@ -18,10 +18,17 @@ interface Props {
 
 const { chair, size } = Astro.props;
 
-// 価格をフォーマット（例: 48400 → ¥48,400）
-function formatPrice(price: number): string {
+// 価格をフォーマット（例: 48400 → ¥48,400）undefinedでも落とさない
+function formatPrice(price: number | undefined | null): string {
+  if (typeof price !== 'number') return '—';
   return `¥${price.toLocaleString()}`;
 }
+
+// priceRange はオブジェクト（旧形式）と文字列ラベル（新形式）の両方に対応
+const cardPrice: number | undefined =
+  (typeof chair.priceRange === 'object' && chair.priceRange !== null)
+    ? chair.priceRange.authentic
+    : chair.price;
 ---
 
 <!-- カードのラッパー -->
@@ -29,7 +36,7 @@ function formatPrice(price: number): string {
   class="chair-card-wrapper"
   data-chair-id={chair.id}
   data-style={chair.style}
-  data-price={chair.priceRange.authentic}
+  data-price={cardPrice}
 >
   <div class={`chair-card${size === 'small' ? ' chair-card--small' : ''}`}>
     <!-- 椅子画像 -->
@@ -49,7 +56,7 @@ function formatPrice(price: number): string {
 
     <!-- めくれた裏側にチラ見えする価格情報 -->
     <div class="chair-card__back">
-      <span>{formatPrice(chair.priceRange.authentic)}</span>
+      <span>{formatPrice(cardPrice)}</span>
     </div>
   </div>
 </div>

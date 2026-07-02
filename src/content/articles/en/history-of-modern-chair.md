@@ -1,7 +1,7 @@
 ---
 title: "The Evolution of Modern Chair Design: Stories Behind Iconic Furniture That Changed the World"
 description: "Discover the fascinating history of modern chair design from 1859 to 1994, exploring the stories behind legendary pieces like the Eames Lounge Chair, Barcelona Chair, and Wegner's masterpieces that revolutionized how we think about furniture."
-category: story
+category: "story"
 tags: ["design history", "iconic chairs", "modernist furniture", "mid-century design", "bauhaus", "scandinavian design"]
 publishedAt: "2026-04-03"
 updatedAt: "2026-04-06"

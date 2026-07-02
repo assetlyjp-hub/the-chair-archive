@@ -27,15 +27,26 @@ if (!chair) return Astro.redirect('/404');
 // デザイナーデータを検索
 const designer = designersData.find(d => d.id === chair.designerId);
 
-// 関連椅子データを取得
-const relatedChairs = chair.relatedChairs
+// 関連椅子データを取得（データ欠損に耐える）
+const relatedChairs = (chair.relatedChairs ?? [])
   .map(relId => chairsData.find(c => c.id === relId))
   .filter(Boolean);
 
-// 価格フォーマット
-function formatPrice(price: number): string {
+// 価格フォーマット（undefined でもビルドを落とさない）
+function formatPrice(price: number | undefined | null): string {
+  if (typeof price !== 'number') return '—';
   return `¥${price.toLocaleString()}`;
 }
+
+// priceRange はオブジェクト（旧形式）と文字列ラベル（新形式）の両方が存在する
+const authenticPrice: number | undefined =
+  (typeof chair.priceRange === 'object' && chair.priceRange !== null)
+    ? (chair.priceRange as any).authentic
+    : (chair as any).price;
+const replicaPrice: number | undefined =
+  (typeof chair.priceRange === 'object' && chair.priceRange !== null)
+    ? (chair.priceRange as any).replica
+    : undefined;
 
 // JSON-LD構造化データ（Article schema）
 const articleJsonLd = {
@@ -129,7 +140,7 @@ const articleJsonLd = {
       </div>
       <div>
         <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Materials</p>
-        <p style="font-size: 0.9rem;">{chair.materials.join('、')}</p>
+        <p style="font-size: 0.9rem;">{(chair.materials ?? []).join('、')}</p>
       </div>
       <div>
         <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Colors</p>
@@ -145,8 +156,8 @@ const articleJsonLd = {
     <div style="margin-bottom: var(--space-lg); padding: var(--space-md); border: 1px solid var(--color-border);">
       <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: var(--space-sm);">Price Range</p>
       <p style="font-size: 1.1rem; font-family: var(--font-display);">
-        正規品: {formatPrice(chair.priceRange.authentic)}
-        {chair.priceRange.replica && ` / リプロダクト: ${formatPrice(chair.priceRange.replica)}`}
+        正規品: {formatPrice(authenticPrice)}
+        {replicaPrice && ` / リプロダクト: ${formatPrice(replicaPrice)}`}
       </p>
     </div>
 
@@ -154,7 +165,7 @@ const articleJsonLd = {
     <div style="margin-bottom: var(--space-lg);">
       <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: var(--space-sm);">Features</p>
       <ul style="display: flex; flex-wrap: wrap; gap: var(--space-xs); list-style: none;">
-        {chair.features.map((f: string) => (
+        {(chair.features ?? []).map((f: string) => (
           <li style="font-size: 0.8rem; padding: 0.3rem 0.8rem; border: 1px solid var(--color-border);">{f}</li>
         ))}
       </ul>

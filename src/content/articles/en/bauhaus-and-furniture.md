@@ -1,7 +1,7 @@
 ---
 title: "The Revolutionary Legacy of Bauhaus Furniture: How Three Iconic Chairs Changed Design Forever"
 description: "Discover the fascinating stories behind the Barcelona Chair, LC2, and Wassily Chair - three revolutionary Bauhaus designs that transformed modern furniture and continue to influence interior design today."
-category: story
+category: "story"
 tags: ["bauhaus", "modern design", "chair history", "barcelona chair", "wassily chair", "LC2", "design revolution"]
 publishedAt: "2026-04-03"
 updatedAt: "2026-04-06"

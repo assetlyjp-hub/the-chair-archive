@@ -13,24 +13,12 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string(),                    // 記事タイトル
     description: z.string(),              // 概要（SEO用）
-    category: z.enum([                    // 記事カテゴリ
-      'usecase',      // 用途別おすすめ
-      'style',        // スタイル別
-      'price',        // 価格帯別
-      'designer',     // デザイナー特集
-      'comparison',   // 比較記事
-      'story',        // 歴史・ストーリー
-    ]),
+    category: z.enum(['usecase', 'style', 'price', 'designer', 'comparison', 'story', 'guide', 'review']),
     tags: z.array(z.string()).optional(), // タグ（任意）
     publishedAt: z.string(),             // 公開日（YYYY-MM-DD）
     updatedAt: z.string().optional(),    // 更新日（任意）
     relatedChairs: z.array(z.string()).optional(), // 関連する椅子のID
-    articleType: z.enum([                // 記事タイプ
-      'guide',       // ガイド
-      'feature',     // 特集
-      'comparison',  // 比較
-      'story',       // ストーリー
-    ]),
+    articleType: z.enum(['guide', 'feature', 'comparison', 'story', 'review', 'listicle']),
   }),
 });
 

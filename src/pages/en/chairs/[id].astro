@@ -27,15 +27,26 @@ if (!chair) return Astro.redirect('/en/');
 // Find designer data
 const designer = designersData.find(d => d.id === chair.designerId);
 
-// Get related chairs
-const relatedChairs = chair.relatedChairs
+// Get related chairs (tolerate missing data)
+const relatedChairs = (chair.relatedChairs ?? [])
   .map(relId => chairsData.find(c => c.id === relId))
   .filter(Boolean);
 
-// Price formatter (JPY)
-function formatPrice(price: number): string {
+// Price formatter (JPY) — never crash the build on missing data
+function formatPrice(price: number | undefined | null): string {
+  if (typeof price !== 'number') return '—';
   return `¥${price.toLocaleString()}`;
 }
+
+// priceRange exists in two shapes: object (legacy) or string label (new batch)
+const authenticPrice: number | undefined =
+  (typeof chair.priceRange === 'object' && chair.priceRange !== null)
+    ? (chair.priceRange as any).authentic
+    : (chair as any).price;
+const replicaPrice: number | undefined =
+  (typeof chair.priceRange === 'object' && chair.priceRange !== null)
+    ? (chair.priceRange as any).replica
+    : undefined;
 
 // JSON-LD structured data (Article schema)
 const articleJsonLd = {
@@ -129,11 +140,11 @@ const articleJsonLd = {
       </div>
       <div>
         <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Materials</p>
-        <p style="font-size: 0.9rem;">{(chair.materialsEn || chair.materials).join(', ')}</p>
+        <p style="font-size: 0.9rem;">{(chair.materialsEn || chair.materials || []).join(', ')}</p>
       </div>
       <div>
         <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Colors</p>
-        <p style="font-size: 0.9rem;">{(chair.colorsEn || chair.colors).join(', ')}</p>
+        <p style="font-size: 0.9rem;">{(chair.colorsEn || chair.colors || []).join(', ')}</p>
       </div>
       <div>
         <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: 0.3rem;">Country</p>
@@ -145,8 +156,8 @@ const articleJsonLd = {
     <div style="margin-bottom: var(--space-lg); padding: var(--space-md); border: 1px solid var(--color-border);">
       <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: var(--space-sm);">Price Range</p>
       <p style="font-size: 1.1rem; font-family: var(--font-display);">
-        Authentic: {formatPrice(chair.priceRange.authentic)}
-        {chair.priceRange.replica && ` / Replica: ${formatPrice(chair.priceRange.replica)}`}
+        Authentic: {formatPrice(authenticPrice)}
+        {replicaPrice && ` / Replica: ${formatPrice(replicaPrice)}`}
       </p>
     </div>
 
@@ -154,7 +165,7 @@ const articleJsonLd = {
     <div style="margin-bottom: var(--space-lg);">
       <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-muted); font-family: var(--font-display); margin-bottom: var(--space-sm);">Features</p>
       <ul style="display: flex; flex-wrap: wrap; gap: var(--space-xs); list-style: none;">
-        {(chair.featuresEn || chair.features).map((f: string) => (
+        {(chair.featuresEn || chair.features || []).map((f: string) => (
           <li style="font-size: 0.8rem; padding: 0.3rem 0.8rem; border: 1px solid var(--color-border);">{f}</li>
         ))}
       </ul>
